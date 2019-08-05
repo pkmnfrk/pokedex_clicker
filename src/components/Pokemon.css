@@ -1,0 +1,119 @@
+.pokemon {
+    display: inline-block;
+    width: 100px;
+    border: solid 2px;
+    margin: 1px;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 10px;
+    height: 100px;
+    vertical-align: top;
+}
+
+.pokemon .name {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pokemon .caught, .pokemon .value {
+    font-size: 14px;
+}
+
+
+.pokemon .extended {
+    display:none;
+}
+
+.pokemon  .extended .pokebuck {
+    max-height: 8px;
+}
+
+.pokemon:hover .extended {
+    display:inline-block;
+}
+
+.pokemon.uncaught {
+    /*color: #ddd;
+    border-color: #ddd !important;*/
+    opacity: 0.4;
+}
+
+.pokemon.caught {
+    color: black;
+}
+
+.pokemon.tradable {
+    background-color: #2d2;
+}
+
+.pokemon.fairy {
+    border-color: #EE99AC;
+}
+
+.pokemon.normal {
+    border-color: #A8A878;
+}
+
+.pokemon.rock {
+    border-color: #B8A038;
+}
+
+.pokemon.ground {
+    border-color: #E0C068;
+}
+
+.pokemon.fire {
+    border-color: #F08030;
+}
+
+.pokemon.water {
+    border-color: #6890F0;
+}
+
+.pokemon.grass {
+    border-color: #78C850;
+}
+
+.pokemon.electric {
+    border-color: #F8D030;
+}
+
+.pokemon.fighting {
+    border-color: #C03028;
+}
+
+.pokemon.ghost {
+    border-color: #705898;
+}
+
+.pokemon.dark {
+    border-color: #705848;
+}
+
+.pokemon.dragon {
+    border-color: #7038F8;
+}
+
+.pokemon.psychic {
+    border-color: #F85888;
+}
+
+.pokemon.poison {
+    border-color: #A040A0;
+}
+
+.pokemon.flying {
+    border-color: #A890F0;
+}
+
+.pokemon.ice {
+    border-color: #98D8D8;
+}
+
+.pokemon.bug {
+    border-color: #A8B820;
+}
+
+.pokemon.steel {
+    border-color: #B8B8D0;
+}

@@ -1,0 +1,11 @@
+body {
+  background-color: #eee;
+}
+
+#App {
+  text-align: center;
+  /*max-width: 1330px;*/
+  background-color: white;
+  margin: 0 auto;
+  user-select: none;
+}

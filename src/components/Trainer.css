@@ -1,0 +1,30 @@
+#trainers {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#trainers li {
+    border: 1px solid black;
+    width: 400px;
+    height: 115px;
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+}
+
+#trainers li .image {
+    float:left;
+    padding: 8px;
+    padding-bottom: 24px;
+}
+
+#trainers li .name {
+    font-size: 18px;
+}
+
+#trainers li .quote {
+    font-size: 12px;
+    font-style: italic;
+}

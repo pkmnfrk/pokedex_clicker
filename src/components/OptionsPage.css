@@ -1,0 +1,9 @@
+#OptionsPage {
+    display: none;
+    min-height: 400px;
+}
+
+#App.tab_options #OptionsPage {
+    display: block;
+}
+

@@ -1,0 +1,9 @@
+#ListOfTrainers {
+    display: none;
+    min-height: 400px;
+    margin: 20px;
+}
+
+#App.tab_trainers #ListOfTrainers {
+    display: block;
+}

@@ -1,0 +1,18 @@
+#ListOfPokemon {
+    display: none;
+    min-height: 400px;
+}
+
+#App.tab_pokedex #ListOfPokemon {
+    display: block;
+}
+
+#ListOfPokemon > p {
+    padding: 0 20px;
+}
+
+#ListOfPokemon > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
