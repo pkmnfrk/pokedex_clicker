@@ -3,7 +3,7 @@
     "Id": 1,
     "Name": "Bulbasaur",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -12,7 +12,7 @@
     "Id": 2,
     "Name": "Ivysaur",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -21,7 +21,7 @@
     "Id": 3,
     "Name": "Venusaur",
     "Value": 7.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -30,7 +30,7 @@
     "Id": 4,
     "Name": "Charmander",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -39,7 +39,7 @@
     "Id": 5,
     "Name": "Charmeleon",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -48,7 +48,7 @@
     "Id": 6,
     "Name": "Charizard",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "flying",
     "Category": "normal"
@@ -57,7 +57,7 @@
     "Id": 7,
     "Name": "Squirtle",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -66,7 +66,7 @@
     "Id": 8,
     "Name": "Wartortle",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -75,7 +75,7 @@
     "Id": 9,
     "Name": "Blastoise",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -84,7 +84,7 @@
     "Id": 10,
     "Name": "Caterpie",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -93,7 +93,7 @@
     "Id": 11,
     "Name": "Metapod",
     "Value": 1.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -102,7 +102,7 @@
     "Id": 12,
     "Name": "Butterfree",
     "Value": 5.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -111,7 +111,7 @@
     "Id": 13,
     "Name": "Weedle",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -120,7 +120,7 @@
     "Id": 14,
     "Name": "Kakuna",
     "Value": 1.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -129,7 +129,7 @@
     "Id": 15,
     "Name": "Beedrill",
     "Value": 5.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -138,7 +138,7 @@
     "Id": 16,
     "Name": "Pidgey",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -147,7 +147,7 @@
     "Id": 17,
     "Name": "Pidgeotto",
     "Value": 2.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -156,7 +156,7 @@
     "Id": 18,
     "Name": "Pidgeot",
     "Value": 7.2,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -165,7 +165,7 @@
     "Id": 19,
     "Name": "Rattata",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -174,7 +174,7 @@
     "Id": 20,
     "Name": "Raticate",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -183,7 +183,7 @@
     "Id": 21,
     "Name": "Spearow",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -192,7 +192,7 @@
     "Id": 22,
     "Name": "Fearow",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -201,7 +201,7 @@
     "Id": 23,
     "Name": "Ekans",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -210,7 +210,7 @@
     "Id": 24,
     "Name": "Arbok",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -219,7 +219,7 @@
     "Id": 25,
     "Name": "Pikachu",
     "Value": 2.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -228,7 +228,7 @@
     "Id": 26,
     "Name": "Raichu",
     "Value": 7.3,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -237,7 +237,7 @@
     "Id": 27,
     "Name": "Sandshrew",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -246,7 +246,7 @@
     "Id": 28,
     "Name": "Sandslash",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -255,7 +255,7 @@
     "Id": 29,
     "Name": "Nidoran♀",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -264,7 +264,7 @@
     "Id": 30,
     "Name": "Nidorina",
     "Value": 2.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -273,7 +273,7 @@
     "Id": 31,
     "Name": "Nidoqueen",
     "Value": 7.6,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "poison",
     "Type2": "ground",
     "Category": "normal"
@@ -282,7 +282,7 @@
     "Id": 32,
     "Name": "Nidoran♂",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -291,7 +291,7 @@
     "Id": 33,
     "Name": "Nidorino",
     "Value": 2.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -300,7 +300,7 @@
     "Id": 34,
     "Name": "Nidoking",
     "Value": 7.6,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "poison",
     "Type2": "ground",
     "Category": "normal"
@@ -309,7 +309,7 @@
     "Id": 35,
     "Name": "Clefairy",
     "Value": 2.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -318,7 +318,7 @@
     "Id": 36,
     "Name": "Clefable",
     "Value": 7.2,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -327,7 +327,7 @@
     "Id": 37,
     "Name": "Vulpix",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -336,7 +336,7 @@
     "Id": 38,
     "Name": "Ninetales",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -345,7 +345,7 @@
     "Id": 39,
     "Name": "Jigglypuff",
     "Value": 1.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "fairy",
     "Category": "normal"
@@ -354,7 +354,7 @@
     "Id": 40,
     "Name": "Wigglytuff",
     "Value": 6.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "fairy",
     "Category": "normal"
@@ -363,7 +363,7 @@
     "Id": 41,
     "Name": "Zubat",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "flying",
     "Category": "normal"
@@ -372,7 +372,7 @@
     "Id": 42,
     "Name": "Golbat",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "flying",
     "Category": "normal"
@@ -381,7 +381,7 @@
     "Id": 43,
     "Name": "Oddish",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -390,7 +390,7 @@
     "Id": 44,
     "Name": "Gloom",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -399,7 +399,7 @@
     "Id": 45,
     "Name": "Vileplume",
     "Value": 7.4,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -408,7 +408,7 @@
     "Id": 46,
     "Name": "Paras",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "grass",
     "Category": "normal"
@@ -417,7 +417,7 @@
     "Id": 47,
     "Name": "Parasect",
     "Value": 6.1,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "grass",
     "Category": "normal"
@@ -426,7 +426,7 @@
     "Id": 48,
     "Name": "Venonat",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -435,7 +435,7 @@
     "Id": 49,
     "Name": "Venomoth",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -444,7 +444,7 @@
     "Id": 50,
     "Name": "Diglett",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -453,7 +453,7 @@
     "Id": 51,
     "Name": "Dugtrio",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -462,7 +462,7 @@
     "Id": 52,
     "Name": "Meowth",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -471,7 +471,7 @@
     "Id": 53,
     "Name": "Persian",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -480,7 +480,7 @@
     "Id": 54,
     "Name": "Psyduck",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -489,7 +489,7 @@
     "Id": 55,
     "Name": "Golduck",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -498,7 +498,7 @@
     "Id": 56,
     "Name": "Mankey",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -507,7 +507,7 @@
     "Id": 57,
     "Name": "Primeape",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -516,7 +516,7 @@
     "Id": 58,
     "Name": "Growlithe",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -525,7 +525,7 @@
     "Id": 59,
     "Name": "Arcanine",
     "Value": 3.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -534,7 +534,7 @@
     "Id": 60,
     "Name": "Poliwag",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -543,7 +543,7 @@
     "Id": 61,
     "Name": "Poliwhirl",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -552,7 +552,7 @@
     "Id": 62,
     "Name": "Poliwrath",
     "Value": 7.6,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "fighting",
     "Category": "normal"
@@ -561,7 +561,7 @@
     "Id": 63,
     "Name": "Abra",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -570,7 +570,7 @@
     "Id": 64,
     "Name": "Kadabra",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -579,7 +579,7 @@
     "Id": 65,
     "Name": "Alakazam",
     "Value": 7.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -588,7 +588,7 @@
     "Id": 66,
     "Name": "Machop",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -597,7 +597,7 @@
     "Id": 67,
     "Name": "Machoke",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -606,7 +606,7 @@
     "Id": 68,
     "Name": "Machamp",
     "Value": 7.6,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -615,7 +615,7 @@
     "Id": 69,
     "Name": "Bellsprout",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -624,7 +624,7 @@
     "Id": 70,
     "Name": "Weepinbell",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -633,7 +633,7 @@
     "Id": 71,
     "Name": "Victreebel",
     "Value": 7.4,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -642,7 +642,7 @@
     "Id": 72,
     "Name": "Tentacool",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "poison",
     "Category": "normal"
@@ -651,7 +651,7 @@
     "Id": 73,
     "Name": "Tentacruel",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "poison",
     "Category": "normal"
@@ -660,7 +660,7 @@
     "Id": 74,
     "Name": "Geodude",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "ground",
     "Category": "normal"
@@ -669,7 +669,7 @@
     "Id": 75,
     "Name": "Graveler",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "ground",
     "Category": "normal"
@@ -678,7 +678,7 @@
     "Id": 76,
     "Name": "Golem",
     "Value": 7.4,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "rock",
     "Type2": "ground",
     "Category": "normal"
@@ -687,7 +687,7 @@
     "Id": 77,
     "Name": "Ponyta",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -696,7 +696,7 @@
     "Id": 78,
     "Name": "Rapidash",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -705,7 +705,7 @@
     "Id": 79,
     "Name": "Slowpoke",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "psychic",
     "Category": "normal"
@@ -714,7 +714,7 @@
     "Id": 80,
     "Name": "Slowbro",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "psychic",
     "Category": "normal"
@@ -723,7 +723,7 @@
     "Id": 81,
     "Name": "Magnemite",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "steel",
     "Category": "normal"
@@ -732,7 +732,7 @@
     "Id": 82,
     "Name": "Magneton",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "steel",
     "Category": "normal"
@@ -741,7 +741,7 @@
     "Id": 83,
     "Name": "Farfetch’d",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -750,7 +750,7 @@
     "Id": 84,
     "Name": "Doduo",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -759,7 +759,7 @@
     "Id": 85,
     "Name": "Dodrio",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -768,7 +768,7 @@
     "Id": 86,
     "Name": "Seel",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -777,7 +777,7 @@
     "Id": 87,
     "Name": "Dewgong",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ice",
     "Category": "normal"
@@ -786,7 +786,7 @@
     "Id": 88,
     "Name": "Grimer",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -795,7 +795,7 @@
     "Id": 89,
     "Name": "Muk",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -804,7 +804,7 @@
     "Id": 90,
     "Name": "Shellder",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -813,7 +813,7 @@
     "Id": 91,
     "Name": "Cloyster",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ice",
     "Category": "normal"
@@ -822,7 +822,7 @@
     "Id": 92,
     "Name": "Gastly",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "poison",
     "Category": "normal"
@@ -831,7 +831,7 @@
     "Id": 93,
     "Name": "Haunter",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "poison",
     "Category": "normal"
@@ -840,7 +840,7 @@
     "Id": 94,
     "Name": "Gengar",
     "Value": 7.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ghost",
     "Type2": "poison",
     "Category": "normal"
@@ -849,7 +849,7 @@
     "Id": 95,
     "Name": "Onix",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "ground",
     "Category": "normal"
@@ -858,7 +858,7 @@
     "Id": 96,
     "Name": "Drowzee",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -867,7 +867,7 @@
     "Id": 97,
     "Name": "Hypno",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -876,7 +876,7 @@
     "Id": 98,
     "Name": "Krabby",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -885,7 +885,7 @@
     "Id": 99,
     "Name": "Kingler",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -894,7 +894,7 @@
     "Id": 100,
     "Name": "Voltorb",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -903,7 +903,7 @@
     "Id": 101,
     "Name": "Electrode",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -912,7 +912,7 @@
     "Id": 102,
     "Name": "Exeggcute",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "psychic",
     "Category": "normal"
@@ -921,7 +921,7 @@
     "Id": 103,
     "Name": "Exeggutor",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "psychic",
     "Category": "normal"
@@ -930,7 +930,7 @@
     "Id": 104,
     "Name": "Cubone",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -939,7 +939,7 @@
     "Id": 105,
     "Name": "Marowak",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -948,7 +948,7 @@
     "Id": 106,
     "Name": "Hitmonlee",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -957,7 +957,7 @@
     "Id": 107,
     "Name": "Hitmonchan",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -966,7 +966,7 @@
     "Id": 108,
     "Name": "Lickitung",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -975,7 +975,7 @@
     "Id": 109,
     "Name": "Koffing",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -984,7 +984,7 @@
     "Id": 110,
     "Name": "Weezing",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -993,7 +993,7 @@
     "Id": 111,
     "Name": "Rhyhorn",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "rock",
     "Category": "normal"
@@ -1002,7 +1002,7 @@
     "Id": 112,
     "Name": "Rhydon",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "rock",
     "Category": "normal"
@@ -1011,7 +1011,7 @@
     "Id": 113,
     "Name": "Chansey",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1020,7 +1020,7 @@
     "Id": 114,
     "Name": "Tangela",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -1029,7 +1029,7 @@
     "Id": 115,
     "Name": "Kangaskhan",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1038,7 +1038,7 @@
     "Id": 116,
     "Name": "Horsea",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1047,7 +1047,7 @@
     "Id": 117,
     "Name": "Seadra",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1056,7 +1056,7 @@
     "Id": 118,
     "Name": "Goldeen",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1065,7 +1065,7 @@
     "Id": 119,
     "Name": "Seaking",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1074,7 +1074,7 @@
     "Id": 120,
     "Name": "Staryu",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1083,7 +1083,7 @@
     "Id": 121,
     "Name": "Starmie",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "psychic",
     "Category": "normal"
@@ -1092,7 +1092,7 @@
     "Id": 122,
     "Name": "Mr. Mime",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "fairy",
     "Category": "normal"
@@ -1101,7 +1101,7 @@
     "Id": 123,
     "Name": "Scyther",
     "Value": 0.8,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -1110,7 +1110,7 @@
     "Id": 124,
     "Name": "Jynx",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "psychic",
     "Category": "normal"
@@ -1119,7 +1119,7 @@
     "Id": 125,
     "Name": "Electabuzz",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -1128,7 +1128,7 @@
     "Id": 126,
     "Name": "Magmar",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -1137,7 +1137,7 @@
     "Id": 127,
     "Name": "Pinsir",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -1146,7 +1146,7 @@
     "Id": 128,
     "Name": "Tauros",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1155,7 +1155,7 @@
     "Id": 129,
     "Name": "Magikarp",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1164,7 +1164,7 @@
     "Id": 130,
     "Name": "Gyarados",
     "Value": 3.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "flying",
     "Category": "normal"
@@ -1173,7 +1173,7 @@
     "Id": 131,
     "Name": "Lapras",
     "Value": 3.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ice",
     "Category": "normal"
@@ -1182,7 +1182,7 @@
     "Id": 132,
     "Name": "Ditto",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1191,7 +1191,7 @@
     "Id": 133,
     "Name": "Eevee",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1200,7 +1200,7 @@
     "Id": 134,
     "Name": "Vaporeon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1209,7 +1209,7 @@
     "Id": 135,
     "Name": "Jolteon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -1218,7 +1218,7 @@
     "Id": 136,
     "Name": "Flareon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -1227,7 +1227,7 @@
     "Id": 137,
     "Name": "Porygon",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1236,7 +1236,7 @@
     "Id": 138,
     "Name": "Omanyte",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "water",
     "Category": "normal"
@@ -1245,7 +1245,7 @@
     "Id": 139,
     "Name": "Omastar",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "water",
     "Category": "normal"
@@ -1254,7 +1254,7 @@
     "Id": 140,
     "Name": "Kabuto",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "water",
     "Category": "normal"
@@ -1263,7 +1263,7 @@
     "Id": 141,
     "Name": "Kabutops",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "water",
     "Category": "normal"
@@ -1272,7 +1272,7 @@
     "Id": 142,
     "Name": "Aerodactyl",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "flying",
     "Category": "normal"
@@ -1281,7 +1281,7 @@
     "Id": 143,
     "Name": "Snorlax",
     "Value": 3.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1290,7 +1290,7 @@
     "Id": 144,
     "Name": "Articuno",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "ice",
     "Type2": "flying",
     "Category": "legendary"
@@ -1299,7 +1299,7 @@
     "Id": 145,
     "Name": "Zapdos",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "electric",
     "Type2": "flying",
     "Category": "legendary"
@@ -1308,7 +1308,7 @@
     "Id": 146,
     "Name": "Moltres",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "fire",
     "Type2": "flying",
     "Category": "legendary"
@@ -1317,7 +1317,7 @@
     "Id": 147,
     "Name": "Dratini",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -1326,7 +1326,7 @@
     "Id": 148,
     "Name": "Dragonair",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -1335,7 +1335,7 @@
     "Id": 149,
     "Name": "Dragonite",
     "Value": 9.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "dragon",
     "Type2": "flying",
     "Category": "normal"
@@ -1344,7 +1344,7 @@
     "Id": 150,
     "Name": "Mewtwo",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "legendary"
@@ -1362,7 +1362,7 @@
     "Id": 152,
     "Name": "Chikorita",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -1371,7 +1371,7 @@
     "Id": 153,
     "Name": "Bayleef",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -1380,7 +1380,7 @@
     "Id": 154,
     "Name": "Meganium",
     "Value": 7.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -1389,7 +1389,7 @@
     "Id": 155,
     "Name": "Cyndaquil",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -1398,7 +1398,7 @@
     "Id": 156,
     "Name": "Quilava",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -1407,7 +1407,7 @@
     "Id": 157,
     "Name": "Typhlosion",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -1416,7 +1416,7 @@
     "Id": 158,
     "Name": "Totodile",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1425,7 +1425,7 @@
     "Id": 159,
     "Name": "Croconaw",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1434,7 +1434,7 @@
     "Id": 160,
     "Name": "Feraligatr",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1443,7 +1443,7 @@
     "Id": 161,
     "Name": "Sentret",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1452,7 +1452,7 @@
     "Id": 162,
     "Name": "Furret",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1461,7 +1461,7 @@
     "Id": 163,
     "Name": "Hoothoot",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -1470,7 +1470,7 @@
     "Id": 164,
     "Name": "Noctowl",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -1479,7 +1479,7 @@
     "Id": 165,
     "Name": "Ledyba",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -1488,7 +1488,7 @@
     "Id": 166,
     "Name": "Ledian",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -1497,7 +1497,7 @@
     "Id": 167,
     "Name": "Spinarak",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -1506,7 +1506,7 @@
     "Id": 168,
     "Name": "Ariados",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -1515,7 +1515,7 @@
     "Id": 169,
     "Name": "Crobat",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "poison",
     "Type2": "flying",
     "Category": "normal"
@@ -1524,7 +1524,7 @@
     "Id": 170,
     "Name": "Chinchou",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "electric",
     "Category": "normal"
@@ -1533,7 +1533,7 @@
     "Id": 171,
     "Name": "Lanturn",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "electric",
     "Category": "normal"
@@ -1542,7 +1542,7 @@
     "Id": 172,
     "Name": "Pichu",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -1551,7 +1551,7 @@
     "Id": 173,
     "Name": "Cleffa",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -1560,7 +1560,7 @@
     "Id": 174,
     "Name": "Igglybuff",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "fairy",
     "Category": "normal"
@@ -1569,7 +1569,7 @@
     "Id": 175,
     "Name": "Togepi",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -1578,7 +1578,7 @@
     "Id": 176,
     "Name": "Togetic",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fairy",
     "Type2": "flying",
     "Category": "normal"
@@ -1587,7 +1587,7 @@
     "Id": 177,
     "Name": "Natu",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "flying",
     "Category": "normal"
@@ -1596,7 +1596,7 @@
     "Id": 178,
     "Name": "Xatu",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "flying",
     "Category": "normal"
@@ -1605,7 +1605,7 @@
     "Id": 179,
     "Name": "Mareep",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -1614,7 +1614,7 @@
     "Id": 180,
     "Name": "Flaaffy",
     "Value": 2.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -1623,7 +1623,7 @@
     "Id": 181,
     "Name": "Ampharos",
     "Value": 7.6,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -1632,7 +1632,7 @@
     "Id": 182,
     "Name": "Bellossom",
     "Value": 7.4,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -1641,7 +1641,7 @@
     "Id": 183,
     "Name": "Marill",
     "Value": 1.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "fairy",
     "Category": "normal"
@@ -1650,7 +1650,7 @@
     "Id": 184,
     "Name": "Azumarill",
     "Value": 6.3,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "fairy",
     "Category": "normal"
@@ -1659,7 +1659,7 @@
     "Id": 185,
     "Name": "Sudowoodo",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -1668,7 +1668,7 @@
     "Id": 186,
     "Name": "Politoed",
     "Value": 7.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -1677,7 +1677,7 @@
     "Id": 187,
     "Name": "Hoppip",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "flying",
     "Category": "normal"
@@ -1686,7 +1686,7 @@
     "Id": 188,
     "Name": "Skiploom",
     "Value": 2.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "flying",
     "Category": "normal"
@@ -1695,7 +1695,7 @@
     "Id": 189,
     "Name": "Jumpluff",
     "Value": 6.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "flying",
     "Category": "normal"
@@ -1704,7 +1704,7 @@
     "Id": 190,
     "Name": "Aipom",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1713,7 +1713,7 @@
     "Id": 191,
     "Name": "Sunkern",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -1722,7 +1722,7 @@
     "Id": 192,
     "Name": "Sunflora",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -1731,7 +1731,7 @@
     "Id": 193,
     "Name": "Yanma",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -1740,7 +1740,7 @@
     "Id": 194,
     "Name": "Wooper",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -1749,7 +1749,7 @@
     "Id": 195,
     "Name": "Quagsire",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -1758,7 +1758,7 @@
     "Id": 196,
     "Name": "Espeon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -1767,7 +1767,7 @@
     "Id": 197,
     "Name": "Umbreon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "dark",
     "Category": "normal"
@@ -1776,7 +1776,7 @@
     "Id": 198,
     "Name": "Murkrow",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "flying",
     "Category": "normal"
@@ -1785,7 +1785,7 @@
     "Id": 199,
     "Name": "Slowking",
     "Value": 7.4,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "psychic",
     "Category": "normal"
@@ -1794,7 +1794,7 @@
     "Id": 200,
     "Name": "Misdreavus",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -1803,7 +1803,7 @@
     "Id": 201,
     "Name": "Unown",
     "Value": 2.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -1812,7 +1812,7 @@
     "Id": 202,
     "Name": "Wobbuffet",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -1821,7 +1821,7 @@
     "Id": 203,
     "Name": "Girafarig",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "psychic",
     "Category": "normal"
@@ -1830,7 +1830,7 @@
     "Id": 204,
     "Name": "Pineco",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -1839,7 +1839,7 @@
     "Id": 205,
     "Name": "Forretress",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "steel",
     "Category": "normal"
@@ -1848,7 +1848,7 @@
     "Id": 206,
     "Name": "Dunsparce",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1857,7 +1857,7 @@
     "Id": 207,
     "Name": "Gligar",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "flying",
     "Category": "normal"
@@ -1866,7 +1866,7 @@
     "Id": 208,
     "Name": "Steelix",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "steel",
     "Type2": "ground",
     "Category": "normal"
@@ -1875,7 +1875,7 @@
     "Id": 209,
     "Name": "Snubbull",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -1884,7 +1884,7 @@
     "Id": 210,
     "Name": "Granbull",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -1893,7 +1893,7 @@
     "Id": 211,
     "Name": "Qwilfish",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "poison",
     "Category": "normal"
@@ -1902,7 +1902,7 @@
     "Id": 212,
     "Name": "Scizor",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "steel",
     "Category": "normal"
@@ -1911,7 +1911,7 @@
     "Id": 213,
     "Name": "Shuckle",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "rock",
     "Category": "normal"
@@ -1920,7 +1920,7 @@
     "Id": 214,
     "Name": "Heracross",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "fighting",
     "Category": "normal"
@@ -1929,7 +1929,7 @@
     "Id": 215,
     "Name": "Sneasel",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "ice",
     "Category": "normal"
@@ -1938,7 +1938,7 @@
     "Id": 216,
     "Name": "Teddiursa",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1947,7 +1947,7 @@
     "Id": 217,
     "Name": "Ursaring",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -1956,7 +1956,7 @@
     "Id": 218,
     "Name": "Slugma",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -1965,7 +1965,7 @@
     "Id": 219,
     "Name": "Magcargo",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "rock",
     "Category": "normal"
@@ -1974,7 +1974,7 @@
     "Id": 220,
     "Name": "Swinub",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ice",
     "Type2": "ground",
     "Category": "normal"
@@ -1983,7 +1983,7 @@
     "Id": 221,
     "Name": "Piloswine",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "ground",
     "Category": "normal"
@@ -1992,7 +1992,7 @@
     "Id": 222,
     "Name": "Corsola",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "rock",
     "Category": "normal"
@@ -2001,7 +2001,7 @@
     "Id": 223,
     "Name": "Remoraid",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -2010,7 +2010,7 @@
     "Id": 224,
     "Name": "Octillery",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -2019,7 +2019,7 @@
     "Id": 225,
     "Name": "Delibird",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ice",
     "Type2": "flying",
     "Category": "normal"
@@ -2028,7 +2028,7 @@
     "Id": 226,
     "Name": "Mantine",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "flying",
     "Category": "normal"
@@ -2037,7 +2037,7 @@
     "Id": 227,
     "Name": "Skarmory",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "steel",
     "Type2": "flying",
     "Category": "normal"
@@ -2046,7 +2046,7 @@
     "Id": 228,
     "Name": "Houndour",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "fire",
     "Category": "normal"
@@ -2055,7 +2055,7 @@
     "Id": 229,
     "Name": "Houndoom",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "fire",
     "Category": "normal"
@@ -2064,7 +2064,7 @@
     "Id": 230,
     "Name": "Kingdra",
     "Value": 8.1,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "dragon",
     "Category": "normal"
@@ -2073,7 +2073,7 @@
     "Id": 231,
     "Name": "Phanpy",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -2082,7 +2082,7 @@
     "Id": 232,
     "Name": "Donphan",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -2091,7 +2091,7 @@
     "Id": 233,
     "Name": "Porygon2",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2100,7 +2100,7 @@
     "Id": 234,
     "Name": "Stantler",
     "Value": 0.8,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2109,7 +2109,7 @@
     "Id": 235,
     "Name": "Smeargle",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2118,7 +2118,7 @@
     "Id": 236,
     "Name": "Tyrogue",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -2127,7 +2127,7 @@
     "Id": 237,
     "Name": "Hitmontop",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -2136,7 +2136,7 @@
     "Id": 238,
     "Name": "Smoochum",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ice",
     "Type2": "psychic",
     "Category": "normal"
@@ -2145,7 +2145,7 @@
     "Id": 239,
     "Name": "Elekid",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -2154,7 +2154,7 @@
     "Id": 240,
     "Name": "Magby",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -2163,7 +2163,7 @@
     "Id": 241,
     "Name": "Miltank",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2172,7 +2172,7 @@
     "Id": 242,
     "Name": "Blissey",
     "Value": 8.1,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2181,7 +2181,7 @@
     "Id": 243,
     "Name": "Raikou",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "legendary"
@@ -2190,7 +2190,7 @@
     "Id": 244,
     "Name": "Entei",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "legendary"
@@ -2199,7 +2199,7 @@
     "Id": 245,
     "Name": "Suicune",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "legendary"
@@ -2208,7 +2208,7 @@
     "Id": 246,
     "Name": "Larvitar",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "ground",
     "Category": "normal"
@@ -2217,7 +2217,7 @@
     "Id": 247,
     "Name": "Pupitar",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "ground",
     "Category": "normal"
@@ -2226,7 +2226,7 @@
     "Id": 248,
     "Name": "Tyranitar",
     "Value": 9.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "rock",
     "Type2": "dark",
     "Category": "normal"
@@ -2235,7 +2235,7 @@
     "Id": 249,
     "Name": "Lugia",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "flying",
     "Category": "legendary"
@@ -2244,7 +2244,7 @@
     "Id": 250,
     "Name": "Ho-Oh",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "fire",
     "Type2": "flying",
     "Category": "legendary"
@@ -2262,7 +2262,7 @@
     "Id": 252,
     "Name": "Treecko",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -2271,7 +2271,7 @@
     "Id": 253,
     "Name": "Grovyle",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -2280,7 +2280,7 @@
     "Id": 254,
     "Name": "Sceptile",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -2289,7 +2289,7 @@
     "Id": 255,
     "Name": "Torchic",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -2298,7 +2298,7 @@
     "Id": 256,
     "Name": "Combusken",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fighting",
     "Category": "normal"
@@ -2307,7 +2307,7 @@
     "Id": 257,
     "Name": "Blaziken",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "fighting",
     "Category": "normal"
@@ -2316,7 +2316,7 @@
     "Id": 258,
     "Name": "Mudkip",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -2325,7 +2325,7 @@
     "Id": 259,
     "Name": "Marshtomp",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -2334,7 +2334,7 @@
     "Id": 260,
     "Name": "Swampert",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -2343,7 +2343,7 @@
     "Id": 261,
     "Name": "Poochyena",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "dark",
     "Category": "normal"
@@ -2352,7 +2352,7 @@
     "Id": 262,
     "Name": "Mightyena",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "dark",
     "Category": "normal"
@@ -2361,7 +2361,7 @@
     "Id": 263,
     "Name": "Zigzagoon",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2370,7 +2370,7 @@
     "Id": 264,
     "Name": "Linoone",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2379,7 +2379,7 @@
     "Id": 265,
     "Name": "Wurmple",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -2388,7 +2388,7 @@
     "Id": 266,
     "Name": "Silcoon",
     "Value": 1.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -2397,7 +2397,7 @@
     "Id": 267,
     "Name": "Beautifly",
     "Value": 5.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -2406,7 +2406,7 @@
     "Id": 268,
     "Name": "Cascoon",
     "Value": 1.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -2415,7 +2415,7 @@
     "Id": 269,
     "Name": "Dustox",
     "Value": 5.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -2424,7 +2424,7 @@
     "Id": 270,
     "Name": "Lotad",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "grass",
     "Category": "normal"
@@ -2433,7 +2433,7 @@
     "Id": 271,
     "Name": "Lombre",
     "Value": 2.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "grass",
     "Category": "normal"
@@ -2442,7 +2442,7 @@
     "Id": 272,
     "Name": "Ludicolo",
     "Value": 7.2,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "grass",
     "Category": "normal"
@@ -2451,7 +2451,7 @@
     "Id": 273,
     "Name": "Seedot",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -2460,7 +2460,7 @@
     "Id": 274,
     "Name": "Nuzleaf",
     "Value": 2.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "dark",
     "Category": "normal"
@@ -2469,7 +2469,7 @@
     "Id": 275,
     "Name": "Shiftry",
     "Value": 7.2,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "dark",
     "Category": "normal"
@@ -2478,7 +2478,7 @@
     "Id": 276,
     "Name": "Taillow",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -2487,7 +2487,7 @@
     "Id": 277,
     "Name": "Swellow",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -2496,7 +2496,7 @@
     "Id": 278,
     "Name": "Wingull",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "flying",
     "Category": "normal"
@@ -2505,7 +2505,7 @@
     "Id": 279,
     "Name": "Pelipper",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "flying",
     "Category": "normal"
@@ -2514,7 +2514,7 @@
     "Id": 280,
     "Name": "Ralts",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "fairy",
     "Category": "normal"
@@ -2523,7 +2523,7 @@
     "Id": 281,
     "Name": "Kirlia",
     "Value": 1.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "fairy",
     "Category": "normal"
@@ -2532,7 +2532,7 @@
     "Id": 282,
     "Name": "Gardevoir",
     "Value": 7.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "psychic",
     "Type2": "fairy",
     "Category": "normal"
@@ -2541,7 +2541,7 @@
     "Id": 283,
     "Name": "Surskit",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "water",
     "Category": "normal"
@@ -2550,7 +2550,7 @@
     "Id": 284,
     "Name": "Masquerain",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -2559,7 +2559,7 @@
     "Id": 285,
     "Name": "Shroomish",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -2568,7 +2568,7 @@
     "Id": 286,
     "Name": "Breloom",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "fighting",
     "Category": "normal"
@@ -2577,7 +2577,7 @@
     "Id": 287,
     "Name": "Slakoth",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2586,7 +2586,7 @@
     "Id": 288,
     "Name": "Vigoroth",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2595,7 +2595,7 @@
     "Id": 289,
     "Name": "Slaking",
     "Value": 10.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2604,7 +2604,7 @@
     "Id": 290,
     "Name": "Nincada",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "ground",
     "Category": "normal"
@@ -2613,7 +2613,7 @@
     "Id": 291,
     "Name": "Ninjask",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -2622,7 +2622,7 @@
     "Id": 292,
     "Name": "Shedinja",
     "Value": 1.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "ghost",
     "Category": "normal"
@@ -2631,7 +2631,7 @@
     "Id": 293,
     "Name": "Whismur",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2640,7 +2640,7 @@
     "Id": 294,
     "Name": "Loudred",
     "Value": 2.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2649,7 +2649,7 @@
     "Id": 295,
     "Name": "Exploud",
     "Value": 7.4,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2658,7 +2658,7 @@
     "Id": 296,
     "Name": "Makuhita",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -2667,7 +2667,7 @@
     "Id": 297,
     "Name": "Hariyama",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -2676,7 +2676,7 @@
     "Id": 298,
     "Name": "Azurill",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "fairy",
     "Category": "normal"
@@ -2685,7 +2685,7 @@
     "Id": 299,
     "Name": "Nosepass",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -2694,7 +2694,7 @@
     "Id": 300,
     "Name": "Skitty",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2703,7 +2703,7 @@
     "Id": 301,
     "Name": "Delcatty",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2712,7 +2712,7 @@
     "Id": 302,
     "Name": "Sableye",
     "Value": 2.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "ghost",
     "Category": "normal"
@@ -2721,7 +2721,7 @@
     "Id": 303,
     "Name": "Mawile",
     "Value": 2.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "steel",
     "Type2": "fairy",
     "Category": "normal"
@@ -2730,7 +2730,7 @@
     "Id": 304,
     "Name": "Aron",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "steel",
     "Type2": "rock",
     "Category": "normal"
@@ -2739,7 +2739,7 @@
     "Id": 305,
     "Name": "Lairon",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "steel",
     "Type2": "rock",
     "Category": "normal"
@@ -2748,7 +2748,7 @@
     "Id": 306,
     "Name": "Aggron",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "steel",
     "Type2": "rock",
     "Category": "normal"
@@ -2757,7 +2757,7 @@
     "Id": 307,
     "Name": "Meditite",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "psychic",
     "Category": "normal"
@@ -2766,7 +2766,7 @@
     "Id": 308,
     "Name": "Medicham",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "psychic",
     "Category": "normal"
@@ -2775,7 +2775,7 @@
     "Id": 309,
     "Name": "Electrike",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -2784,7 +2784,7 @@
     "Id": 310,
     "Name": "Manectric",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -2793,7 +2793,7 @@
     "Id": 311,
     "Name": "Plusle",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -2802,7 +2802,7 @@
     "Id": 312,
     "Name": "Minun",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -2811,7 +2811,7 @@
     "Id": 313,
     "Name": "Volbeat",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -2820,7 +2820,7 @@
     "Id": 314,
     "Name": "Illumise",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -2829,7 +2829,7 @@
     "Id": 315,
     "Name": "Roselia",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -2838,7 +2838,7 @@
     "Id": 316,
     "Name": "Gulpin",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -2847,7 +2847,7 @@
     "Id": 317,
     "Name": "Swalot",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -2856,7 +2856,7 @@
     "Id": 318,
     "Name": "Carvanha",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "dark",
     "Category": "normal"
@@ -2865,7 +2865,7 @@
     "Id": 319,
     "Name": "Sharpedo",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "dark",
     "Category": "normal"
@@ -2874,7 +2874,7 @@
     "Id": 320,
     "Name": "Wailmer",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -2883,7 +2883,7 @@
     "Id": 321,
     "Name": "Wailord",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -2892,7 +2892,7 @@
     "Id": 322,
     "Name": "Numel",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "ground",
     "Category": "normal"
@@ -2901,7 +2901,7 @@
     "Id": 323,
     "Name": "Camerupt",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "ground",
     "Category": "normal"
@@ -2910,7 +2910,7 @@
     "Id": 324,
     "Name": "Torkoal",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -2919,7 +2919,7 @@
     "Id": 325,
     "Name": "Spoink",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -2928,7 +2928,7 @@
     "Id": 326,
     "Name": "Grumpig",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -2937,7 +2937,7 @@
     "Id": 327,
     "Name": "Spinda",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -2946,7 +2946,7 @@
     "Id": 328,
     "Name": "Trapinch",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -2955,7 +2955,7 @@
     "Id": 329,
     "Name": "Vibrava",
     "Value": 2.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "dragon",
     "Category": "normal"
@@ -2964,7 +2964,7 @@
     "Id": 330,
     "Name": "Flygon",
     "Value": 7.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ground",
     "Type2": "dragon",
     "Category": "normal"
@@ -2973,7 +2973,7 @@
     "Id": 331,
     "Name": "Cacnea",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -2982,7 +2982,7 @@
     "Id": 332,
     "Name": "Cacturne",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "dark",
     "Category": "normal"
@@ -2991,7 +2991,7 @@
     "Id": 333,
     "Name": "Swablu",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -3000,7 +3000,7 @@
     "Id": 334,
     "Name": "Altaria",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dragon",
     "Type2": "flying",
     "Category": "normal"
@@ -3009,7 +3009,7 @@
     "Id": 335,
     "Name": "Zangoose",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3018,7 +3018,7 @@
     "Id": 336,
     "Name": "Seviper",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -3027,7 +3027,7 @@
     "Id": 337,
     "Name": "Lunatone",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "psychic",
     "Category": "normal"
@@ -3036,7 +3036,7 @@
     "Id": 338,
     "Name": "Solrock",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "psychic",
     "Category": "normal"
@@ -3045,7 +3045,7 @@
     "Id": 339,
     "Name": "Barboach",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -3054,7 +3054,7 @@
     "Id": 340,
     "Name": "Whiscash",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -3063,7 +3063,7 @@
     "Id": 341,
     "Name": "Corphish",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3072,7 +3072,7 @@
     "Id": 342,
     "Name": "Crawdaunt",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "dark",
     "Category": "normal"
@@ -3081,7 +3081,7 @@
     "Id": 343,
     "Name": "Baltoy",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "psychic",
     "Category": "normal"
@@ -3090,7 +3090,7 @@
     "Id": 344,
     "Name": "Claydol",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "psychic",
     "Category": "normal"
@@ -3099,7 +3099,7 @@
     "Id": 345,
     "Name": "Lileep",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "grass",
     "Category": "normal"
@@ -3108,7 +3108,7 @@
     "Id": 346,
     "Name": "Cradily",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "grass",
     "Category": "normal"
@@ -3117,7 +3117,7 @@
     "Id": 347,
     "Name": "Anorith",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "bug",
     "Category": "normal"
@@ -3126,7 +3126,7 @@
     "Id": 348,
     "Name": "Armaldo",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "bug",
     "Category": "normal"
@@ -3135,7 +3135,7 @@
     "Id": 349,
     "Name": "Feebas",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3144,7 +3144,7 @@
     "Id": 350,
     "Name": "Milotic",
     "Value": 3.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3153,7 +3153,7 @@
     "Id": 351,
     "Name": "Castform",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3162,7 +3162,7 @@
     "Id": 352,
     "Name": "Kecleon",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3171,7 +3171,7 @@
     "Id": 353,
     "Name": "Shuppet",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -3180,7 +3180,7 @@
     "Id": 354,
     "Name": "Banette",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -3189,7 +3189,7 @@
     "Id": 355,
     "Name": "Duskull",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -3198,7 +3198,7 @@
     "Id": 356,
     "Name": "Dusclops",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -3207,7 +3207,7 @@
     "Id": 357,
     "Name": "Tropius",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "flying",
     "Category": "normal"
@@ -3216,7 +3216,7 @@
     "Id": 358,
     "Name": "Chimecho",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -3225,7 +3225,7 @@
     "Id": 359,
     "Name": "Absol",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "dark",
     "Category": "normal"
@@ -3234,7 +3234,7 @@
     "Id": 360,
     "Name": "Wynaut",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -3243,7 +3243,7 @@
     "Id": 361,
     "Name": "Snorunt",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -3252,7 +3252,7 @@
     "Id": 362,
     "Name": "Glalie",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -3261,7 +3261,7 @@
     "Id": 363,
     "Name": "Spheal",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ice",
     "Type2": "water",
     "Category": "normal"
@@ -3270,7 +3270,7 @@
     "Id": 364,
     "Name": "Sealeo",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "water",
     "Category": "normal"
@@ -3279,7 +3279,7 @@
     "Id": 365,
     "Name": "Walrein",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ice",
     "Type2": "water",
     "Category": "normal"
@@ -3288,7 +3288,7 @@
     "Id": 366,
     "Name": "Clamperl",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3297,7 +3297,7 @@
     "Id": 367,
     "Name": "Huntail",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3306,7 +3306,7 @@
     "Id": 368,
     "Name": "Gorebyss",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3315,7 +3315,7 @@
     "Id": 369,
     "Name": "Relicanth",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "rock",
     "Category": "normal"
@@ -3324,7 +3324,7 @@
     "Id": 370,
     "Name": "Luvdisc",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3333,7 +3333,7 @@
     "Id": 371,
     "Name": "Bagon",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -3342,7 +3342,7 @@
     "Id": 372,
     "Name": "Shelgon",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -3351,7 +3351,7 @@
     "Id": 373,
     "Name": "Salamence",
     "Value": 9.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "dragon",
     "Type2": "flying",
     "Category": "normal"
@@ -3360,7 +3360,7 @@
     "Id": 374,
     "Name": "Beldum",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "steel",
     "Type2": "psychic",
     "Category": "normal"
@@ -3369,7 +3369,7 @@
     "Id": 375,
     "Name": "Metang",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "steel",
     "Type2": "psychic",
     "Category": "normal"
@@ -3378,7 +3378,7 @@
     "Id": 376,
     "Name": "Metagross",
     "Value": 9.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "steel",
     "Type2": "psychic",
     "Category": "normal"
@@ -3387,7 +3387,7 @@
     "Id": 377,
     "Name": "Regirock",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "legendary"
@@ -3396,7 +3396,7 @@
     "Id": 378,
     "Name": "Regice",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "legendary"
@@ -3405,7 +3405,7 @@
     "Id": 379,
     "Name": "Registeel",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "steel",
     "Type2": "steel",
     "Category": "legendary"
@@ -3414,7 +3414,7 @@
     "Id": 380,
     "Name": "Latias",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dragon",
     "Type2": "psychic",
     "Category": "legendary"
@@ -3423,7 +3423,7 @@
     "Id": 381,
     "Name": "Latios",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dragon",
     "Type2": "psychic",
     "Category": "legendary"
@@ -3432,7 +3432,7 @@
     "Id": 382,
     "Name": "Kyogre",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "legendary"
@@ -3441,7 +3441,7 @@
     "Id": 383,
     "Name": "Groudon",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "legendary"
@@ -3450,7 +3450,7 @@
     "Id": 384,
     "Name": "Rayquaza",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dragon",
     "Type2": "flying",
     "Category": "legendary"
@@ -3477,7 +3477,7 @@
     "Id": 387,
     "Name": "Turtwig",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -3486,7 +3486,7 @@
     "Id": 388,
     "Name": "Grotle",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -3495,7 +3495,7 @@
     "Id": 389,
     "Name": "Torterra",
     "Value": 7.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "ground",
     "Category": "normal"
@@ -3504,7 +3504,7 @@
     "Id": 390,
     "Name": "Chimchar",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -3513,7 +3513,7 @@
     "Id": 391,
     "Name": "Monferno",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fighting",
     "Category": "normal"
@@ -3522,7 +3522,7 @@
     "Id": 392,
     "Name": "Infernape",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "fighting",
     "Category": "normal"
@@ -3531,7 +3531,7 @@
     "Id": 393,
     "Name": "Piplup",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3540,7 +3540,7 @@
     "Id": 394,
     "Name": "Prinplup",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3549,7 +3549,7 @@
     "Id": 395,
     "Name": "Empoleon",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "steel",
     "Category": "normal"
@@ -3558,7 +3558,7 @@
     "Id": 396,
     "Name": "Starly",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -3567,7 +3567,7 @@
     "Id": 397,
     "Name": "Staravia",
     "Value": 2.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -3576,7 +3576,7 @@
     "Id": 398,
     "Name": "Staraptor",
     "Value": 7.3,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -3585,7 +3585,7 @@
     "Id": 399,
     "Name": "Bidoof",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3594,7 +3594,7 @@
     "Id": 400,
     "Name": "Bibarel",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "water",
     "Category": "normal"
@@ -3603,7 +3603,7 @@
     "Id": 401,
     "Name": "Kricketot",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -3612,7 +3612,7 @@
     "Id": 402,
     "Name": "Kricketune",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -3621,7 +3621,7 @@
     "Id": 403,
     "Name": "Shinx",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -3630,7 +3630,7 @@
     "Id": 404,
     "Name": "Luxio",
     "Value": 2.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -3639,7 +3639,7 @@
     "Id": 405,
     "Name": "Luxray",
     "Value": 7.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -3648,7 +3648,7 @@
     "Id": 406,
     "Name": "Budew",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -3657,7 +3657,7 @@
     "Id": 407,
     "Name": "Roserade",
     "Value": 7.7,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -3666,7 +3666,7 @@
     "Id": 408,
     "Name": "Cranidos",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -3675,7 +3675,7 @@
     "Id": 409,
     "Name": "Rampardos",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -3684,7 +3684,7 @@
     "Id": 410,
     "Name": "Shieldon",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "steel",
     "Category": "normal"
@@ -3693,7 +3693,7 @@
     "Id": 411,
     "Name": "Bastiodon",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "steel",
     "Category": "normal"
@@ -3702,7 +3702,7 @@
     "Id": 412,
     "Name": "Burmy",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -3711,7 +3711,7 @@
     "Id": 413,
     "Name": "Wormadam",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "grass",
     "Category": "normal"
@@ -3720,7 +3720,7 @@
     "Id": 414,
     "Name": "Mothim",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -3729,7 +3729,7 @@
     "Id": 415,
     "Name": "Combee",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -3738,7 +3738,7 @@
     "Id": 416,
     "Name": "Vespiquen",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -3747,7 +3747,7 @@
     "Id": 417,
     "Name": "Pachirisu",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -3756,7 +3756,7 @@
     "Id": 418,
     "Name": "Buizel",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3765,7 +3765,7 @@
     "Id": 419,
     "Name": "Floatzel",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3774,7 +3774,7 @@
     "Id": 420,
     "Name": "Cherubi",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -3783,7 +3783,7 @@
     "Id": 421,
     "Name": "Cherrim",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -3792,7 +3792,7 @@
     "Id": 422,
     "Name": "Shellos",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -3801,7 +3801,7 @@
     "Id": 423,
     "Name": "Gastrodon",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -3810,7 +3810,7 @@
     "Id": 424,
     "Name": "Ambipom",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3819,7 +3819,7 @@
     "Id": 425,
     "Name": "Drifloon",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "flying",
     "Category": "normal"
@@ -3828,7 +3828,7 @@
     "Id": 426,
     "Name": "Drifblim",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "flying",
     "Category": "normal"
@@ -3837,7 +3837,7 @@
     "Id": 427,
     "Name": "Buneary",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3846,7 +3846,7 @@
     "Id": 428,
     "Name": "Lopunny",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3855,7 +3855,7 @@
     "Id": 429,
     "Name": "Mismagius",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -3864,7 +3864,7 @@
     "Id": 430,
     "Name": "Honchkrow",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "flying",
     "Category": "normal"
@@ -3873,7 +3873,7 @@
     "Id": 431,
     "Name": "Glameow",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3882,7 +3882,7 @@
     "Id": 432,
     "Name": "Purugly",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3891,7 +3891,7 @@
     "Id": 433,
     "Name": "Chingling",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -3900,7 +3900,7 @@
     "Id": 434,
     "Name": "Stunky",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "dark",
     "Category": "normal"
@@ -3909,7 +3909,7 @@
     "Id": 435,
     "Name": "Skuntank",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "dark",
     "Category": "normal"
@@ -3918,7 +3918,7 @@
     "Id": 436,
     "Name": "Bronzor",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "steel",
     "Type2": "psychic",
     "Category": "normal"
@@ -3927,7 +3927,7 @@
     "Id": 437,
     "Name": "Bronzong",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "steel",
     "Type2": "psychic",
     "Category": "normal"
@@ -3936,7 +3936,7 @@
     "Id": 438,
     "Name": "Bonsly",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -3945,7 +3945,7 @@
     "Id": 439,
     "Name": "Mime Jr.",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "fairy",
     "Category": "normal"
@@ -3954,7 +3954,7 @@
     "Id": 440,
     "Name": "Happiny",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -3963,7 +3963,7 @@
     "Id": 441,
     "Name": "Chatot",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -3972,7 +3972,7 @@
     "Id": 442,
     "Name": "Spiritomb",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "dark",
     "Category": "normal"
@@ -3981,7 +3981,7 @@
     "Id": 443,
     "Name": "Gible",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dragon",
     "Type2": "ground",
     "Category": "normal"
@@ -3990,7 +3990,7 @@
     "Id": 444,
     "Name": "Gabite",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dragon",
     "Type2": "ground",
     "Category": "normal"
@@ -3999,7 +3999,7 @@
     "Id": 445,
     "Name": "Garchomp",
     "Value": 9.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "dragon",
     "Type2": "ground",
     "Category": "normal"
@@ -4008,7 +4008,7 @@
     "Id": 446,
     "Name": "Munchlax",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4017,7 +4017,7 @@
     "Id": 447,
     "Name": "Riolu",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -4026,7 +4026,7 @@
     "Id": 448,
     "Name": "Lucario",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "steel",
     "Category": "normal"
@@ -4035,7 +4035,7 @@
     "Id": 449,
     "Name": "Hippopotas",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -4044,7 +4044,7 @@
     "Id": 450,
     "Name": "Hippowdon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -4053,7 +4053,7 @@
     "Id": 451,
     "Name": "Skorupi",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "bug",
     "Category": "normal"
@@ -4062,7 +4062,7 @@
     "Id": 452,
     "Name": "Drapion",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "dark",
     "Category": "normal"
@@ -4071,7 +4071,7 @@
     "Id": 453,
     "Name": "Croagunk",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "fighting",
     "Category": "normal"
@@ -4080,7 +4080,7 @@
     "Id": 454,
     "Name": "Toxicroak",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "fighting",
     "Category": "normal"
@@ -4089,7 +4089,7 @@
     "Id": 455,
     "Name": "Carnivine",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4098,7 +4098,7 @@
     "Id": 456,
     "Name": "Finneon",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4107,7 +4107,7 @@
     "Id": 457,
     "Name": "Lumineon",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4116,7 +4116,7 @@
     "Id": 458,
     "Name": "Mantyke",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "flying",
     "Category": "normal"
@@ -4125,7 +4125,7 @@
     "Id": 459,
     "Name": "Snover",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "ice",
     "Category": "normal"
@@ -4134,7 +4134,7 @@
     "Id": 460,
     "Name": "Abomasnow",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "ice",
     "Category": "normal"
@@ -4143,7 +4143,7 @@
     "Id": 461,
     "Name": "Weavile",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "ice",
     "Category": "normal"
@@ -4152,7 +4152,7 @@
     "Id": 462,
     "Name": "Magnezone",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "electric",
     "Type2": "steel",
     "Category": "normal"
@@ -4161,7 +4161,7 @@
     "Id": 463,
     "Name": "Lickilicky",
     "Value": 7.7,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4170,7 +4170,7 @@
     "Id": 464,
     "Name": "Rhyperior",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ground",
     "Type2": "rock",
     "Category": "normal"
@@ -4179,7 +4179,7 @@
     "Id": 465,
     "Name": "Tangrowth",
     "Value": 3.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4188,7 +4188,7 @@
     "Id": 466,
     "Name": "Electivire",
     "Value": 8.1,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -4197,7 +4197,7 @@
     "Id": 467,
     "Name": "Magmortar",
     "Value": 8.1,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -4206,7 +4206,7 @@
     "Id": 468,
     "Name": "Togekiss",
     "Value": 8.2,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fairy",
     "Type2": "flying",
     "Category": "normal"
@@ -4215,7 +4215,7 @@
     "Id": 469,
     "Name": "Yanmega",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -4224,7 +4224,7 @@
     "Id": 470,
     "Name": "Leafeon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4233,7 +4233,7 @@
     "Id": 471,
     "Name": "Glaceon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -4242,7 +4242,7 @@
     "Id": 472,
     "Name": "Gliscor",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "flying",
     "Category": "normal"
@@ -4251,7 +4251,7 @@
     "Id": 473,
     "Name": "Mamoswine",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ice",
     "Type2": "ground",
     "Category": "normal"
@@ -4260,7 +4260,7 @@
     "Id": 474,
     "Name": "Porygon-Z",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4269,7 +4269,7 @@
     "Id": 475,
     "Name": "Gallade",
     "Value": 7.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "psychic",
     "Type2": "fighting",
     "Category": "normal"
@@ -4278,7 +4278,7 @@
     "Id": 476,
     "Name": "Probopass",
     "Value": 7.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "rock",
     "Type2": "steel",
     "Category": "normal"
@@ -4287,7 +4287,7 @@
     "Id": 477,
     "Name": "Dusknoir",
     "Value": 7.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -4296,7 +4296,7 @@
     "Id": 478,
     "Name": "Froslass",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "ghost",
     "Category": "normal"
@@ -4305,7 +4305,7 @@
     "Id": 479,
     "Name": "Rotom",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "ghost",
     "Category": "normal"
@@ -4314,7 +4314,7 @@
     "Id": 480,
     "Name": "Uxie",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "legendary"
@@ -4323,7 +4323,7 @@
     "Id": 481,
     "Name": "Mesprit",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "legendary"
@@ -4332,7 +4332,7 @@
     "Id": 482,
     "Name": "Azelf",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "legendary"
@@ -4341,7 +4341,7 @@
     "Id": 483,
     "Name": "Dialga",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "steel",
     "Type2": "dragon",
     "Category": "legendary"
@@ -4350,7 +4350,7 @@
     "Id": 484,
     "Name": "Palkia",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "water",
     "Type2": "dragon",
     "Category": "legendary"
@@ -4359,7 +4359,7 @@
     "Id": 485,
     "Name": "Heatran",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "fire",
     "Type2": "steel",
     "Category": "legendary"
@@ -4368,7 +4368,7 @@
     "Id": 486,
     "Name": "Regigigas",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "legendary"
@@ -4377,7 +4377,7 @@
     "Id": 487,
     "Name": "Giratina",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "ghost",
     "Type2": "dragon",
     "Category": "legendary"
@@ -4386,7 +4386,7 @@
     "Id": 488,
     "Name": "Cresselia",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "legendary"
@@ -4395,7 +4395,7 @@
     "Id": 489,
     "Name": "Phione",
     "Value": 0.8,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4449,7 +4449,7 @@
     "Id": 495,
     "Name": "Snivy",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4458,7 +4458,7 @@
     "Id": 496,
     "Name": "Servine",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4467,7 +4467,7 @@
     "Id": 497,
     "Name": "Serperior",
     "Value": 7.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4476,7 +4476,7 @@
     "Id": 498,
     "Name": "Tepig",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -4485,7 +4485,7 @@
     "Id": 499,
     "Name": "Pignite",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fighting",
     "Category": "normal"
@@ -4494,7 +4494,7 @@
     "Id": 500,
     "Name": "Emboar",
     "Value": 7.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "fighting",
     "Category": "normal"
@@ -4503,7 +4503,7 @@
     "Id": 501,
     "Name": "Oshawott",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4512,7 +4512,7 @@
     "Id": 502,
     "Name": "Dewott",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4521,7 +4521,7 @@
     "Id": 503,
     "Name": "Samurott",
     "Value": 7.9,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4530,7 +4530,7 @@
     "Id": 504,
     "Name": "Patrat",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4539,7 +4539,7 @@
     "Id": 505,
     "Name": "Watchog",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4548,7 +4548,7 @@
     "Id": 506,
     "Name": "Lillipup",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4557,7 +4557,7 @@
     "Id": 507,
     "Name": "Herdier",
     "Value": 2.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4566,7 +4566,7 @@
     "Id": 508,
     "Name": "Stoutland",
     "Value": 7.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4575,7 +4575,7 @@
     "Id": 509,
     "Name": "Purrloin",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "dark",
     "Category": "normal"
@@ -4584,7 +4584,7 @@
     "Id": 510,
     "Name": "Liepard",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "dark",
     "Category": "normal"
@@ -4593,7 +4593,7 @@
     "Id": 511,
     "Name": "Pansage",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4602,7 +4602,7 @@
     "Id": 512,
     "Name": "Simisage",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4611,7 +4611,7 @@
     "Id": 513,
     "Name": "Pansear",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -4620,7 +4620,7 @@
     "Id": 514,
     "Name": "Simisear",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -4629,7 +4629,7 @@
     "Id": 515,
     "Name": "Panpour",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4638,7 +4638,7 @@
     "Id": 516,
     "Name": "Simipour",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4647,7 +4647,7 @@
     "Id": 517,
     "Name": "Munna",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -4656,7 +4656,7 @@
     "Id": 518,
     "Name": "Musharna",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -4665,7 +4665,7 @@
     "Id": 519,
     "Name": "Pidove",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -4674,7 +4674,7 @@
     "Id": 520,
     "Name": "Tranquill",
     "Value": 2.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -4683,7 +4683,7 @@
     "Id": 521,
     "Name": "Unfezant",
     "Value": 7.3,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -4692,7 +4692,7 @@
     "Id": 522,
     "Name": "Blitzle",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -4701,7 +4701,7 @@
     "Id": 523,
     "Name": "Zebstrika",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -4710,7 +4710,7 @@
     "Id": 524,
     "Name": "Roggenrola",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -4719,7 +4719,7 @@
     "Id": 525,
     "Name": "Boldore",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -4728,7 +4728,7 @@
     "Id": 526,
     "Name": "Gigalith",
     "Value": 7.7,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -4737,7 +4737,7 @@
     "Id": 527,
     "Name": "Woobat",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "flying",
     "Category": "normal"
@@ -4746,7 +4746,7 @@
     "Id": 528,
     "Name": "Swoobat",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "flying",
     "Category": "normal"
@@ -4755,7 +4755,7 @@
     "Id": 529,
     "Name": "Drilbur",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -4764,7 +4764,7 @@
     "Id": 530,
     "Name": "Excadrill",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "steel",
     "Category": "normal"
@@ -4773,7 +4773,7 @@
     "Id": 531,
     "Name": "Audino",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -4782,7 +4782,7 @@
     "Id": 532,
     "Name": "Timburr",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -4791,7 +4791,7 @@
     "Id": 533,
     "Name": "Gurdurr",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -4800,7 +4800,7 @@
     "Id": 534,
     "Name": "Conkeldurr",
     "Value": 7.6,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -4809,7 +4809,7 @@
     "Id": 535,
     "Name": "Tympole",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4818,7 +4818,7 @@
     "Id": 536,
     "Name": "Palpitoad",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -4827,7 +4827,7 @@
     "Id": 537,
     "Name": "Seismitoad",
     "Value": 7.6,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "ground",
     "Category": "normal"
@@ -4836,7 +4836,7 @@
     "Id": 538,
     "Name": "Throh",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -4845,7 +4845,7 @@
     "Id": 539,
     "Name": "Sawk",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -4854,7 +4854,7 @@
     "Id": 540,
     "Name": "Sewaddle",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "grass",
     "Category": "normal"
@@ -4863,7 +4863,7 @@
     "Id": 541,
     "Name": "Swadloon",
     "Value": 2.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "grass",
     "Category": "normal"
@@ -4872,7 +4872,7 @@
     "Id": 542,
     "Name": "Leavanny",
     "Value": 7.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "grass",
     "Category": "normal"
@@ -4881,7 +4881,7 @@
     "Id": 543,
     "Name": "Venipede",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -4890,7 +4890,7 @@
     "Id": 544,
     "Name": "Whirlipede",
     "Value": 2.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -4899,7 +4899,7 @@
     "Id": 545,
     "Name": "Scolipede",
     "Value": 7.3,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "poison",
     "Category": "normal"
@@ -4908,7 +4908,7 @@
     "Id": 546,
     "Name": "Cottonee",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "fairy",
     "Category": "normal"
@@ -4917,7 +4917,7 @@
     "Id": 547,
     "Name": "Whimsicott",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "fairy",
     "Category": "normal"
@@ -4926,7 +4926,7 @@
     "Id": 548,
     "Name": "Petilil",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4935,7 +4935,7 @@
     "Id": 549,
     "Name": "Lilligant",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -4944,7 +4944,7 @@
     "Id": 550,
     "Name": "Basculin",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -4953,7 +4953,7 @@
     "Id": 551,
     "Name": "Sandile",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "dark",
     "Category": "normal"
@@ -4962,7 +4962,7 @@
     "Id": 552,
     "Name": "Krokorok",
     "Value": 2.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "dark",
     "Category": "normal"
@@ -4971,7 +4971,7 @@
     "Id": 553,
     "Name": "Krookodile",
     "Value": 7.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ground",
     "Type2": "dark",
     "Category": "normal"
@@ -4980,7 +4980,7 @@
     "Id": 554,
     "Name": "Darumaka",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -4989,7 +4989,7 @@
     "Id": 555,
     "Name": "Darmanitan",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -4998,7 +4998,7 @@
     "Id": 556,
     "Name": "Maractus",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -5007,7 +5007,7 @@
     "Id": 557,
     "Name": "Dwebble",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "rock",
     "Category": "normal"
@@ -5016,7 +5016,7 @@
     "Id": 558,
     "Name": "Crustle",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "rock",
     "Category": "normal"
@@ -5025,7 +5025,7 @@
     "Id": 559,
     "Name": "Scraggy",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "fighting",
     "Category": "normal"
@@ -5034,7 +5034,7 @@
     "Id": 560,
     "Name": "Scrafty",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "fighting",
     "Category": "normal"
@@ -5043,7 +5043,7 @@
     "Id": 561,
     "Name": "Sigilyph",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "flying",
     "Category": "normal"
@@ -5052,7 +5052,7 @@
     "Id": 562,
     "Name": "Yamask",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -5061,7 +5061,7 @@
     "Id": 563,
     "Name": "Cofagrigus",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "ghost",
     "Category": "normal"
@@ -5070,7 +5070,7 @@
     "Id": 564,
     "Name": "Tirtouga",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "rock",
     "Category": "normal"
@@ -5079,7 +5079,7 @@
     "Id": 565,
     "Name": "Carracosta",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "rock",
     "Category": "normal"
@@ -5088,7 +5088,7 @@
     "Id": 566,
     "Name": "Archen",
     "Value": 0.7,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "flying",
     "Category": "normal"
@@ -5097,7 +5097,7 @@
     "Id": 567,
     "Name": "Archeops",
     "Value": 3.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "flying",
     "Category": "normal"
@@ -5106,7 +5106,7 @@
     "Id": 568,
     "Name": "Trubbish",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -5115,7 +5115,7 @@
     "Id": 569,
     "Name": "Garbodor",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -5124,7 +5124,7 @@
     "Id": 570,
     "Name": "Zorua",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "dark",
     "Category": "normal"
@@ -5133,7 +5133,7 @@
     "Id": 571,
     "Name": "Zoroark",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "dark",
     "Category": "normal"
@@ -5142,7 +5142,7 @@
     "Id": 572,
     "Name": "Minccino",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -5151,7 +5151,7 @@
     "Id": 573,
     "Name": "Cinccino",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -5160,7 +5160,7 @@
     "Id": 574,
     "Name": "Gothita",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -5169,7 +5169,7 @@
     "Id": 575,
     "Name": "Gothorita",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -5178,7 +5178,7 @@
     "Id": 576,
     "Name": "Gothitelle",
     "Value": 7.4,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -5187,7 +5187,7 @@
     "Id": 577,
     "Name": "Solosis",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -5196,7 +5196,7 @@
     "Id": 578,
     "Name": "Duosion",
     "Value": 2.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -5205,7 +5205,7 @@
     "Id": 579,
     "Name": "Reuniclus",
     "Value": 7.4,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -5214,7 +5214,7 @@
     "Id": 580,
     "Name": "Ducklett",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "flying",
     "Category": "normal"
@@ -5223,7 +5223,7 @@
     "Id": 581,
     "Name": "Swanna",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "flying",
     "Category": "normal"
@@ -5232,7 +5232,7 @@
     "Id": 582,
     "Name": "Vanillite",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -5241,7 +5241,7 @@
     "Id": 583,
     "Name": "Vanillish",
     "Value": 2.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -5250,7 +5250,7 @@
     "Id": 584,
     "Name": "Vanilluxe",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -5259,7 +5259,7 @@
     "Id": 585,
     "Name": "Deerling",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "grass",
     "Category": "normal"
@@ -5268,7 +5268,7 @@
     "Id": 586,
     "Name": "Sawsbuck",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "grass",
     "Category": "normal"
@@ -5277,7 +5277,7 @@
     "Id": 587,
     "Name": "Emolga",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "flying",
     "Category": "normal"
@@ -5286,7 +5286,7 @@
     "Id": 588,
     "Name": "Karrablast",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -5295,7 +5295,7 @@
     "Id": 589,
     "Name": "Escavalier",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "steel",
     "Category": "normal"
@@ -5304,7 +5304,7 @@
     "Id": 590,
     "Name": "Foongus",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -5313,7 +5313,7 @@
     "Id": 591,
     "Name": "Amoonguss",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "poison",
     "Category": "normal"
@@ -5322,7 +5322,7 @@
     "Id": 592,
     "Name": "Frillish",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "ghost",
     "Category": "normal"
@@ -5331,7 +5331,7 @@
     "Id": 593,
     "Name": "Jellicent",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "ghost",
     "Category": "normal"
@@ -5340,7 +5340,7 @@
     "Id": 594,
     "Name": "Alomomola",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -5349,7 +5349,7 @@
     "Id": 595,
     "Name": "Joltik",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "electric",
     "Category": "normal"
@@ -5358,7 +5358,7 @@
     "Id": 596,
     "Name": "Galvantula",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "electric",
     "Category": "normal"
@@ -5367,7 +5367,7 @@
     "Id": 597,
     "Name": "Ferroseed",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "steel",
     "Category": "normal"
@@ -5376,7 +5376,7 @@
     "Id": 598,
     "Name": "Ferrothorn",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "steel",
     "Category": "normal"
@@ -5385,7 +5385,7 @@
     "Id": 599,
     "Name": "Klink",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "steel",
     "Type2": "steel",
     "Category": "normal"
@@ -5394,7 +5394,7 @@
     "Id": 600,
     "Name": "Klang",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "steel",
     "Type2": "steel",
     "Category": "normal"
@@ -5403,7 +5403,7 @@
     "Id": 601,
     "Name": "Klinklang",
     "Value": 7.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "steel",
     "Type2": "steel",
     "Category": "normal"
@@ -5412,7 +5412,7 @@
     "Id": 602,
     "Name": "Tynamo",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -5421,7 +5421,7 @@
     "Id": 603,
     "Name": "Eelektrik",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -5430,7 +5430,7 @@
     "Id": 604,
     "Name": "Eelektross",
     "Value": 7.7,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -5439,7 +5439,7 @@
     "Id": 605,
     "Name": "Elgyem",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -5448,7 +5448,7 @@
     "Id": 606,
     "Name": "Beheeyem",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -5457,7 +5457,7 @@
     "Id": 607,
     "Name": "Litwick",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "fire",
     "Category": "normal"
@@ -5466,7 +5466,7 @@
     "Id": 608,
     "Name": "Lampent",
     "Value": 2.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "fire",
     "Category": "normal"
@@ -5475,7 +5475,7 @@
     "Id": 609,
     "Name": "Chandelure",
     "Value": 7.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "ghost",
     "Type2": "fire",
     "Category": "normal"
@@ -5484,7 +5484,7 @@
     "Id": 610,
     "Name": "Axew",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -5493,7 +5493,7 @@
     "Id": 611,
     "Name": "Fraxure",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -5502,7 +5502,7 @@
     "Id": 612,
     "Name": "Haxorus",
     "Value": 8.1,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -5511,7 +5511,7 @@
     "Id": 613,
     "Name": "Cubchoo",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -5520,7 +5520,7 @@
     "Id": 614,
     "Name": "Beartic",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -5529,7 +5529,7 @@
     "Id": 615,
     "Name": "Cryogonal",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -5538,7 +5538,7 @@
     "Id": 616,
     "Name": "Shelmet",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -5547,7 +5547,7 @@
     "Id": 617,
     "Name": "Accelgor",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -5556,7 +5556,7 @@
     "Id": 618,
     "Name": "Stunfisk",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "electric",
     "Category": "normal"
@@ -5565,7 +5565,7 @@
     "Id": 619,
     "Name": "Mienfoo",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -5574,7 +5574,7 @@
     "Id": 620,
     "Name": "Mienshao",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -5583,7 +5583,7 @@
     "Id": 621,
     "Name": "Druddigon",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -5592,7 +5592,7 @@
     "Id": 622,
     "Name": "Golett",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ghost",
     "Category": "normal"
@@ -5601,7 +5601,7 @@
     "Id": 623,
     "Name": "Golurk",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "ghost",
     "Category": "normal"
@@ -5610,7 +5610,7 @@
     "Id": 624,
     "Name": "Pawniard",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "steel",
     "Category": "normal"
@@ -5619,7 +5619,7 @@
     "Id": 625,
     "Name": "Bisharp",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "steel",
     "Category": "normal"
@@ -5628,7 +5628,7 @@
     "Id": 626,
     "Name": "Bouffalant",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -5637,7 +5637,7 @@
     "Id": 627,
     "Name": "Rufflet",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -5646,7 +5646,7 @@
     "Id": 628,
     "Name": "Braviary",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -5655,7 +5655,7 @@
     "Id": 629,
     "Name": "Vullaby",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "flying",
     "Category": "normal"
@@ -5664,7 +5664,7 @@
     "Id": 630,
     "Name": "Mandibuzz",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "flying",
     "Category": "normal"
@@ -5673,7 +5673,7 @@
     "Id": 631,
     "Name": "Heatmor",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -5682,7 +5682,7 @@
     "Id": 632,
     "Name": "Durant",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "steel",
     "Category": "normal"
@@ -5691,7 +5691,7 @@
     "Id": 633,
     "Name": "Deino",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "dragon",
     "Category": "normal"
@@ -5700,7 +5700,7 @@
     "Id": 634,
     "Name": "Zweilous",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "dragon",
     "Category": "normal"
@@ -5709,7 +5709,7 @@
     "Id": 635,
     "Name": "Hydreigon",
     "Value": 9.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "dark",
     "Type2": "dragon",
     "Category": "normal"
@@ -5718,7 +5718,7 @@
     "Id": 636,
     "Name": "Larvesta",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "fire",
     "Category": "normal"
@@ -5727,7 +5727,7 @@
     "Id": 637,
     "Name": "Volcarona",
     "Value": 8.2,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "fire",
     "Category": "normal"
@@ -5736,7 +5736,7 @@
     "Id": 638,
     "Name": "Cobalion",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "steel",
     "Type2": "fighting",
     "Category": "legendary"
@@ -5745,7 +5745,7 @@
     "Id": 639,
     "Name": "Terrakion",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "rock",
     "Type2": "fighting",
     "Category": "legendary"
@@ -5754,7 +5754,7 @@
     "Id": 640,
     "Name": "Virizion",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "grass",
     "Type2": "fighting",
     "Category": "legendary"
@@ -5763,7 +5763,7 @@
     "Id": 641,
     "Name": "Tornadus",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "flying",
     "Type2": "flying",
     "Category": "legendary"
@@ -5772,7 +5772,7 @@
     "Id": 642,
     "Name": "Thundurus",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "electric",
     "Type2": "flying",
     "Category": "legendary"
@@ -5781,7 +5781,7 @@
     "Id": 643,
     "Name": "Reshiram",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dragon",
     "Type2": "fire",
     "Category": "legendary"
@@ -5790,7 +5790,7 @@
     "Id": 644,
     "Name": "Zekrom",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dragon",
     "Type2": "electric",
     "Category": "legendary"
@@ -5799,7 +5799,7 @@
     "Id": 645,
     "Name": "Landorus",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "ground",
     "Type2": "flying",
     "Category": "legendary"
@@ -5808,7 +5808,7 @@
     "Id": 646,
     "Name": "Kyurem",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dragon",
     "Type2": "ice",
     "Category": "legendary"
@@ -5844,7 +5844,7 @@
     "Id": 650,
     "Name": "Chespin",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -5853,7 +5853,7 @@
     "Id": 651,
     "Name": "Quilladin",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -5862,7 +5862,7 @@
     "Id": 652,
     "Name": "Chesnaught",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "fighting",
     "Category": "normal"
@@ -5871,7 +5871,7 @@
     "Id": 653,
     "Name": "Fennekin",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -5880,7 +5880,7 @@
     "Id": 654,
     "Name": "Braixen",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -5889,7 +5889,7 @@
     "Id": 655,
     "Name": "Delphox",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "psychic",
     "Category": "normal"
@@ -5898,7 +5898,7 @@
     "Id": 656,
     "Name": "Froakie",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -5907,7 +5907,7 @@
     "Id": 657,
     "Name": "Frogadier",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -5916,7 +5916,7 @@
     "Id": 658,
     "Name": "Greninja",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "dark",
     "Category": "normal"
@@ -5925,7 +5925,7 @@
     "Id": 659,
     "Name": "Bunnelby",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -5934,7 +5934,7 @@
     "Id": 660,
     "Name": "Diggersby",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "ground",
     "Category": "normal"
@@ -5943,7 +5943,7 @@
     "Id": 661,
     "Name": "Fletchling",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -5952,7 +5952,7 @@
     "Id": 662,
     "Name": "Fletchinder",
     "Value": 2.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "flying",
     "Category": "normal"
@@ -5961,7 +5961,7 @@
     "Id": 663,
     "Name": "Talonflame",
     "Value": 7.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "flying",
     "Category": "normal"
@@ -5970,7 +5970,7 @@
     "Id": 664,
     "Name": "Scatterbug",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -5979,7 +5979,7 @@
     "Id": 665,
     "Name": "Spewpa",
     "Value": 1.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -5988,7 +5988,7 @@
     "Id": 666,
     "Name": "Vivillon",
     "Value": 6.2,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "flying",
     "Category": "normal"
@@ -5997,7 +5997,7 @@
     "Id": 667,
     "Name": "Litleo",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "normal",
     "Category": "normal"
@@ -6006,7 +6006,7 @@
     "Id": 668,
     "Name": "Pyroar",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "normal",
     "Category": "normal"
@@ -6015,7 +6015,7 @@
     "Id": 669,
     "Name": "Flabébé",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6024,7 +6024,7 @@
     "Id": 670,
     "Name": "Floette",
     "Value": 2.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6033,7 +6033,7 @@
     "Id": 671,
     "Name": "Florges",
     "Value": 8.3,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6042,7 +6042,7 @@
     "Id": 672,
     "Name": "Skiddo",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -6051,7 +6051,7 @@
     "Id": 673,
     "Name": "Gogoat",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -6060,7 +6060,7 @@
     "Id": 674,
     "Name": "Pancham",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -6069,7 +6069,7 @@
     "Id": 675,
     "Name": "Pangoro",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "dark",
     "Category": "normal"
@@ -6078,7 +6078,7 @@
     "Id": 676,
     "Name": "Furfrou",
     "Value": 0.8,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -6087,7 +6087,7 @@
     "Id": 677,
     "Name": "Espurr",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -6096,7 +6096,7 @@
     "Id": 678,
     "Name": "Meowstic",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "normal"
@@ -6105,7 +6105,7 @@
     "Id": 679,
     "Name": "Honedge",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "steel",
     "Type2": "ghost",
     "Category": "normal"
@@ -6114,7 +6114,7 @@
     "Id": 680,
     "Name": "Doublade",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "steel",
     "Type2": "ghost",
     "Category": "normal"
@@ -6123,7 +6123,7 @@
     "Id": 681,
     "Name": "Aegislash",
     "Value": 7.8,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "steel",
     "Type2": "ghost",
     "Category": "normal"
@@ -6132,7 +6132,7 @@
     "Id": 682,
     "Name": "Spritzee",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6141,7 +6141,7 @@
     "Id": 683,
     "Name": "Aromatisse",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6150,7 +6150,7 @@
     "Id": 684,
     "Name": "Swirlix",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6159,7 +6159,7 @@
     "Id": 685,
     "Name": "Slurpuff",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6168,7 +6168,7 @@
     "Id": 686,
     "Name": "Inkay",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dark",
     "Type2": "psychic",
     "Category": "normal"
@@ -6177,7 +6177,7 @@
     "Id": 687,
     "Name": "Malamar",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dark",
     "Type2": "psychic",
     "Category": "normal"
@@ -6186,7 +6186,7 @@
     "Id": 688,
     "Name": "Binacle",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "water",
     "Category": "normal"
@@ -6195,7 +6195,7 @@
     "Id": 689,
     "Name": "Barbaracle",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "water",
     "Category": "normal"
@@ -6204,7 +6204,7 @@
     "Id": 690,
     "Name": "Skrelp",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "water",
     "Category": "normal"
@@ -6213,7 +6213,7 @@
     "Id": 691,
     "Name": "Dragalge",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "dragon",
     "Category": "normal"
@@ -6222,7 +6222,7 @@
     "Id": 692,
     "Name": "Clauncher",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -6231,7 +6231,7 @@
     "Id": 693,
     "Name": "Clawitzer",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -6240,7 +6240,7 @@
     "Id": 694,
     "Name": "Helioptile",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "electric",
     "Type2": "normal",
     "Category": "normal"
@@ -6249,7 +6249,7 @@
     "Id": 695,
     "Name": "Heliolisk",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "normal",
     "Category": "normal"
@@ -6258,7 +6258,7 @@
     "Id": 696,
     "Name": "Tyrunt",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "dragon",
     "Category": "normal"
@@ -6267,7 +6267,7 @@
     "Id": 697,
     "Name": "Tyrantrum",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "dragon",
     "Category": "normal"
@@ -6276,7 +6276,7 @@
     "Id": 698,
     "Name": "Amaura",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "ice",
     "Category": "normal"
@@ -6285,7 +6285,7 @@
     "Id": 699,
     "Name": "Aurorus",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "ice",
     "Category": "normal"
@@ -6294,7 +6294,7 @@
     "Id": 700,
     "Name": "Sylveon",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6303,7 +6303,7 @@
     "Id": 701,
     "Name": "Hawlucha",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "flying",
     "Category": "normal"
@@ -6312,7 +6312,7 @@
     "Id": 702,
     "Name": "Dedenne",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "fairy",
     "Category": "normal"
@@ -6321,7 +6321,7 @@
     "Id": 703,
     "Name": "Carbink",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "fairy",
     "Category": "normal"
@@ -6330,7 +6330,7 @@
     "Id": 704,
     "Name": "Goomy",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -6339,7 +6339,7 @@
     "Id": 705,
     "Name": "Sliggoo",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -6348,7 +6348,7 @@
     "Id": 706,
     "Name": "Goodra",
     "Value": 9.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -6357,7 +6357,7 @@
     "Id": 707,
     "Name": "Klefki",
     "Value": 0.8,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "steel",
     "Type2": "fairy",
     "Category": "normal"
@@ -6366,7 +6366,7 @@
     "Id": 708,
     "Name": "Phantump",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "grass",
     "Category": "normal"
@@ -6375,7 +6375,7 @@
     "Id": 709,
     "Name": "Trevenant",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "grass",
     "Category": "normal"
@@ -6384,7 +6384,7 @@
     "Id": 710,
     "Name": "Pumpkaboo",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "grass",
     "Category": "normal"
@@ -6393,7 +6393,7 @@
     "Id": 711,
     "Name": "Gourgeist",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "grass",
     "Category": "normal"
@@ -6402,7 +6402,7 @@
     "Id": 712,
     "Name": "Bergmite",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -6411,7 +6411,7 @@
     "Id": 713,
     "Name": "Avalugg",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ice",
     "Type2": "ice",
     "Category": "normal"
@@ -6420,7 +6420,7 @@
     "Id": 714,
     "Name": "Noibat",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "flying",
     "Type2": "dragon",
     "Category": "normal"
@@ -6429,7 +6429,7 @@
     "Id": 715,
     "Name": "Noivern",
     "Value": 3.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "flying",
     "Type2": "dragon",
     "Category": "normal"
@@ -6438,7 +6438,7 @@
     "Id": 716,
     "Name": "Xerneas",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "legendary"
@@ -6447,7 +6447,7 @@
     "Id": 717,
     "Name": "Yveltal",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dark",
     "Type2": "flying",
     "Category": "legendary"
@@ -6456,7 +6456,7 @@
     "Id": 718,
     "Name": "Zygarde",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dragon",
     "Type2": "ground",
     "Category": "legendary"
@@ -6492,7 +6492,7 @@
     "Id": 722,
     "Name": "Rowlet",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "flying",
     "Category": "normal"
@@ -6501,7 +6501,7 @@
     "Id": 723,
     "Name": "Dartrix",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "flying",
     "Category": "normal"
@@ -6510,7 +6510,7 @@
     "Id": 724,
     "Name": "Decidueye",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "ghost",
     "Category": "normal"
@@ -6519,7 +6519,7 @@
     "Id": 725,
     "Name": "Litten",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -6528,7 +6528,7 @@
     "Id": 726,
     "Name": "Torracat",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "fire",
     "Category": "normal"
@@ -6537,7 +6537,7 @@
     "Id": 727,
     "Name": "Incineroar",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "fire",
     "Type2": "dark",
     "Category": "normal"
@@ -6546,7 +6546,7 @@
     "Id": 728,
     "Name": "Popplio",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -6555,7 +6555,7 @@
     "Id": 729,
     "Name": "Brionne",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -6564,7 +6564,7 @@
     "Id": 730,
     "Name": "Primarina",
     "Value": 8.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "water",
     "Type2": "fairy",
     "Category": "normal"
@@ -6573,7 +6573,7 @@
     "Id": 731,
     "Name": "Pikipek",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -6582,7 +6582,7 @@
     "Id": 732,
     "Name": "Trumbeak",
     "Value": 2.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -6591,7 +6591,7 @@
     "Id": 733,
     "Name": "Toucannon",
     "Value": 7.3,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "flying",
     "Category": "normal"
@@ -6600,7 +6600,7 @@
     "Id": 734,
     "Name": "Yungoos",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -6609,7 +6609,7 @@
     "Id": 735,
     "Name": "Gumshoos",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -6618,7 +6618,7 @@
     "Id": 736,
     "Name": "Grubbin",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "bug",
     "Category": "normal"
@@ -6627,7 +6627,7 @@
     "Id": 737,
     "Name": "Charjabug",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "electric",
     "Category": "normal"
@@ -6636,7 +6636,7 @@
     "Id": 738,
     "Name": "Vikavolt",
     "Value": 7.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "bug",
     "Type2": "electric",
     "Category": "normal"
@@ -6645,7 +6645,7 @@
     "Id": 739,
     "Name": "Crabrawler",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -6654,7 +6654,7 @@
     "Id": 740,
     "Name": "Crabominable",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "ice",
     "Category": "normal"
@@ -6663,7 +6663,7 @@
     "Id": 741,
     "Name": "Oricorio",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "flying",
     "Category": "normal"
@@ -6672,7 +6672,7 @@
     "Id": 742,
     "Name": "Cutiefly",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "fairy",
     "Category": "normal"
@@ -6681,7 +6681,7 @@
     "Id": 743,
     "Name": "Ribombee",
     "Value": 3.1,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "fairy",
     "Category": "normal"
@@ -6690,7 +6690,7 @@
     "Id": 744,
     "Name": "Rockruff",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -6699,7 +6699,7 @@
     "Id": 745,
     "Name": "Lycanroc",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "rock",
     "Category": "normal"
@@ -6708,7 +6708,7 @@
     "Id": 746,
     "Name": "Wishiwashi",
     "Value": 0.3,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -6717,7 +6717,7 @@
     "Id": 747,
     "Name": "Mareanie",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "water",
     "Category": "normal"
@@ -6726,7 +6726,7 @@
     "Id": 748,
     "Name": "Toxapex",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "water",
     "Category": "normal"
@@ -6735,7 +6735,7 @@
     "Id": 749,
     "Name": "Mudbray",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -6744,7 +6744,7 @@
     "Id": 750,
     "Name": "Mudsdale",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ground",
     "Type2": "ground",
     "Category": "normal"
@@ -6753,7 +6753,7 @@
     "Id": 751,
     "Name": "Dewpider",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "water",
     "Type2": "bug",
     "Category": "normal"
@@ -6762,7 +6762,7 @@
     "Id": 752,
     "Name": "Araquanid",
     "Value": 3.0,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "bug",
     "Category": "normal"
@@ -6771,7 +6771,7 @@
     "Id": 753,
     "Name": "Fomantis",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -6780,7 +6780,7 @@
     "Id": 754,
     "Name": "Lurantis",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -6789,7 +6789,7 @@
     "Id": 755,
     "Name": "Morelull",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "fairy",
     "Category": "normal"
@@ -6798,7 +6798,7 @@
     "Id": 756,
     "Name": "Shiinotic",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "fairy",
     "Category": "normal"
@@ -6807,7 +6807,7 @@
     "Id": 757,
     "Name": "Salandit",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "poison",
     "Type2": "fire",
     "Category": "normal"
@@ -6816,7 +6816,7 @@
     "Id": 758,
     "Name": "Salazzle",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "poison",
     "Type2": "fire",
     "Category": "normal"
@@ -6825,7 +6825,7 @@
     "Id": 759,
     "Name": "Stufful",
     "Value": 0.6,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "normal",
     "Type2": "fighting",
     "Category": "normal"
@@ -6834,7 +6834,7 @@
     "Id": 760,
     "Name": "Bewear",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "fighting",
     "Category": "normal"
@@ -6843,7 +6843,7 @@
     "Id": 761,
     "Name": "Bounsweet",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -6852,7 +6852,7 @@
     "Id": 762,
     "Name": "Steenee",
     "Value": 1.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -6861,7 +6861,7 @@
     "Id": 763,
     "Name": "Tsareena",
     "Value": 7.6,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "grass",
     "Type2": "grass",
     "Category": "normal"
@@ -6870,7 +6870,7 @@
     "Id": 764,
     "Name": "Comfey",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fairy",
     "Type2": "fairy",
     "Category": "normal"
@@ -6879,7 +6879,7 @@
     "Id": 765,
     "Name": "Oranguru",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "psychic",
     "Category": "normal"
@@ -6888,7 +6888,7 @@
     "Id": 766,
     "Name": "Passimian",
     "Value": 3.3,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fighting",
     "Type2": "fighting",
     "Category": "normal"
@@ -6897,7 +6897,7 @@
     "Id": 767,
     "Name": "Wimpod",
     "Value": 0.4,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "bug",
     "Type2": "water",
     "Category": "normal"
@@ -6906,7 +6906,7 @@
     "Id": 768,
     "Name": "Golisopod",
     "Value": 3.5,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "bug",
     "Type2": "water",
     "Category": "normal"
@@ -6915,7 +6915,7 @@
     "Id": 769,
     "Name": "Sandygast",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "ghost",
     "Type2": "ground",
     "Category": "normal"
@@ -6924,7 +6924,7 @@
     "Id": 770,
     "Name": "Palossand",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "ground",
     "Category": "normal"
@@ -6933,7 +6933,7 @@
     "Id": 771,
     "Name": "Pyukumuku",
     "Value": 2.7,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "water",
     "Category": "normal"
@@ -6942,7 +6942,7 @@
     "Id": 772,
     "Name": "Type: Null",
     "Value": 3.6,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -6951,7 +6951,7 @@
     "Id": 773,
     "Name": "Silvally",
     "Value": 8.5,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -6960,7 +6960,7 @@
     "Id": 774,
     "Name": "Minior",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "rock",
     "Type2": "flying",
     "Category": "normal"
@@ -6969,7 +6969,7 @@
     "Id": 775,
     "Name": "Komala",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "normal",
     "Category": "normal"
@@ -6978,7 +6978,7 @@
     "Id": 776,
     "Name": "Turtonator",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "fire",
     "Type2": "dragon",
     "Category": "normal"
@@ -6987,7 +6987,7 @@
     "Id": 777,
     "Name": "Togedemaru",
     "Value": 2.9,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "electric",
     "Type2": "steel",
     "Category": "normal"
@@ -6996,7 +6996,7 @@
     "Id": 778,
     "Name": "Mimikyu",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "fairy",
     "Category": "normal"
@@ -7005,7 +7005,7 @@
     "Id": 779,
     "Name": "Bruxish",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "water",
     "Type2": "psychic",
     "Category": "normal"
@@ -7014,7 +7014,7 @@
     "Id": 780,
     "Name": "Drampa",
     "Value": 3.2,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "normal",
     "Type2": "dragon",
     "Category": "normal"
@@ -7023,7 +7023,7 @@
     "Id": 781,
     "Name": "Dhelmise",
     "Value": 3.4,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "ghost",
     "Type2": "grass",
     "Category": "normal"
@@ -7032,7 +7032,7 @@
     "Id": 782,
     "Name": "Jangmo-o",
     "Value": 0.5,
-    "Rarity": 10000.0,
+    "Rarity": 6561.0,
     "Type1": "dragon",
     "Type2": "dragon",
     "Category": "normal"
@@ -7041,7 +7041,7 @@
     "Id": 783,
     "Name": "Hakamo-o",
     "Value": 2.8,
-    "Rarity": 1000.0,
+    "Rarity": 729.0,
     "Type1": "dragon",
     "Type2": "fighting",
     "Category": "normal"
@@ -7050,7 +7050,7 @@
     "Id": 784,
     "Name": "Kommo-o",
     "Value": 9.0,
-    "Rarity": 100.0,
+    "Rarity": 81.0,
     "Type1": "dragon",
     "Type2": "fighting",
     "Category": "normal"
@@ -7059,7 +7059,7 @@
     "Id": 785,
     "Name": "Tapu Koko",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "electric",
     "Type2": "fairy",
     "Category": "legendary"
@@ -7068,7 +7068,7 @@
     "Id": 786,
     "Name": "Tapu Lele",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "fairy",
     "Category": "legendary"
@@ -7077,7 +7077,7 @@
     "Id": 787,
     "Name": "Tapu Bulu",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "grass",
     "Type2": "fairy",
     "Category": "legendary"
@@ -7086,7 +7086,7 @@
     "Id": 788,
     "Name": "Tapu Fini",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "water",
     "Type2": "fairy",
     "Category": "legendary"
@@ -7095,7 +7095,7 @@
     "Id": 789,
     "Name": "Cosmog",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "legendary"
@@ -7104,7 +7104,7 @@
     "Id": 790,
     "Name": "Cosmoem",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "legendary"
@@ -7113,7 +7113,7 @@
     "Id": 791,
     "Name": "Solgaleo",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "steel",
     "Category": "legendary"
@@ -7122,7 +7122,7 @@
     "Id": 792,
     "Name": "Lunala",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "ghost",
     "Category": "legendary"
@@ -7131,7 +7131,7 @@
     "Id": 793,
     "Name": "Nihilego",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "rock",
     "Type2": "poison",
     "Category": "normal"
@@ -7140,7 +7140,7 @@
     "Id": 794,
     "Name": "Buzzwole",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "bug",
     "Type2": "fighting",
     "Category": "normal"
@@ -7149,7 +7149,7 @@
     "Id": 795,
     "Name": "Pheromosa",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "bug",
     "Type2": "fighting",
     "Category": "normal"
@@ -7158,7 +7158,7 @@
     "Id": 796,
     "Name": "Xurkitree",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "electric",
     "Type2": "electric",
     "Category": "normal"
@@ -7167,7 +7167,7 @@
     "Id": 797,
     "Name": "Celesteela",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "steel",
     "Type2": "flying",
     "Category": "normal"
@@ -7176,7 +7176,7 @@
     "Id": 798,
     "Name": "Kartana",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "grass",
     "Type2": "steel",
     "Category": "normal"
@@ -7185,7 +7185,7 @@
     "Id": 799,
     "Name": "Guzzlord",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "dark",
     "Type2": "dragon",
     "Category": "normal"
@@ -7194,7 +7194,7 @@
     "Id": 800,
     "Name": "Necrozma",
     "Value": 20000.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "psychic",
     "Type2": "psychic",
     "Category": "legendary"
@@ -7221,7 +7221,7 @@
     "Id": 803,
     "Name": "Poipole",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "poison",
     "Type2": "poison",
     "Category": "normal"
@@ -7230,7 +7230,7 @@
     "Id": 804,
     "Name": "Naganadel",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "poison",
     "Type2": "dragon",
     "Category": "normal"
@@ -7239,7 +7239,7 @@
     "Id": 805,
     "Name": "Stakataka",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "rock",
     "Type2": "steel",
     "Category": "normal"
@@ -7248,7 +7248,7 @@
     "Id": 806,
     "Name": "Blacephalon",
     "Value": 12323.0,
-    "Rarity": 10.0,
+    "Rarity": 9.0,
     "Type1": "fire",
     "Type2": "ghost",
     "Category": "normal"
