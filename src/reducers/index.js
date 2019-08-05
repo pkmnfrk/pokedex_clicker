@@ -212,6 +212,7 @@ export default function reduce(state, action) {
                     }
                 }
 
+                dex.calculateChances(ret.generation, ret);
                 calcClicksPerTick(ret);
             }
 
@@ -229,34 +230,35 @@ export default function reduce(state, action) {
             return state;
         }
         case 'load': {
+            let newState;
             try {
-                let newState = JSON.parse(action.data);
-
-                newState.money = new Decimal(newState.money);
-                newState.moneyPerTick = new Decimal(newState.moneyPerTick);
-
-                if(newState.saved) {
-                    let saved = new Date(newState.saved);
-                    delete newState.saved;
-                    
-                    let deltaMs = Date.now() - saved;
-
-                    newState.money = newState.money.add(newState.moneyPerTick * deltaMs / 1000);
-                }
-
-                if(!newState.generation) newState.generation = 1;
-
-                dex.calculateChances(dex.maxIdForGen(newState.generation));
-
-                if(!newState.upgrade) {
-                    newState.upgrade = {};
-                }
-
-                return newState;
-
+                newState = JSON.parse(action.data);
             } catch(e) {
                 return state;
             }
+
+            newState.money = new Decimal(newState.money);
+            newState.moneyPerTick = new Decimal(newState.moneyPerTick);
+
+            if(newState.saved) {
+                let saved = new Date(newState.saved);
+                delete newState.saved;
+                
+                let deltaMs = Date.now() - saved;
+
+                newState.money = newState.money.add(newState.moneyPerTick * deltaMs / 1000);
+            }
+
+            if(!newState.generation) newState.generation = 1;
+
+            dex.calculateChances(newState.generation, newState);
+
+            if(!newState.upgrade) {
+                newState.upgrade = {};
+            }
+
+            return newState;
+            
         }
         case 'complete_pokedex': {
             let ret = state;
@@ -292,7 +294,7 @@ export default function reduce(state, action) {
 
                 calcClicksPerTick(ret);
 
-                dex.calculateChances(dex.maxIdForGen(ret.generation));
+                dex.calculateChances(ret.generation, ret);
             }
 
             return ret;
@@ -300,7 +302,7 @@ export default function reduce(state, action) {
         case "reset": {
             let ret = reduce(undefined, {});
 
-            dex.calculateChances(dex.maxIdForGen(ret.generation));
+            dex.calculateChances(ret.generation, ret);
 
             return ret;
         }

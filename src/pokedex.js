@@ -2,19 +2,34 @@ import Decimal from "break_infinity.js";
 
 import data from './pokedex.json';
 
-data.calculateChances = function(maxId) {
+let upgrades = {
+    151: "old_sea_map",
+    251: "gs_ball",
+};
+
+data.calculateChances = function(gen, state) {
     let total = 0;
-    for(let i of data._list) {
-        if(i > maxId) break;
-        total += data[i].Rarity;
+    for(let i of data.gen[gen]) {
+        let r = i.Rarity;
+
+        if(upgrades[i.Id] && state.upgrade[upgrades[i.Id]]) {
+            r *= 100;
+        }
+
+        total += r;
     }
 
     let sum = 0;
-    for(let i of data._list) {
-      if(i > maxId) break;
-        data[i].Chance = data[i].Rarity / total;
-        sum += data[i].Chance;
-        data[i].LinearChance = sum;
+    for(let i of data.gen[gen]) {
+        let r = i.Rarity;
+
+        if(upgrades[i.Id] && state.upgrade[upgrades[i.Id]]) {
+            r *= 100;
+        }
+
+        i.Chance = r / total;
+        sum += i.Chance;
+        i.LinearChance = sum;
     }
 };
 
@@ -82,5 +97,4 @@ for(let i = 1; i <= 7; i++) {
     data.gen[i] = list.map(p => data[p]);
 }
 
-data.calculateChances(data.maxIdForGen(1));
 export default data;
