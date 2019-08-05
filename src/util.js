@@ -24,6 +24,6 @@ export function formatMoney(n, decimals = 0) {
     return (<><img src={yen} alt="$" className="pokebuck" />{formatNumber(n, decimals)}</>);
 }
 
-export function multiplierForPrestiges(nPrestiges) {
-    return Math.pow(1.2, nPrestiges);
+export function multiplierForPrestiges(state) {
+    return Math.pow(1.2, state.prestiges);
 }

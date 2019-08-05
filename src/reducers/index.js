@@ -98,7 +98,7 @@ export default function reduce(state, action) {
                 if(state.upgrade[b]) mult *= 10;
             }
 
-            mult *= multiplierForPrestiges(state.prestiges);
+            mult *= multiplierForPrestiges(state);
 
             if(state.leftoverManualClicks) {
                 mult += state.leftoverManualClicks;

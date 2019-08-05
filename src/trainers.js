@@ -132,7 +132,7 @@ let trainers = {
         return Decimal.pow(2.3, level).mul(trainers[id].baseCost);
     },
     power: function(id, state, assumeAtLeastOne) {
-        let trainerMult = multiplierForPrestiges(state.prestiges);
+        let trainerMult = multiplierForPrestiges(state);
         let trainer = trainers[id];
         let n = state.trainer[id];
         if(assumeAtLeastOne && !n) {

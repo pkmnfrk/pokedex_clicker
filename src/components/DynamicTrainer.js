@@ -35,7 +35,7 @@ function mergeProps(stateProps, dispatchProps, ownProps) {
         hireTrainer: () => { dispatchProps.hireTrainer(ownProps.id) },
         level: level,
         power: trainers.power(ownProps.id, stateProps, true),
-        trainerMultTemp: multiplierForPrestiges(stateProps.prestiges),
+        trainerMultTemp: multiplierForPrestiges(stateProps),
     };
 
     ret.canLevel = stateProps.money.compare(ret.cost) >= 0;
