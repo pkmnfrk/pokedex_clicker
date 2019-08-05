@@ -40,8 +40,8 @@ let trainers = {
         name: "Kindler Bernie",
         image: kindler,
         quotes: [
-            "Quote 1",
-            "Quote 2"
+            "If you're lighting a campfire, make sure you have water handy!",
+            "Play with fire, and be burned..."
         ],
         baseCost: 4e6,
         basePower: 16,
@@ -80,8 +80,8 @@ let trainers = {
         name: "Ranger Catherine",
         image: ranger,
         quotes: [
-            "Quote 1",
-            "Quote 2"
+            "Accidents happen when you're not prepared!",
+            "Who has the knowledge and the technique for survival? Pokémon Rangers!"
         ],
         baseCost: 64e14,
         basePower: 4096,
@@ -90,8 +90,8 @@ let trainers = {
         name: "Expert Makayla",
         image: expert,
         quotes: [
-            "Quote 1",
-            "Quote 2"
+            "I must have battled thousands of times. I've lost count.",
+            "If you can mesh your heart with those of your Pokémon, you should be able to achieve great things!"
         ],
         baseCost: 128e16,
         basePower: 16384,

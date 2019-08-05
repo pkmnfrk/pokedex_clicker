@@ -7,7 +7,6 @@ import upgrades from '../upgrades';
 function calcClicksPerTick(state) {
     let totalClicks = 0;
     let totalMoney = new Decimal(0);
-    let trainerMult = 1;
     let canTradeAll = false;
     let canCompleteDex = true;
 
@@ -27,8 +26,6 @@ function calcClicksPerTick(state) {
             canCompleteDex = false;
         }
     }
-
-    trainerMult = Decimal.pow(1.01, trainerMult);
 
     for(let t of trainers._list) {
         if(state.trainer[t]) {

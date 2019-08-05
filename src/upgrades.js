@@ -39,7 +39,7 @@ let upgrades = {
         reqUpgrade: "great_ball"
     },
     master_ball: {
-        name: "Ultra Ball",
+        name: "Master Ball",
         description: "Increases the player's click rate x1000",
         flavour: "The best Poké Ball with the ultimate level of performance.",
         image: master_ball,

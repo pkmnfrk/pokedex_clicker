@@ -30,7 +30,7 @@ data.getRandomMon = function(maxId) {
 
         if(item >= rand) {
             //confirm that this item is greater, but the previous item is lower
-            if(mid == 0 || data[data._list[mid - 1]].LinearChance < rand) {
+            if(mid === 0 || data[data._list[mid - 1]].LinearChance < rand) {
                 return data[data._list[mid]];
             }
         }
