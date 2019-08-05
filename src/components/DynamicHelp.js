@@ -3,7 +3,7 @@ import Help from './Help';
 
 function showPrestige(state) {
     return state.prestiges > 0 ||
-        (state.generation === 7 && state.pokemonCount == 807);
+        (state.generation === 7 && state.pokemonCount === 807);
 }
 
 function mapStateToProps(state) {
