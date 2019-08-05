@@ -15,10 +15,12 @@ export default class OptionsPage extends React.PureComponent {
                 <p>
                     <Button bgcolor="red" color="white" onClick={this.props.onResetClick}>Reset</Button>
                 </p>
-                <p>
-                    <Button bgcolor="blue" color="white" onClick={this.props.onCheatMoney}>Cheat Money</Button>
-                    <Button bgcolor="blue" color="white" onClick={this.props.onCheatDex}>Cheat 'Dex</Button>
-                </p>
+                {process.env.NODE_ENV !== "production" ?
+                    <p>
+                        <Button bgcolor="blue" color="white" onClick={this.props.onCheatMoney}>Cheat Money</Button>
+                        <Button bgcolor="blue" color="white" onClick={this.props.onCheatDex}>Cheat 'Dex</Button>
+                    </p> 
+                : null}
             </div>
         )
     }
