@@ -24,6 +24,8 @@ function mapStateToProps(state) {
         pokemonCount: state.pokemonCount,
         totalCount: dex.gen[state.generation].length,
         trainerMultTemp: multiplierForPrestiges(state.prestiges),
+        latestNewCatch: state.latestNewCatch,
+        canCompleteDex: state.canCompleteDex,
     };
 }
 

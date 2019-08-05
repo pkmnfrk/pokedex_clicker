@@ -43,3 +43,13 @@
 .menu > li.selected:hover {
     background-color: #f80;
 }
+
+.menu > li.highlighted {
+    color: red;
+    font-weight: bold;
+}
+
+.menu > li.selected.highlighted {
+    color: #ff0;
+    font-weight: bold;
+}

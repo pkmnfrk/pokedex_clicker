@@ -5,6 +5,7 @@ import "./Clicker.css";
 import Menu from './Menu';
 import MenuItem from './MenuItem';
 import { formatNumber, formatMoney, formatPercent } from '../util';
+import dex from '../pokedex';
 
 export default class Clicker extends React.PureComponent {
 
@@ -22,10 +23,11 @@ export default class Clicker extends React.PureComponent {
                     <br/>Current Gen: {this.props.generation}
                     <br/>Caught: {this.props.pokemonCount} / {this.props.totalCount}
                     {this.props.trainerMultTemp > 1 ? <><br/>Catch Rate: {formatPercent(this.props.trainerMultTemp)}%</> : null}
+                    {this.props.latestNewCatch ? <><br/>Last new Pokémon: {dex[this.props.latestNewCatch].Name} ({formatPercent(dex[this.props.latestNewCatch].Chance)}%)</> : null}
                 </div>
                 <div id="ExtraControls">
                     <Menu onChange={this.props.onTabChange} selected={this.props.tab}>
-                        <MenuItem id="pokedex">Pokédex</MenuItem>
+                        <MenuItem id="pokedex" highlight={this.props.canCompleteDex}>Pokédex</MenuItem>
                         <MenuItem id="trainers">Trainers/Upgrades</MenuItem>
                         <MenuItem id="help">Help</MenuItem>
                         <MenuItem id="options">Options</MenuItem>

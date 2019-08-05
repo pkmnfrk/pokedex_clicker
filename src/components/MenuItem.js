@@ -10,6 +10,11 @@ export default class MenuItem extends React.PureComponent {
             if(klas) klas += " ";
             klas += "selected";
         }
+
+        if(this.props.highlight) {
+            if(klas) klas += " ";
+            klas += "highlighted";
+        }
         return (
             <li className={klas} onClick={this.props.onClick}>
                 {this.props.children}

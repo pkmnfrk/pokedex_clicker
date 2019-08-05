@@ -75,6 +75,10 @@ function catchNPokemon(ret, n) {
 
         let nCount = Math.min(n, Math.floor(Math.max(1, nNormal * gotten.Chance)));
 
+        if(!ret.owned[gotten.Id] && !ret.traded[gotten.Id]) {
+            ret.latestNewCatch = gotten.Id;
+        }
+        
         ret.owned[gotten.Id] = ret.owned[gotten.Id] + nCount;
         
         n -= nCount;
