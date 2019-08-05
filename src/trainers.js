@@ -45,6 +45,9 @@ let trainers = {
         ],
         baseCost: 4e6,
         basePower: 16,
+        upgrades: {
+            charcoal: 3
+        }
     },
     edwin: {
         name: "Collector Edwin",
@@ -55,6 +58,9 @@ let trainers = {
         ],
         baseCost: 8e8,
         basePower: 64,
+        upgrades: {
+            scope_lens: 3
+        }
     },
     dusty: {
         name: "Ruin Maniac Dusty",
@@ -65,6 +71,9 @@ let trainers = {
         ],
         baseCost: 16e10,
         basePower: 256,
+        upgrades: {
+            safety_goggles: 3
+        }
     },
     brianna: {
         name: "Lady Brianna",
@@ -75,6 +84,9 @@ let trainers = {
         ],
         baseCost: 32e12,
         basePower: 1024,
+        upgrades: {
+            rose_incense: 3
+        }
     },
     catherine: {
         name: "Ranger Catherine",
@@ -85,6 +97,9 @@ let trainers = {
         ],
         baseCost: 64e14,
         basePower: 4096,
+        upgrades: {
+            lum_berry: 3
+        }
     },
     makayla: {
         name: "Expert Makayla",
@@ -95,6 +110,9 @@ let trainers = {
         ],
         baseCost: 128e16,
         basePower: 16384,
+        upgrades: {
+            expert_belt: 3
+        }
     },
     _list: [
         "joey",
