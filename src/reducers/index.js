@@ -111,11 +111,11 @@ export default function reduce(state, action) {
 
             let tick = state.clicksPerTick + state.partialTick;
 
-            let log = Math.floor(Math.log10(Math.floor(tick)));
+            //for performance reasons, once we start getting into large numbers of clicks, make some
+            //statistical assumptions about how many we catch
 
-            let nNormal = Math.max(1, Math.pow(8, log - 4));
-            let nLegendary = Math.max(1, Math.floor(nNormal / 2));
-            let nMythical = Math.max(1, Math.floor(nLegendary / 2));
+            //this is probably not super accurate
+            let nNormal = Math.max(1, Math.floor(tick / 2000));
 
             while(tick > 1) {
                 if(!copied) {
@@ -124,16 +124,9 @@ export default function reduce(state, action) {
                 }
                 let gotten = dex.getRandomMon();
 
-                let nCount = nNormal;
-                if(gotten.Category === "legendary") {
-                    nCount = nLegendary;
-                } else if(gotten.Category === "mythical") {
-                    nCount = nMythical;
-                }
+                let nCount = Math.min(Math.floor(tick), Math.floor(Math.max(1, nNormal * gotten.Chance)));
 
-                nCount = Math.min(nCount, Math.floor(tick));
-
-                ret.owned[gotten.Id] = ret.owned[gotten.Id] + nCount;
+                ret.owned[gotten.Id] = Math.floor(ret.owned[gotten.Id] + nCount);
                 
                 tick -= nCount;
             }
