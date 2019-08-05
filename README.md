@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokédex Clicker
 
-## Available Scripts
+This is an idle/incremental game about catching them all.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+ * Click the big Poké Ball to catch a Pokémon!
+ * Earn money for each Pokémon caught!
+ * Trade in sets of Pokémon to boost the value of that species!
+ * Hire trainers to help you catch Pokémon!
+ * Purchase upgrades to make your trainers more effective!
+ * Fill up your Pokédex to unlock a new set of Pokémon!
+ * Start in Generation 1 (Red/Blue), and work your way up to Generation 7 (Sun/Moon)!
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Planned features
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+ * More upgrades for each trainer
+ * An additional prestige layer (clear Gen 7 to earn a badge)
+ * * Badges would boost earn rate for their type
+ * Yet another prestige layer (earn 8 badges + Elite Four to become a Champion)
+ * * Become champion in all 7 regions
+ * Shiny Pokémon! (a random change for a caught Pokémon to be a shiny, which permanently boosts its bonus)
+ * Upgrades to make specific Pokémon easier to catch (mythical/legendaries)
 
-### `npm test`
+## Credits
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ * This game is heavily inspired by [Pokéclicker](https://www.game-change.co.uk/pokeclicker/) by [/u/jforcedavies](https://www.reddit.com/r/incremental_games/comments/8ttxbi/i_made_a_pokemoninspired_idle_clicker_in_reactjs/).
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Disclaimer
+Pokémon is copyright Nintendo. I do not own it, nor do I claim to own it. This is a work of parody, released for free, under the protection of fair use.
