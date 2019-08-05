@@ -8,7 +8,6 @@ export default class ListOfTrainers extends React.PureComponent {
     render() {
         return (
             <div id="ListOfTrainers">
-                <p>Trainers are helpful buddies that will go out and automatically catch Pokémon for you! However, they can only do so with your guidance, which means that they won't catch any Pokémon while you are offline.</p>
                 <h2>Trainers</h2>
                 <ul id="trainers">
                     {this.props.trainers.map(p => (<DynamicTrainer key={p} id={p} />))}
