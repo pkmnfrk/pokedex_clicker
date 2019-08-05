@@ -373,8 +373,10 @@ function tick(state) {
     //this is probably not super accurate
     let nNormal = Math.max(1, Math.floor(tick / 2000));
 
-    while(tick > 1) {
+    if(tick > 1) {
         ret.owned = {...state.owned};
+    }
+    while(tick > 1) {
 
         let gotten = dex.getRandomMon();
 
