@@ -30,6 +30,13 @@ function mapDispatchToProps(dispatch) {
             dispatch({
                 type: "cheat_dex"
             })
+        },
+
+        onImport: (save) => {
+            dispatch({
+                type: "load",
+                data: save
+            });
         }
     };
 }
