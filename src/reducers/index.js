@@ -60,8 +60,6 @@ export default function reduce(state, action) {
         case 'button_click': {
             let ret = {...state, owned: {...state.owned}}
 
-            let gotten = dex.getRandomMon();
-
             let mult = 1;
 
             for(let b of ["great_ball", "ultra_ball", "master_ball"]) {
@@ -69,6 +67,8 @@ export default function reduce(state, action) {
             }
 
             for(let i = 0; i < mult; i++) {
+                let gotten = dex.getRandomMon();
+                
                 ret.owned[gotten.Id] = ret.owned[gotten.Id] + 1;
                 ret.manualClicks ++;
             }
