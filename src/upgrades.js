@@ -45,7 +45,7 @@ let upgrades = {
         reqTrainer: "joey",
         reqLevel: 40,
         image: soda_pop,
-        cost: 1e20,
+        cost: 1e18,
     },
     scarf: {
         name: "Silk Scarf",
@@ -72,7 +72,7 @@ let upgrades = {
         reqTrainer: "bernie",
         reqLevel: 10,
         image: charcoal,
-        cost: 2e11,
+        cost: 4e11,
     },
     scope_lens: {
         name: "Scope Lens",
@@ -90,7 +90,7 @@ let upgrades = {
         reqTrainer: "dusty",
         reqLevel: 10,
         image: safety_goggles,
-        cost: 1e17,
+        cost: 1e16,
     },
     rose_incense: {
         name: "Rose Icense",
