@@ -15,10 +15,15 @@ if(localStorage.pokeClicker) {
         type: "load",
         data: localStorage.pokeClicker
     });
+} else {
     store.dispatch({
-        type: "save"
+        type: "reset"
     });
 }
+
+store.dispatch({
+    type: "save"
+});
 
 ReactDOM.render(<Provider store={store}>
     <DynamicApp />

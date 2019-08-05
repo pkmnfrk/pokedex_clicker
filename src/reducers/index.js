@@ -9,9 +9,11 @@ function calcClicksPerTick(state) {
     let totalMoney = new Decimal(0);
     let canTradeAll = false;
     let canCompleteDex = true;
+    let nPokemon = 0;
 
     for(let i of dex.gen[state.generation]) {
         if(state.owned[i.Id]) {
+            nPokemon += 1;
             let m = dex.calcMoney(i.Id, state.owned[i.Id], state.traded[i.Id]);
             m = m.mul(Math.pow(3, state.generation - 1));
             totalMoney = totalMoney.add(m);
@@ -22,6 +24,8 @@ function calcClicksPerTick(state) {
                     canTradeAll = true;
                 }
             }
+        } else if(state.traded[i.Id]) {
+            nPokemon += 1;
         } else if(!state.traded[i.Id]) {
             canCompleteDex = false;
         }
@@ -34,6 +38,7 @@ function calcClicksPerTick(state) {
         }
     }
 
+    state.pokemonCount = nPokemon;
     state.clicksPerTick = totalClicks;
     state.moneyPerTick = totalMoney;
     state.canTradeAll = canTradeAll;
@@ -105,60 +110,7 @@ export default function reduce(state, action) {
             return state;
         }
         case 'tick': {
-            //let ret = {...state, owned: {...state.owned}};
-            let ret = state;
-            let copied = false;
-
-            let tick = state.clicksPerTick + state.partialTick;
-
-            //for performance reasons, once we start getting into large numbers of clicks, make some
-            //statistical assumptions about how many we catch
-
-            //this is probably not super accurate
-            let nNormal = Math.max(1, Math.floor(tick / 2000));
-
-            while(tick > 1) {
-                if(!copied) {
-                    ret = {...state, owned: {...state.owned}};
-                    copied = true;
-                }
-                let gotten = dex.getRandomMon();
-
-                let nCount = Math.min(Math.floor(tick), Math.floor(Math.max(1, nNormal * gotten.Chance)));
-
-                ret.owned[gotten.Id] = Math.floor(ret.owned[gotten.Id] + nCount);
-                
-                tick -= nCount;
-            }
-            if(copied) {
-                calcClicksPerTick(ret);
-            }
-
-            if(tick) {
-                if(!copied) {
-                    ret = {...state};
-                    copied = true;
-                }
-                ret.partialTick = tick;
-            }
-
-            if(ret.moneyPerTick.compare(0) > 0) {
-                if(!copied) {
-                    ret = {...state};
-                    copied = true;
-                }
-                ret.money = ret.money.add(ret.moneyPerTick);
-            }
-            if(ret.manualClicks || ret.manualClicksPerTick) {
-                if(!copied) {
-                    ret = {...state};
-                    copied = true;
-                }
-                ret.manualClicksPerTick = ret.manualClicks;
-                ret.manualClicks = 0;
-            }
-
-            return ret;
+            return tick(state)
         }
         case 'change_tab': {
             let ret = state;
@@ -173,146 +125,22 @@ export default function reduce(state, action) {
             return ret;
         }
         case 'level_trainer': {
-            let ret = state;
-
-            let cost = trainers.calcCost(action.id, ret.trainer[action.id]);
-
-            if(ret.money.compare(cost) >= 0) {
-                ret = {
-                    ...state,
-                    money: ret.money.minus(cost),
-                    trainer: {
-                        ...state.trainer,
-                        [action.id]: state.trainer[action.id] + 1
-                    }
-                };
-
-                calcClicksPerTick(ret);
-            }
-
-            return ret;
+            return levelTrainer(state, action.id);
         }
         case 'purchase_upgrade': {
-            let ret = state;
-
-            let okay = true;
-            let upgrade = upgrades[action.id];
-
-            if(upgrade.reqTrainer) {
-                if(state.trainer[upgrade.reqTrainer] < upgrade.reqLevel) {
-                    okay = false;
-                }
-            }
-
-            if(okay) {
-                if(state.money.compare(upgrade.cost) < 0) {
-                    okay = false;
-                }
-            }
-
-            if(okay) {
-                ret = {
-                    ...state,
-                    money: state.money.minus(upgrade.cost),
-                    upgrade: {
-                        ...state.upgrade,
-                        [action.id]: true
-                    }
-                }
-
-                dex.calculateChances(ret.generation, ret);
-                calcClicksPerTick(ret);
-            }
-
-            return ret;
+            return purchaseUpgrade(state, action.id);
         }
         case 'save': {
-            let data = { ...state };
-
-            data.saved = Date.now();
-
-            data = JSON.stringify(data);
-
-            localStorage.pokeClicker = data;
-
-            return state;
+            return saveData(state);
         }
         case 'load': {
-            let newState;
-            try {
-                newState = JSON.parse(action.data);
-            } catch(e) {
-                return state;
-            }
-
-            newState.money = new Decimal(newState.money);
-            newState.moneyPerTick = new Decimal(newState.moneyPerTick);
-
-            if(newState.saved) {
-                let saved = new Date(newState.saved);
-                delete newState.saved;
-                
-                let deltaMs = Date.now() - saved;
-
-                newState.money = newState.money.add(newState.moneyPerTick * deltaMs / 1000);
-            }
-
-            if(!newState.generation) newState.generation = 1;
-
-            dex.calculateChances(newState.generation, newState);
-
-            if(!newState.upgrade) {
-                newState.upgrade = {};
-            }
-
-            return newState;
-            
+            return loadData(state, action.data);
         }
         case 'complete_pokedex': {
-            let ret = state;
-            let okay = true;
-
-            if(state.generation === 7) { //we don't have gen 8+ yet...
-                okay = false;
-            }
-            
-            if(okay) {
-                for(let i of dex.gen[state.generation]) {
-                    if(!state.owned[i.Id] && !state.traded[i.Id]) {
-                        okay = false;
-                        break;
-                    }
-                }
-            }
-
-            if(okay) {
-                ret = {...state};
-                for(let i of dex._list) {
-                    ret.owned[i] = 0;
-                    ret.traded[i] = 0;
-                }
-                for(let t of trainers._list) {
-                    ret.trainer[t] = 0;
-                }
-                ret.upgrade = {};
-                ret.partialTick = 0;
-                ret.manualClicks = 0;
-                ret.money = new Decimal(0);
-                ret.generation += 1;
-
-                calcClicksPerTick(ret);
-
-                dex.calculateChances(ret.generation, ret);
-            }
-
-            return ret;
+            return completePokedex(state);
         }
         case "reset": {
-            let ret = reduce(undefined, {});
-
-            dex.calculateChances(ret.generation, ret);
-
-            return ret;
+            return resetAllData();
         }
         case "cheat_dex": {
             let ret = {...state, owned: { ...state.owned }};
@@ -335,39 +163,239 @@ export default function reduce(state, action) {
         }
         default: {
             if(typeof state === "undefined") {
-                state = {
-                    clicksPerTick: 0,
-                    partialTick: 0,
-                    manualClicks: 0,
-                    manualClicksPerTick: 0,
-                    money: new Decimal(0),
-                    moneyPerTick: new Decimal(0),
-                    canTradeAll: 0,
-                    tab: "pokedex",
-                    generation: 1,
-                    caughtAll: false,
-                };
-                let owned = {};
-                let traded = {}
-                let trainer = {};
-                let upgrade = {};
-
-                state.owned = owned;
-                state.traded = traded;
-                state.trainer = trainer;
-                state.upgrade = upgrade;
-
-                for(let i of dex._list) {
-                    owned[i] = 0;
-                    traded[i] = 0;
-                }
-
-                for(let i of trainers._list) {
-                    trainer[i] = 0;
-                }
+                state = resetAllData();
             }
 
             return state;
         }
     }
+}
+
+function resetAllData() {
+    let state = {
+        clicksPerTick: 0,
+        partialTick: 0,
+        manualClicks: 0,
+        manualClicksPerTick: 0,
+        money: new Decimal(0),
+        moneyPerTick: new Decimal(0),
+        canTradeAll: 0,
+        tab: "pokedex",
+        generation: 1,
+        caughtAll: false,
+        pokemonCount: 0,
+        trainerMultTemp: 1,
+    };
+    let owned = {};
+    let traded = {};
+    let trainer = {};
+    let upgrade = {};
+    state.owned = owned;
+    state.traded = traded;
+    state.trainer = trainer;
+    state.upgrade = upgrade;
+    for (let i of dex._list) {
+        owned[i] = 0;
+        traded[i] = 0;
+    }
+    for (let i of trainers._list) {
+        trainer[i] = 0;
+    }
+    dex.calculateChances(state.generation, state);
+    return state;
+}
+
+function completePokedex(state) {
+    let ret = state;
+    let okay = true;
+    
+    if(okay) {
+        for(let i of dex.gen[state.generation]) {
+            if(!state.owned[i.Id] && !state.traded[i.Id]) {
+                okay = false;
+                break;
+            }
+        }
+    }
+
+    if(okay) {
+        ret = {...state, owned: {}, traded: {}, trainer: {}, upgrade: {}};
+        for(let i of dex._list) {
+            ret.owned[i] = 0;
+            ret.traded[i] = 0;
+        }
+        for(let t of trainers._list) {
+            ret.trainer[t] = 0;
+        }
+        ret.partialTick = 0;
+        ret.manualClicks = 0;
+        ret.money = new Decimal(0);
+
+        if(ret.generation === 7) {
+            ret.generation = 1;
+            ret.trainerMultTemp = ret.trainerMultTemp * 1.1;
+        } else {
+            ret.generation += 1;
+        }
+
+        calcClicksPerTick(ret);
+
+        dex.calculateChances(ret.generation, ret);
+    }
+
+    return ret;
+}
+
+function loadData(state, data) {
+    let newState;
+    try {
+        newState = JSON.parse(data);
+    } catch(e) {
+        console.error(e);
+        return state;
+    }
+
+    newState.money = new Decimal(newState.money);
+    newState.moneyPerTick = new Decimal(newState.moneyPerTick);
+
+    if(newState.saved) {
+        //let saved = new Date(newState.saved);
+        delete newState.saved;
+        
+    }
+
+    if(!newState.generation) newState.generation = 1;
+
+    if(!newState.trainerMultTemp) newState.trainerMultTemp = 1;
+
+    dex.calculateChances(newState.generation, newState);
+
+    if(!newState.upgrade) {
+        newState.upgrade = {};
+    }
+
+    return newState;
+}
+
+function saveData(state) {
+    let data = { ...state };
+
+    data.saved = Date.now();
+
+    data = JSON.stringify(data);
+
+    localStorage.pokeClicker = data;
+
+    return state;
+}
+
+function purchaseUpgrade(state, id) {
+    let ret = state;
+
+    let okay = true;
+    let upgrade = upgrades[id];
+
+    if(okay && upgrade.reqTrainer && state.trainer[upgrade.reqTrainer] < upgrade.reqLevel) {
+        okay = false;
+    }
+
+    if(okay && upgrade.reqPokemon && state.pokemonCount < upgrade.reqPokemon) {
+        okay = false;
+    }
+
+    if(okay && upgrade.reqUpgrade && !state.upgrade[upgrade.reqUpgrade]) {
+        okay = false;
+    }
+
+    if(okay && state.money.compare(upgrade.cost) < 0) {
+        okay = false;
+    }
+
+    if(okay) {
+        ret = {
+            ...state,
+            money: state.money.minus(upgrade.cost),
+            upgrade: {
+                ...state.upgrade,
+                [id]: true
+            }
+        }
+
+        dex.calculateChances(ret.generation, ret);
+        calcClicksPerTick(ret);
+    }
+
+    return ret;
+}
+
+function levelTrainer(state, id) {
+    let ret = state;
+
+    let cost = trainers.calcCost(id, ret.trainer[id]);
+
+    if(ret.money.compare(cost) >= 0) {
+        ret = {
+            ...state,
+            money: ret.money.minus(cost),
+            trainer: {
+                ...state.trainer,
+                [id]: state.trainer[id] + 1
+            }
+        };
+
+        calcClicksPerTick(ret);
+    }
+
+    return ret;
+}
+
+function tick(state) {
+    //let ret = {...state, owned: {...state.owned}};
+    let ret = { ...state};
+
+    if(!ret.lastTick) {
+        ret.lastTick = Date.now() - 1000;
+    }
+
+    let nDate = Date.now();
+    let nTicks = (nDate - ret.lastTick) / 1000;
+    ret.lastTick = nDate;
+
+    let tick = (nTicks * state.clicksPerTick) + state.partialTick;
+
+    if(ret.moneyPerTick.compare(0) > 0) {
+        ret.money = ret.money.add(ret.moneyPerTick * nTicks);
+    }
+
+    //for performance reasons, once we start getting into large numbers of clicks, make some
+    //statistical assumptions about how many we catch
+
+    //this is probably not super accurate
+    let nNormal = Math.max(1, Math.floor(tick / 2000));
+
+    while(tick > 1) {
+        ret.owned = {...state.owned};
+
+        let gotten = dex.getRandomMon();
+
+        let nCount = Math.min(Math.floor(tick), Math.floor(Math.max(1, nNormal * gotten.Chance)));
+
+        ret.owned[gotten.Id] = Math.floor(ret.owned[gotten.Id] + nCount);
+        
+        tick -= nCount;
+    }
+    
+    calcClicksPerTick(ret);
+    
+
+    if(tick) {
+        ret.partialTick = tick;
+    }
+
+    if(ret.manualClicks || ret.manualClicksPerTick) {
+        ret.manualClicksPerTick = ret.manualClicks / nTicks;
+        ret.manualClicks = 0;
+    }
+
+    return ret;
 }

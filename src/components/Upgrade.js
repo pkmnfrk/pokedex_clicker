@@ -12,7 +12,7 @@ export default class Upgrade extends React.PureComponent {
     render() {
         let imageClass = "image";
 
-        if(this.props.id == "bad_early_mon") {
+        if(this.props.id === "bad_early_mon") {
             imageClass += " big";
         }
 

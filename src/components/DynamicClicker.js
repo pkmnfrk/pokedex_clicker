@@ -1,5 +1,6 @@
 import {connect} from 'react-redux';
 import Clicker from './Clicker';
+import dex from '../pokedex';
 
 function mapStateToProps(state) {
     let ballKind = "";
@@ -19,6 +20,9 @@ function mapStateToProps(state) {
         tab: state.tab,
         generation: state.generation,
         ballKind: ballKind,
+        pokemonCount: state.pokemonCount,
+        totalCount: dex.gen[state.generation].length,
+        trainerMultTemp: state.trainerMultTemp
     };
 }
 

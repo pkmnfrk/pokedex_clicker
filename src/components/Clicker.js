@@ -16,10 +16,12 @@ export default class Clicker extends React.PureComponent {
                     <div className="button"></div>
                 </div>
                 <div id="Stats">
-                    Automatic Clicks: {formatNumber(this.props.clicksPerTick)}/s<br/>
-                    Manual Clicks: {formatNumber(this.props.manualClicksPerTick)}/s<br/>
-                    Money: {formatMoney(this.props.money)} (+{formatMoney(this.props.moneyPerTick)}/s)<br/>
-                    Current Gen: {this.props.generation}
+                    Automatic Clicks: {formatNumber(this.props.clicksPerTick)}/s
+                    <br/>Manual Clicks: {formatNumber(this.props.manualClicksPerTick)}/s
+                    <br/>Money: {formatMoney(this.props.money)} (+{formatMoney(this.props.moneyPerTick)}/s)
+                    <br/>Current Gen: {this.props.generation}
+                    <br/>Caught: {this.props.pokemonCount} / {this.props.totalCount}
+                    {this.props.trainerMultTemp > 1 ? <><br/>{this.props.trainerMultTemp}</> : null}
                 </div>
                 <div id="ExtraControls">
                     <Menu onChange={this.props.onTabChange} selected={this.props.tab}>
