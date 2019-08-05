@@ -11,6 +11,7 @@ This is an idle/incremental game about catching them all.
  * Purchase upgrades to make your trainers more effective!
  * Fill up your Pokédex to unlock a new set of Pokémon!
  * Start in Generation 1 (Red/Blue), and work your way up to Generation 7 (Sun/Moon)!
+ * Mobile browser friendly (no zooming on rapid taps)!
 
 ## Planned features
 

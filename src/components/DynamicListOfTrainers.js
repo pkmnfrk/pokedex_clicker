@@ -18,7 +18,7 @@ function isUpgradeVisible(id, state) {
         return false;
     }
 
-    if(upgrade.reqGen && !state.generation < upgrade.reqGen) {
+    if(upgrade.reqGen && state.generation < upgrade.reqGen) {
         return false;
     }
 
@@ -51,7 +51,7 @@ function mapStateToProps(state) {
     }
 
     nPokemon = -1;
-    
+
     return {
         trainers: trainers._list.filter(t => t === lowestLockedTrainer || state.trainer[t] > 0),
         upgrades: upgrades._list.filter(u => isUpgradeVisible(u, state)),

@@ -20,7 +20,9 @@ let trainers = {
         baseCost: 1e2,
         basePower: 1,
         upgrades: {
-            shorts: 3
+            shorts: 5,
+            bad_early_mon: 5,
+            soda_pop: 5,
         }
     },
     irene: {
@@ -34,6 +36,7 @@ let trainers = {
         basePower: 4,
         upgrades: {
             scarf: 3,
+            fresh_water: 3,
         }
     },
     bernie: {

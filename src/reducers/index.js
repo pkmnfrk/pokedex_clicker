@@ -68,7 +68,7 @@ export default function reduce(state, action) {
 
             for(let i = 0; i < mult; i++) {
                 let gotten = dex.getRandomMon();
-                
+
                 ret.owned[gotten.Id] = ret.owned[gotten.Id] + 1;
                 ret.manualClicks ++;
             }
@@ -111,16 +111,31 @@ export default function reduce(state, action) {
 
             let tick = state.clicksPerTick + state.partialTick;
 
-            for(let i = 0; i < tick; i++) {
+            let log = Math.floor(Math.log10(Math.floor(tick)));
+
+            let nNormal = Math.max(1, Math.pow(8, log - 4));
+            let nLegendary = Math.max(1, Math.floor(nNormal / 2));
+            let nMythical = Math.max(1, Math.floor(nLegendary / 2));
+
+            while(tick > 1) {
                 if(!copied) {
                     ret = {...state, owned: {...state.owned}};
                     copied = true;
                 }
                 let gotten = dex.getRandomMon();
 
-                ret.owned[gotten.Id] = ret.owned[gotten.Id] + 1;
+                let nCount = nNormal;
+                if(gotten.Category === "legendary") {
+                    nCount = nLegendary;
+                } else if(gotten.Category === "mythical") {
+                    nCount = nMythical;
+                }
+
+                nCount = Math.min(nCount, Math.floor(tick));
+
+                ret.owned[gotten.Id] = ret.owned[gotten.Id] + nCount;
                 
-                tick -= 1;
+                tick -= nCount;
             }
             if(copied) {
                 calcClicksPerTick(ret);

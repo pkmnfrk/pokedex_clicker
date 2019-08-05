@@ -5,6 +5,10 @@ import data from './pokedex.json';
 let upgrades = {
     151: "old_sea_map",
     251: "gs_ball",
+    386: "aurora_ticket",
+    491: "member_card",
+    492: "oaks_letter",
+    493: "azure_flute",
 };
 
 data.calculateChances = function(gen, state) {

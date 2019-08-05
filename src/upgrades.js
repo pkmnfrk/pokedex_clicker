@@ -1,5 +1,8 @@
 import shorts from './images/shorts.png';
+import bad_early_mon from './images/bad_early_mon.png';
+import soda_pop from './images/soda_pop.png';
 import scarf from './images/scarf.png';
+import fresh_water from './images/fresh_water.png';
 import scope_lens from './images/scope_lens.png';
 import charcoal from './images/charcoal.png';
 import safety_goggles from './images/safety_goggles.png';
@@ -19,12 +22,30 @@ import azure_flute from './images/azure_flute.png';
 let upgrades = {
     shorts: {
         name: "Shorts",
-        description: "Increases Joey's click rate by 3x.",
-        flavour: "Comfy, and easy to wear.",
+        description: "Increases Joey's click rate by 5x.",
+        flavour: "Comfy and easy to wear.",
         reqTrainer: "joey",
         reqLevel: 10,
         image: shorts,
         cost: 1e6,
+    },
+    bad_early_mon: {
+        name: "Bad Early Pokémon",
+        description: "Increases Joey's click rate by 5x.",
+        flavour: "Top percentage, perfectly Normal trash.",
+        reqTrainer: "joey",
+        reqLevel: 20,
+        image: bad_early_mon,
+        cost: 1e10,
+    },
+    soda_pop: {
+        name: "Soda Pop",
+        description: "Increases Joey's click rate by 5x.",
+        flavour: "A fizzy soda drink that's bad for you, unless you're a Pokémon.",
+        reqTrainer: "joey",
+        reqLevel: 40,
+        image: soda_pop,
+        cost: 1e20,
     },
     scarf: {
         name: "Silk Scarf",
@@ -35,6 +56,15 @@ let upgrades = {
         image: scarf,
         cost: 1e9,
     },
+    fresh_water: {
+        name: "Fresh Water",
+        description: "Increases Irene's click rate by 3x.",
+        flavour: "Water with high mineral content. Refreshing!",
+        reqTrainer: "irene",
+        reqLevel: 20,
+        image: fresh_water,
+        cost: 1e13,
+    },
     charcoal: {
         name: "Charcoal",
         description: "Increases Bernie's click rate by 3x.",
@@ -42,7 +72,7 @@ let upgrades = {
         reqTrainer: "bernie",
         reqLevel: 10,
         image: charcoal,
-        cost: 1e12,
+        cost: 2e11,
     },
     scope_lens: {
         name: "Scope Lens",
@@ -51,7 +81,7 @@ let upgrades = {
         reqTrainer: "edwin",
         reqLevel: 10,
         image: scope_lens,
-        cost: 1e15,
+        cost: 1e14,
     },
     safety_goggles: {
         name: "Safety Goggles",
@@ -60,7 +90,7 @@ let upgrades = {
         reqTrainer: "dusty",
         reqLevel: 10,
         image: safety_goggles,
-        cost: 1e18,
+        cost: 1e17,
     },
     rose_incense: {
         name: "Rose Icense",
@@ -69,7 +99,7 @@ let upgrades = {
         reqTrainer: "brianna",
         reqLevel: 10,
         image: rose_incense,
-        cost: 1e21,
+        cost: 1e19,
     },
     lum_berry: {
         name: "Lum Berry",
@@ -78,7 +108,7 @@ let upgrades = {
         reqTrainer: "catherine",
         reqLevel: 10,
         image: lum_berry,
-        cost: 1e24,
+        cost: 1e21,
     },
     expert_belt: {
         name: "Expert Belt",
@@ -87,7 +117,7 @@ let upgrades = {
         reqTrainer: "makayla",
         reqLevel: 10,
         image: expert_belt,
-        cost: 1e27,
+        cost: 1e24,
     },
     great_ball: {
         name: "Great Ball",
@@ -117,7 +147,7 @@ let upgrades = {
         description: "Increases the odds of catching Mew.",
         flavour: "A faded sea chart that shows the way to a far away island.",
         image: old_sea_map,
-        cost: 1e17,
+        cost: 1e15,
         reqPokemon: 100,
     },
     gs_ball: {
@@ -125,7 +155,7 @@ let upgrades = {
         description: "Increases the odds of catching Celebi.",
         flavour: "A mysterious ball colored Gold and Silver.",
         image: gs_ball,
-        cost: 1e15,
+        cost: 1e16,
         reqPokemon: 150,
         reqGen: 2
     },
@@ -134,7 +164,7 @@ let upgrades = {
         description: "Increases the odds of catching Deoxys.",
         flavour: "A strange glowing ticket to Birth Island.",
         image: aurora_ticket,
-        cost: 1e16,
+        cost: 1e17,
         reqPokemon: 300,
         reqGen: 3
     },
@@ -143,7 +173,7 @@ let upgrades = {
         description: "Increases the odds of catching Darkrai.",
         flavour: "A card needed for entering a certain inn. Oddly, the last date marked is 50 years ago.",
         image: member_card,
-        cost: 1e17,
+        cost: 1e18,
         reqPokemon: 350,
         reqGen: 4
     },
@@ -152,7 +182,7 @@ let upgrades = {
         description: "Increases the odds of catching Shaymin",
         flavour: "A letter from Prof. Oak about a curious floral region.",
         image: oaks_letter,
-        cost: 1e18,
+        cost: 1e19,
         reqPokemon: 400,
         reqGen: 4
     },
@@ -161,13 +191,16 @@ let upgrades = {
         description: "Increases the odds of catching Arceus",
         flavour: "A flute that puts out echoing sounds that do not seem to be of this world.",
         image: azure_flute,
-        cost: 1e19,
+        cost: 1e20,
         reqPokemon: 450,
         reqGen: 4
     },
     _list: [
         "shorts",
+        "bad_early_mon",
+        "soda_pop",
         "scarf",
+        "fresh_water",
         "charcoal",
         "scope_lens",
         "safety_goggles",

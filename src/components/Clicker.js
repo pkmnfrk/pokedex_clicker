@@ -24,7 +24,7 @@ export default class Clicker extends React.PureComponent {
                 <div id="ExtraControls">
                     <Menu onChange={this.props.onTabChange} selected={this.props.tab}>
                         <MenuItem id="pokedex">Pokédex</MenuItem>
-                        <MenuItem id="trainers">Trainers</MenuItem>
+                        <MenuItem id="trainers">Trainers/Upgrades</MenuItem>
                         <MenuItem id="options">Options</MenuItem>
                     </Menu>
                 </div>

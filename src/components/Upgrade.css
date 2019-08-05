@@ -19,6 +19,15 @@
     float:left;
     padding: 28px;
     padding-bottom: 58px;
+    width: 24px;
+    height: 24px;
+}
+
+#upgrades li .image.big {
+    width: 48px;
+    height: 48px;
+    padding: 16px;
+    padding-bottom: 46px;
 }
 
 #upgrades li .name {
