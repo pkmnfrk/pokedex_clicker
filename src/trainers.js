@@ -8,6 +8,7 @@ import ruin_maniac from './images/ruin_maniac.png';
 import ranger from './images/ranger_f.png';
 import kindler from './images/kindler.png';
 import expert from './images/expert_f.png';
+import { multiplierForPrestiges } from './util';
 
 let trainers = {
     joey: {
@@ -131,7 +132,7 @@ let trainers = {
         return Decimal.pow(2.3, level).mul(trainers[id].baseCost);
     },
     power: function(id, state, assumeAtLeastOne) {
-        let trainerMult = 1;
+        let trainerMult = multiplierForPrestiges(state.prestiges);
         let trainer = trainers[id];
         let n = state.trainer[id];
         if(assumeAtLeastOne && !n) {

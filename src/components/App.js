@@ -5,6 +5,7 @@ import DynamicClicker from './DynamicClicker';
 import DynamicListOfPokemon from './DynamicListOfPokemon';
 import DynamicListOfTrainers from './DynamicListOfTrainers';
 import DynamicOptionsPage from './DynamicOptionsPage';
+import DynamicHelp from './DynamicHelp';
 import Footer from './Footer';
 
 export default class App extends React.PureComponent {
@@ -47,6 +48,7 @@ export default class App extends React.PureComponent {
                 <DynamicListOfPokemon />
                 <DynamicListOfTrainers />
                 <DynamicOptionsPage />
+                <DynamicHelp />
                 <Footer />
             </div>
         );

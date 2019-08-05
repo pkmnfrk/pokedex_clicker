@@ -14,10 +14,16 @@ export function formatPercent(v) {
 }
 
 export function formatNumber(n, decimals = 0) {
-    return mixedScientific.format(n, 2, decimals);
+    let ret = mixedScientific.format(n, 2, decimals);
+    //console.log(n, " -> ", ret);
     //return pureScientific.format(n, 2, decimals);
+    return ret;
 }
 
 export function formatMoney(n, decimals = 0) {
     return (<><img src={yen} alt="$" className="pokebuck" />{formatNumber(n, decimals)}</>);
+}
+
+export function multiplierForPrestiges(nPrestiges) {
+    return Math.pow(1.2, nPrestiges);
 }

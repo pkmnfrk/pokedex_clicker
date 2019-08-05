@@ -1,0 +1,14 @@
+#Help {
+    min-height: 400px;
+    display:none;
+}
+
+#App.tab_help #Help {
+    display: block;
+}
+
+#Help p {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}

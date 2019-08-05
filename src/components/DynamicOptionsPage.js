@@ -31,6 +31,12 @@ function mapDispatchToProps(dispatch) {
                 type: "cheat_dex"
             })
         },
+        onCheatGen: () => {
+            dispatch({
+                type: "complete_pokedex",
+                isCheat: true
+            })
+        },
 
         onImport: (save) => {
             dispatch({

@@ -3,6 +3,7 @@ import trainers from '../trainers';
 
 import Decimal from 'break_infinity.js';
 import upgrades from '../upgrades';
+import { multiplierForPrestiges } from '../util';
 
 function calcClicksPerTick(state) {
     let totalClicks = 0;
@@ -60,6 +61,28 @@ function trade_pokemon(state, id) {
     return false;
 }
 
+function catchNPokemon(ret, n) {
+
+    //for performance reasons, once we start getting into large numbers of clicks, make some
+    //statistical assumptions about how many we catch
+    //this is probably not super accurate
+
+    let nNormal = Math.max(1, Math.floor(n / 2000));
+
+    while(n >= 1) {
+
+        let gotten = dex.getRandomMon();
+
+        let nCount = Math.min(n, Math.floor(Math.max(1, nNormal * gotten.Chance)));
+
+        ret.owned[gotten.Id] = ret.owned[gotten.Id] + nCount;
+        
+        n -= nCount;
+    }
+
+    return n;
+}
+
 export default function reduce(state, action) {
     switch(action.type) {
         case 'button_click': {
@@ -71,12 +94,15 @@ export default function reduce(state, action) {
                 if(state.upgrade[b]) mult *= 10;
             }
 
-            for(let i = 0; i < mult; i++) {
-                let gotten = dex.getRandomMon();
+            mult *= multiplierForPrestiges(state.prestiges);
 
-                ret.owned[gotten.Id] = ret.owned[gotten.Id] + 1;
-                ret.manualClicks ++;
+            if(state.leftoverManualClicks) {
+                mult += state.leftoverManualClicks;
             }
+
+            ret.manualClicks += mult;
+
+            ret.leftoverManualClicks = catchNPokemon(ret, mult);
 
             calcClicksPerTick(ret);
 
@@ -137,7 +163,7 @@ export default function reduce(state, action) {
             return loadData(state, action.data);
         }
         case 'complete_pokedex': {
-            return completePokedex(state);
+            return completePokedex(state, action.isCheat);
         }
         case "reset": {
             return resetAllData();
@@ -184,7 +210,8 @@ function resetAllData() {
         generation: 1,
         caughtAll: false,
         pokemonCount: 0,
-        trainerMultTemp: 1,
+        prestiges: 0,
+        latestNewCatch: 0,
     };
     let owned = {};
     let traded = {};
@@ -205,11 +232,11 @@ function resetAllData() {
     return state;
 }
 
-function completePokedex(state) {
+function completePokedex(state, isCheat) {
     let ret = state;
     let okay = true;
     
-    if(okay) {
+    if(okay && !isCheat) {
         for(let i of dex.gen[state.generation]) {
             if(!state.owned[i.Id] && !state.traded[i.Id]) {
                 okay = false;
@@ -230,10 +257,11 @@ function completePokedex(state) {
         ret.partialTick = 0;
         ret.manualClicks = 0;
         ret.money = new Decimal(0);
+        ret.latestNewCatch = 0;
 
         if(ret.generation === 7) {
             ret.generation = 1;
-            ret.trainerMultTemp = ret.trainerMultTemp * 1.1;
+            ret.prestiges += 1;
         } else {
             ret.generation += 1;
         }
@@ -265,8 +293,6 @@ function loadData(state, data) {
     }
 
     if(!newState.generation) newState.generation = 1;
-
-    if(!newState.trainerMultTemp) newState.trainerMultTemp = 1;
 
     dex.calculateChances(newState.generation, newState);
 
@@ -367,32 +393,12 @@ function tick(state) {
         ret.money = ret.money.add(ret.moneyPerTick * nTicks);
     }
 
-    //for performance reasons, once we start getting into large numbers of clicks, make some
-    //statistical assumptions about how many we catch
-
-    //this is probably not super accurate
-    let nNormal = Math.max(1, Math.floor(tick / 2000));
-
     if(tick > 1) {
         ret.owned = {...state.owned};
     }
-    while(tick > 1) {
-
-        let gotten = dex.getRandomMon();
-
-        let nCount = Math.min(Math.floor(tick), Math.floor(Math.max(1, nNormal * gotten.Chance)));
-
-        ret.owned[gotten.Id] = Math.floor(ret.owned[gotten.Id] + nCount);
-        
-        tick -= nCount;
-    }
+    ret.partialTick = catchNPokemon(ret, tick);
     
     calcClicksPerTick(ret);
-    
-
-    if(tick) {
-        ret.partialTick = tick;
-    }
 
     if(ret.manualClicks || ret.manualClicksPerTick) {
         ret.manualClicksPerTick = ret.manualClicks / nTicks;

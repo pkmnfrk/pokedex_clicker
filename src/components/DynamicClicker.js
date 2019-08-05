@@ -1,6 +1,7 @@
 import {connect} from 'react-redux';
 import Clicker from './Clicker';
 import dex from '../pokedex';
+import { multiplierForPrestiges } from '../util';
 
 function mapStateToProps(state) {
     let ballKind = "";
@@ -22,7 +23,7 @@ function mapStateToProps(state) {
         ballKind: ballKind,
         pokemonCount: state.pokemonCount,
         totalCount: dex.gen[state.generation].length,
-        trainerMultTemp: state.trainerMultTemp
+        trainerMultTemp: multiplierForPrestiges(state.prestiges),
     };
 }
 

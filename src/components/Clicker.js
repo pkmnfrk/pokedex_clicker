@@ -4,7 +4,7 @@ import "./Clicker.css";
 
 import Menu from './Menu';
 import MenuItem from './MenuItem';
-import { formatNumber, formatMoney } from '../util';
+import { formatNumber, formatMoney, formatPercent } from '../util';
 
 export default class Clicker extends React.PureComponent {
 
@@ -21,12 +21,13 @@ export default class Clicker extends React.PureComponent {
                     <br/>Money: {formatMoney(this.props.money)} (+{formatMoney(this.props.moneyPerTick)}/s)
                     <br/>Current Gen: {this.props.generation}
                     <br/>Caught: {this.props.pokemonCount} / {this.props.totalCount}
-                    {this.props.trainerMultTemp > 1 ? <><br/>{this.props.trainerMultTemp}</> : null}
+                    {this.props.trainerMultTemp > 1 ? <><br/>Catch Rate: {formatPercent(this.props.trainerMultTemp)}%</> : null}
                 </div>
                 <div id="ExtraControls">
                     <Menu onChange={this.props.onTabChange} selected={this.props.tab}>
                         <MenuItem id="pokedex">Pokédex</MenuItem>
                         <MenuItem id="trainers">Trainers/Upgrades</MenuItem>
+                        <MenuItem id="help">Help</MenuItem>
                         <MenuItem id="options">Options</MenuItem>
                     </Menu>
                 </div>
