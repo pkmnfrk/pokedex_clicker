@@ -27,6 +27,7 @@ function mapStateToProps(state) {
         latestNewCatch: state.latestNewCatch,
         canCompleteDex: state.canCompleteDex,
         pinPokeball: state.options.pinPokeball,
+        canPurchaseUpgrade: state.canPurchaseUpgrade,
     };
 }
 

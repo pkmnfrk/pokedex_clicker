@@ -204,6 +204,77 @@ export default function reduce(state, action) {
     }
 }
 
+function arraysMatch(a, b) {
+    if(!Array.isArray(a) || !Array.isArray(b)) return false;
+
+    if(a.length !== b.length) return false;
+
+    for(let i = 0; i < a.length; i++) {
+        if(a[i] !== b[i]) return false;
+    }
+
+    return true;
+}
+
+function calculatePurchasableUpgrades(state) {
+    let upList = [];
+    let purchUpList = [];
+    let visTrainers = [];
+
+    for(let t of trainers._list) {
+        visTrainers.push(t);
+
+        if(!state.trainer[t]) break;
+    }
+
+    state.canPurchaseUpgrade = false;
+
+    for(let u of upgrades._list) {
+        let upgrade = upgrades[u];
+
+        if(state.upgrade[u]) {
+            purchUpList.push(u);
+            continue;
+        }
+
+        if(upgrade.reqTrainer && state.trainer[upgrade.reqTrainer] < upgrade.reqLevel) {
+            continue;
+        }
+    
+        if(upgrade.reqUpgrade && !state.upgrade[upgrade.reqUpgrade]) {
+            continue;
+        }
+    
+        if(upgrade.reqGen && state.generation < upgrade.reqGen) {
+            continue;
+        }
+    
+        if(upgrade.reqPokemon && state.pokemonCount < upgrade.reqPokemon) {
+            continue;
+        }
+    
+        upList.push(u);
+
+        if(state.money.compare(upgrade.cost) >= 0) {
+            state.canPurchaseUpgrade = true;
+        }
+    }
+
+    if(!arraysMatch(state.purchaseableUpgrades, upList)) {
+        state.purchaseableUpgrades = upList;
+    }
+
+    if(!arraysMatch(state.purchasedUpgrades, purchUpList)) {
+        state.purchasedUpgrades = purchUpList;
+    }
+
+    if(!arraysMatch(state.visibleTrainers, visTrainers)) {
+        state.visibleTrainers = visTrainers;
+    }
+
+    return state;
+}
+
 function resetAllData() {
     let state = {
         clicksPerTick: 0,
@@ -236,6 +307,7 @@ function resetAllData() {
         trainer[i] = 0;
     }
     dex.calculateChances(state.generation, state);
+    calculatePurchasableUpgrades(state);
     return state;
 }
 
@@ -274,6 +346,7 @@ function completePokedex(state, isCheat) {
         }
 
         calcClicksPerTick(ret);
+        calculatePurchasableUpgrades(ret);
 
         dex.calculateChances(ret.generation, ret);
     }
@@ -311,6 +384,8 @@ function loadData(state, data) {
         newState.options = {};
     }
 
+    calculatePurchasableUpgrades(newState);
+
     return newState;
 }
 
@@ -318,6 +393,9 @@ function saveData(state) {
     let data = { ...state };
 
     data.saved = Date.now();
+    delete data.purchaseableUpgrades;
+    delete data.purchasedUpgrades;
+    delete data.availableUpgrades;
 
     data = JSON.stringify(data);
 
@@ -360,6 +438,7 @@ function purchaseUpgrade(state, id) {
 
         dex.calculateChances(ret.generation, ret);
         calcClicksPerTick(ret);
+        calculatePurchasableUpgrades(ret);
     }
 
     return ret;
@@ -381,6 +460,7 @@ function levelTrainer(state, id) {
         };
 
         calcClicksPerTick(ret);
+        calculatePurchasableUpgrades(ret);
     }
 
     return ret;
@@ -410,6 +490,7 @@ function tick(state) {
     ret.partialTick = catchNPokemon(ret, tick);
     
     calcClicksPerTick(ret);
+    calculatePurchasableUpgrades(ret);
 
     if(ret.manualClicks || ret.manualClicksPerTick) {
         ret.manualClicksPerTick = ret.manualClicks / nTicks;
