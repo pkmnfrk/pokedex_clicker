@@ -1,21 +1,14 @@
-#upgrades {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-
-#upgrades li {
+.upgrade {
     display: inline-block;
     border: 1px solid black;
     width: 400px;
-    height: 115px;
+    height: 110px;
     text-align: left;
     padding: 10px;
     vertical-align: top;
 }
 
-#upgrades li .image {
+.upgrade .image {
     float:left;
     padding: 28px;
     padding-bottom: 58px;
@@ -23,19 +16,19 @@
     height: 24px;
 }
 
-#upgrades li .image.big {
+.upgrade .image.big {
     width: 48px;
     height: 48px;
     padding: 16px;
     padding-bottom: 46px;
 }
 
-#upgrades li .name {
+.upgrade .name {
     font-size: 18px;
     padding-left: 4px;
 }
 
-#upgrades li .quote {
+.upgrade .quote {
     font-size: 12px;
     font-style: italic;
 }

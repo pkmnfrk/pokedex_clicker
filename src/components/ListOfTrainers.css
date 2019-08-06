@@ -7,3 +7,10 @@
 #App.tab_trainers #ListOfTrainers {
     display: block;
 }
+
+#upgrades, #purchased_upgrades {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}

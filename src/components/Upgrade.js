@@ -17,7 +17,7 @@ export default class Upgrade extends React.PureComponent {
         }
 
         return (
-            <li>
+            <li className="upgrade">
                 <img className={imageClass} src={upgrades[this.props.id].image} alt="" />
                 <div className="name">{upgrades[this.props.id].name}</div>
                 <div className="description">{upgrades[this.props.id].description}</div>

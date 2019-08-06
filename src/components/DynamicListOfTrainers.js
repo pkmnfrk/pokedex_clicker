@@ -38,7 +38,8 @@ function mapStateToProps(state) {
 
     return {
         trainers: trainers._list.filter(t => t === lowestLockedTrainer || state.trainer[t] > 0),
-        upgrades: upgrades._list.filter(u => isUpgradeVisible(u, state)),
+        upgrades: upgrades._list.filter(u => !state.upgrade[u] && isUpgradeVisible(u, state)),
+        purchasedUpgrades: upgrades._list.filter(u => state.upgrade[u]),
     };
 }
 
