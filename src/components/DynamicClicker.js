@@ -26,6 +26,7 @@ function mapStateToProps(state) {
         trainerMultTemp: multiplierForPrestiges(state),
         latestNewCatch: state.latestNewCatch,
         canCompleteDex: state.canCompleteDex,
+        pinPokeball: state.options.pinPokeball,
     };
 }
 

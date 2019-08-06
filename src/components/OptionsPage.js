@@ -40,6 +40,11 @@ export default class OptionsPage extends React.PureComponent {
             <div id="OptionsPage">
                 <h1>Options</h1>
                 <p>
+                    <Button onClick={() => this.props.togglePinPokeball(!this.props.pinPokeball)}>
+                        {this.props.pinPokeball ? "Pin Poké Ball to top" : "Keep Poké Ball on screen"}
+                    </Button>
+                </p>
+                <p>
                     <Button onClick={this.handleExport}>Export Save</Button>
                     <Button onClick={this.handleImport}>Import Save</Button>
                 </p>

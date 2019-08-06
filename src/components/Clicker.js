@@ -10,9 +10,19 @@ import dex from '../pokedex';
 export default class Clicker extends React.PureComponent {
 
     render() {
+        let className = "";
+
+        if(!this.props.pinPokeball) {
+            className = "pinned";
+        }
+
+        if(this.props.ballKind) {
+            className = " " + this.props.ballKind;
+        }
+
         return (
             <div id="ClickerWrapper">
-                <div id="Clicker" onClick={this.props.onClick} className={this.props.ballKind}>
+                <div id="Clicker" onClick={this.props.onClick} className={className}>
                     <div className="bottom"></div>
                     <div className="button"></div>
                 </div>

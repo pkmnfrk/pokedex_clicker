@@ -191,6 +191,9 @@ export default function reduce(state, action) {
             
             return ret;
         }
+        case 'set_option': {
+            return setOption(state, action.option, action.value);
+        }
         default: {
             if(typeof state === "undefined") {
                 state = resetAllData();
@@ -216,15 +219,15 @@ function resetAllData() {
         pokemonCount: 0,
         prestiges: 0,
         latestNewCatch: 0,
+        options: {},
+        upgrade: {},
     };
     let owned = {};
     let traded = {};
     let trainer = {};
-    let upgrade = {};
     state.owned = owned;
     state.traded = traded;
     state.trainer = trainer;
-    state.upgrade = upgrade;
     for (let i of dex._list) {
         owned[i] = 0;
         traded[i] = 0;
@@ -302,6 +305,10 @@ function loadData(state, data) {
 
     if(!newState.upgrade) {
         newState.upgrade = {};
+    }
+
+    if(!newState.options) {
+        newState.options = {};
     }
 
     return newState;
@@ -410,4 +417,12 @@ function tick(state) {
     }
 
     return ret;
+}
+
+function setOption(state, option, value) {
+    if(state.options[option] !== value) {
+        state = {...state, options: {...state.options}};
+        state.options[option] = value;
+    }
+    return state;
 }

@@ -3,7 +3,9 @@ import {connect} from 'react-redux';
 import OptionsPage from './OptionsPage';
 
 function mapStateToProps(state) {
-    return {};
+    return {
+        pinPokeball: state.options.pinPokeball,
+    };
 }
 
 function mapDispatchToProps(dispatch) {
@@ -43,7 +45,16 @@ function mapDispatchToProps(dispatch) {
                 type: "load",
                 data: save
             });
+        },
+        
+        togglePinPokeball: (to) => {
+            dispatch({
+                type: "set_option",
+                option: "pinPokeball",
+                value: to,
+            });
         }
+
     };
 }
 
