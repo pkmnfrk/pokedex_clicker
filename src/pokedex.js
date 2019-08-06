@@ -37,20 +37,21 @@ data.calculateChances = function(gen, state) {
     }
 };
 
-data.getRandomMon = function(maxId) {
+data.getRandomMon = function(generation) {
     let rand = Math.random();
+    let gen = data.gen[generation];
 
-    let start = 0, end = data._list.length - 1;
+    let start = 0, end = gen.length - 1;
 
     while(start <= end) {
         let mid = Math.floor((start + end) / 2);
 
-        let item = data[data._list[mid]].LinearChance;
+        let item = gen[mid].LinearChance;
 
         if(item >= rand) {
             //confirm that this item is greater, but the previous item is lower
-            if(mid === 0 || data[data._list[mid - 1]].LinearChance < rand) {
-                return data[data._list[mid]];
+            if(mid === 0 || gen[mid - 1].LinearChance < rand) {
+                return gen[mid];
             }
         }
 

@@ -71,7 +71,7 @@ function catchNPokemon(ret, n) {
 
     while(n >= 1) {
 
-        let gotten = dex.getRandomMon();
+        let gotten = dex.getRandomMon(ret.generation);
 
         let nCount = Math.min(n, Math.floor(Math.max(1, nNormal * gotten.Chance)));
 
