@@ -3,6 +3,8 @@ import React from 'react';
 import './OptionsPage.css';
 import Button from './Button';
 
+import pkg from '../../package.json';
+
 export default class OptionsPage extends React.PureComponent {
     constructor(props) {
         super(props);
@@ -61,6 +63,7 @@ export default class OptionsPage extends React.PureComponent {
                         <Button bgcolor="blue" color="white" onClick={this.props.onCheatGen}>Cheat Generation</Button>
                     </p> 
                 : null}
+                <p>Version: {pkg.version}</p>
             </div>
         )
     }
