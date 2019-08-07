@@ -131,6 +131,24 @@ let trainers = {
     calcCost: function(id, level) {
         return Decimal.pow(2.3, level).mul(trainers[id].baseCost);
     },
+    calcMaxCost: function(id, level, money) {
+        let ret = new Decimal(0);
+        let atLeastOne = true;
+        while(true) {
+            let newRet = ret.add(trainers.calcCost(id, level));
+            if(newRet.compare(money) > 0) {
+                if(!atLeastOne) {
+                    break;
+                }
+            }
+            atLeastOne = false;
+            console.log(ret, newRet);
+            ret = newRet;
+            level++;
+        }
+    
+        return [ret, level];
+    },
     power: function(id, state, assumeAtLeastOne) {
         let trainerMult = multiplierForPrestiges(state);
         let trainer = trainers[id];

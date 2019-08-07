@@ -21,7 +21,10 @@ export default class Trainer extends React.PureComponent {
                 <img className="image" src={trainers[this.props.id].image} alt="" />
                 <div className="name">{trainers[this.props.id].name}{this.props.level ? " Lv " + formatNumber(this.props.level) : ""}</div>
                 <div className="effect">Clicks {formatNumber(this.props.power, decimals)} times per second</div>
-                <div><Button onClick={this.props.hireTrainer} disabled={!this.props.canLevel}>{this.props.level ? "Level" : "Hire"} for {formatMoney(this.props.cost)}</Button></div>
+                <div>
+                    <Button onClick={this.props.hireTrainer} disabled={!this.props.canLevel}>{this.props.level ? "Lv +1" : "Hire"} ({formatMoney(this.props.cost)})</Button>
+                    {(this.props.level && this.props.maxCost[1] > this.props.level + 1) ? <Button onClick={this.props.maxTrainer} disabled={!this.props.canLevel}>Lv +{this.props.maxCost[1] - this.props.level} ({formatMoney(this.props.maxCost[0])})</Button> : null}
+                </div>
                 <div className="quote">{trainers[this.props.id].quotes[this.state.quote]}</div>
             </li>
         )

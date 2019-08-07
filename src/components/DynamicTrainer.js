@@ -15,10 +15,11 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        hireTrainer: function(id) {
+        hireTrainer: function(id, max) {
             dispatch({
                 type: "level_trainer",
-                id: id
+                id: id,
+                max: !!max
             });
         },
     };
@@ -32,7 +33,9 @@ function mergeProps(stateProps, dispatchProps, ownProps) {
         ...ownProps,
 
         cost: trainers.calcCost(ownProps.id, level),
-        hireTrainer: () => { dispatchProps.hireTrainer(ownProps.id) },
+        maxCost: trainers.calcMaxCost(ownProps.id, level, stateProps.money),
+        hireTrainer: () => { dispatchProps.hireTrainer(ownProps.id, false)},
+        maxTrainer: () => { dispatchProps.hireTrainer(ownProps.id, true)},
         level: level,
         power: trainers.power(ownProps.id, stateProps, true),
         trainerMultTemp: multiplierForPrestiges(stateProps),

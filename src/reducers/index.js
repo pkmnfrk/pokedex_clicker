@@ -155,7 +155,7 @@ export default function reduce(state, action) {
             return ret;
         }
         case 'level_trainer': {
-            return levelTrainer(state, action.id);
+            return levelTrainer(state, action.id, action.max);
         }
         case 'purchase_upgrade': {
             return purchaseUpgrade(state, action.id);
@@ -444,18 +444,27 @@ function purchaseUpgrade(state, id) {
     return ret;
 }
 
-function levelTrainer(state, id) {
+function levelTrainer(state, id, max) {
     let ret = state;
+    let cost;
+    let num;
 
-    let cost = trainers.calcCost(id, ret.trainer[id]);
+    if(max) {
+        let c = trainers.calcMaxCost(id, ret.trainer[id], ret.money);
+        cost = c[0];
+        num = c[1] - ret.trainer[id];
+    } else {
+        cost = trainers.calcCost(id, ret.trainer[id]);
+        num = 1;
+    }
 
-    if(ret.money.compare(cost) >= 0) {
+    if(num > 0 && ret.money.compare(cost) >= 0) {
         ret = {
             ...state,
             money: ret.money.minus(cost),
             trainer: {
                 ...state.trainer,
-                [id]: state.trainer[id] + 1
+                [id]: state.trainer[id] + num
             }
         };
 
