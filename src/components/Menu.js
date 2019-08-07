@@ -5,11 +5,17 @@ import './Menu.css';
 export default class Menu extends React.PureComponent {
     render() {
         let items = React.Children.toArray(this.props.children);
+        let children = [];
+
         let onChange  = this.props.onChange;
         
         for(let i = 0; i < items.length; i++) {
             let id = items[i].props.id;
             let newProps = {};
+
+            if(typeof(items[i].props.visible) !== "undefined" && !items[i].props.visible) {
+                continue;
+            }
 
             if(onChange) {
                 newProps.onClick = function() {
@@ -23,13 +29,13 @@ export default class Menu extends React.PureComponent {
             
             let itm = React.cloneElement(items[i], newProps)
 
-            items[i] = itm;
+            children.push(itm);
         }
         
 
         return (
             <ul className="menu">
-                {items}
+                {children}
             </ul>
         );
     }

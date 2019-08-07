@@ -13,6 +13,8 @@ function mapStateToProps(state) {
         }
     }
 
+    let badgesUnlocked = false;
+
     return {
         clicksPerTick: state.clicksPerTick,
         manualClicksPerTick: state.manualClicksPerTick,
@@ -23,11 +25,14 @@ function mapStateToProps(state) {
         ballKind: ballKind,
         pokemonCount: state.pokemonCount,
         totalCount: dex.gen[state.generation].length,
+        prestiges: state.prestiges,
+        prestigePoints: state.prestigePoints,
         trainerMultTemp: multiplierForPrestiges(state),
         latestNewCatch: state.latestNewCatch,
         canCompleteDex: state.canCompleteDex,
         pinPokeball: state.options.pinPokeball,
         canPurchaseUpgrade: state.canPurchaseUpgrade,
+        badgesUnlocked: badgesUnlocked,
     };
 }
 
