@@ -142,7 +142,6 @@ let trainers = {
                 }
             }
             atLeastOne = false;
-            console.log(ret, newRet);
             ret = newRet;
             level++;
         }
