@@ -277,6 +277,7 @@ function calculatePurchasableUpgrades(state) {
 
 function resetAllData() {
     let state = {
+        version: 1,
         clicksPerTick: 0,
         partialTick: 0,
         manualClicks: 0,
@@ -292,6 +293,8 @@ function resetAllData() {
         latestNewCatch: 0,
         options: {},
         upgrade: {},
+        prestigePoints: 0,
+        prestigeUpgrade: {},
     };
     let owned = {};
     let traded = {};
@@ -368,21 +371,12 @@ function loadData(state, data) {
 
     if(newState.saved) {
         //let saved = new Date(newState.saved);
-        delete newState.saved;
-        
+        delete newState.saved;        
     }
 
-    if(!newState.generation) newState.generation = 1;
+    migrateVersion(newState);
 
     dex.calculateChances(newState.generation, newState);
-
-    if(!newState.upgrade) {
-        newState.upgrade = {};
-    }
-
-    if(!newState.options) {
-        newState.options = {};
-    }
 
     calculatePurchasableUpgrades(newState);
 
@@ -515,4 +509,12 @@ function setOption(state, option, value) {
         state.options[option] = value;
     }
     return state;
+}
+
+function migrateVersion(state) {
+    if(!state.version) {
+        state.prestigePoints = Math.floor(state.prestiges * 1.5);
+        state.prestigeUpgrade = {};
+        state.version = 1;
+    }
 }
