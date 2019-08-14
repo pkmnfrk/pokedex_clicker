@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/css/main.bcf5e315.chunk.css",
-    "main.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/main.c0afa9e3.chunk.js",
-    "main.js.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/main.c0afa9e3.chunk.js.map",
+    "main.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/main.d0cd97e4.chunk.js",
+    "main.js.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/main.d0cd97e4.chunk.js.map",
     "runtime~main.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/runtime~main.0101bacc.js",
     "runtime~main.js.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/runtime~main.0101bacc.js.map",
     "static/js/2.f4e9e029.chunk.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/2.f4e9e029.chunk.js",
     "static/js/2.f4e9e029.chunk.js.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/2.f4e9e029.chunk.js.map",
     "index.html": "https://pkmnfrk.github.io/pokedex_clicker/beta/index.html",
-    "precache-manifest.9dbc86aa3aae28451f370b35b922761e.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/precache-manifest.9dbc86aa3aae28451f370b35b922761e.js",
+    "precache-manifest.4f87037154cc84294eb0cd1f876b2315.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/precache-manifest.4f87037154cc84294eb0cd1f876b2315.js",
     "service-worker.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/service-worker.js",
     "static/css/main.bcf5e315.chunk.css.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/css/main.bcf5e315.chunk.css.map"
   }

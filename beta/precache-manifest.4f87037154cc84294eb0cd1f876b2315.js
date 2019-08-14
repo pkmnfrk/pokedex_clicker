@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6a21909c1d78b50da8491eb376df2bc",
+    "revision": "8a92f9cb9e46351d87604a9cd32dad72",
     "url": "https://pkmnfrk.github.io/pokedex_clicker/beta/index.html"
   },
   {
-    "revision": "32565ccd431a9a146376",
+    "revision": "b524868dd60dbd4aa256",
     "url": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/css/main.bcf5e315.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/2.f4e9e029.chunk.js"
   },
   {
-    "revision": "32565ccd431a9a146376",
-    "url": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/main.c0afa9e3.chunk.js"
+    "revision": "b524868dd60dbd4aa256",
+    "url": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/main.d0cd97e4.chunk.js"
   },
   {
     "revision": "2e1d475cb0997abe0b20",
