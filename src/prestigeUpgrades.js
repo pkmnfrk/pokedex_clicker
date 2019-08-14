@@ -20,12 +20,12 @@ let prestigeUpgrades = {
     boostClickRate: {
         x: 6,
         y: 2,
-        name: "Boost click rate of all trainers by x1.1",
+        name: "Boost click rate of all trainers by x1.25",
         req: ["multPrestigePoints"],
         cost: 2,
         costScale: 4,
         repeatable: true,
-        boostScale: 1.1,
+        boostScale: 1.25,
     },
     boostMoneyRate: {
         x: 4,
@@ -93,6 +93,27 @@ let prestigeUpgrades = {
         cost: 10000,
         costScale: 2,
         repeatable: true,
+    },
+    autoTrade: {
+        x: 4,
+        y: 4,
+        name: "Automatically Trade eligible Pokémon periodically",
+        req: ["boostMoneyRate"],
+        cost: 20,
+        costScale: 1.4,
+        repeatable: true,
+        boost: 300,
+        boostScale: 0.8,
+        boostPrefix: "Trade every ",
+        boostSuffix: "s",
+        maxLevel: 26
+    },
+    autoComplete: {
+        x: 4,
+        y: 6,
+        name: "Automatically complete Pokédex",
+        req: ["autoTrade", "startWithUltraBall", "startWithIrene"],
+        cost: 1000,
     }
     /*
     test1: {
@@ -107,11 +128,12 @@ let prestigeUpgrades = {
 
 prestigeUpgrades._list = Object.keys(prestigeUpgrades);
 
-prestigeUpgrades.cost = function(id, level) {
-    let ret = prestigeUpgrades[id].cost;
+prestigeUpgrades.cost = function(id, level = 0) {
+    let up = prestigeUpgrades[id];
+    let ret = up.cost;
 
-    if(prestigeUpgrades[id].repeatable) {
-        ret = ret * Math.pow(prestigeUpgrades[id].costScale, level)
+    if(up.repeatable) {
+        ret = ret * Math.pow(up.costScale, level)
     }
 
     if(!ret) ret = 1;
@@ -138,14 +160,15 @@ prestigeUpgrades.purchasable = function(id, state) {
         return false;
 
     let up = prestigeUpgrades[id];
+    let level = state.prestigeUpgrade[id] || 0;
 
-    if(!up.repeatable && state.prestigeUpgrade[id])
+    if(!up.repeatable && level)
         return false;
 
-    if(up.maxLevel && state.prestigeUpgrade[id] >= up.maxLevel)
+    if(up.maxLevel && level >= up.maxLevel)
         return false;
 
-    let cost = prestigeUpgrades.cost(id, state.prestigeUpgrade[id]);
+    let cost = prestigeUpgrades.cost(id, level);
 
     if(cost > state.prestigePoints)
         return false;

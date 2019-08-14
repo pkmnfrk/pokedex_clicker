@@ -1,42 +1,18 @@
 .prestigeUpgrade {
-    background-color: #dfd;
+    background-color: #888;
     border: 1px solid black;
     cursor: pointer;
     padding: 3px;
 }
 
-.prestigeUpgrade:hover {
-    background-color: #cfc;
-}
-
 .prestigeUpgrade.purchased {
-    /*background-color: #dfd;*/
     border-color: #0f0;
 }
 
-.prestigeUpgrade.purchased:hover {
-    background-color: #cfc;
+.prestigeUpgrade.purchasable {
+    background-color: #bfb;
 }
 
-.prestigeUpgrade.unavailable {
-    background-color: #ddd;
-    color: #888;
-    cursor: default;
-}
-
-.prestigeUpgrade.unavailable:hover {
-    background-color: #ddd;
-}
-
-.prestigeUpgrade.purchased.unavailable {
-    /*background-color: #dfd;*/
-    cursor: default;
-}
-
-.prestigeUpgrade.maxed {
-    background-color: white;
-    cursor: default;
-}
-.prestigeUpgrade.maxed:hover {
+.prestigeUpgrade.purchased.nonrepeatable {
     background-color: white;
 }

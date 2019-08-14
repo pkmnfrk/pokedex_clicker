@@ -10,7 +10,7 @@
 #prestigeGrid {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     margin: 20px;

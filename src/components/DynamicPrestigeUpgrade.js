@@ -23,7 +23,6 @@ function mapDispatchToProps(dispatch) {
 
 function mergeProps(stateProps, dispatchProps, ownProps) {
     let id = ownProps.id;
-    let upgrade = prestigeUpgrades[id];
     let level = stateProps.prestigeUpgrade[id] || 0;
 
     return {
