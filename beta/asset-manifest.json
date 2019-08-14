@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pokedex_clicker/static/css/main.292b03c8.chunk.css",
-    "main.js": "/pokedex_clicker/static/js/main.55be2834.chunk.js",
-    "main.js.map": "/pokedex_clicker/static/js/main.55be2834.chunk.js.map",
-    "runtime~main.js": "/pokedex_clicker/static/js/runtime~main.cf1f9a97.js",
-    "runtime~main.js.map": "/pokedex_clicker/static/js/runtime~main.cf1f9a97.js.map",
-    "static/js/2.f4e9e029.chunk.js": "/pokedex_clicker/static/js/2.f4e9e029.chunk.js",
-    "static/js/2.f4e9e029.chunk.js.map": "/pokedex_clicker/static/js/2.f4e9e029.chunk.js.map",
-    "index.html": "/pokedex_clicker/index.html",
-    "precache-manifest.9ee8f018111655ca304e03e4c444022b.js": "/pokedex_clicker/precache-manifest.9ee8f018111655ca304e03e4c444022b.js",
-    "service-worker.js": "/pokedex_clicker/service-worker.js",
-    "static/css/main.292b03c8.chunk.css.map": "/pokedex_clicker/static/css/main.292b03c8.chunk.css.map"
+    "main.css": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/css/main.bcf5e315.chunk.css",
+    "main.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/main.c0afa9e3.chunk.js",
+    "main.js.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/main.c0afa9e3.chunk.js.map",
+    "runtime~main.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/runtime~main.0101bacc.js",
+    "runtime~main.js.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/runtime~main.0101bacc.js.map",
+    "static/js/2.f4e9e029.chunk.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/2.f4e9e029.chunk.js",
+    "static/js/2.f4e9e029.chunk.js.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/js/2.f4e9e029.chunk.js.map",
+    "index.html": "https://pkmnfrk.github.io/pokedex_clicker/beta/index.html",
+    "precache-manifest.9dbc86aa3aae28451f370b35b922761e.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/precache-manifest.9dbc86aa3aae28451f370b35b922761e.js",
+    "service-worker.js": "https://pkmnfrk.github.io/pokedex_clicker/beta/service-worker.js",
+    "static/css/main.bcf5e315.chunk.css.map": "https://pkmnfrk.github.io/pokedex_clicker/beta/static/css/main.bcf5e315.chunk.css.map"
   }
 }
