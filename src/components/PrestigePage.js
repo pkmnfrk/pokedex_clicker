@@ -3,6 +3,7 @@ import prestigeUpgrades from '../prestigeUpgrades';
 
 import './PrestigePage.css';
 import PrestigeUpgrade from './DynamicPrestigeUpgrade';
+import { formatNumber } from '../util';
 
 
 export function updateLines() {
@@ -44,7 +45,7 @@ export default class PrestigePage extends React.PureComponent {
 
         return <div id="PrestigePage">
             <h1>Prestige</h1>
-            <div>You have {this.props.prestigePoints} prestige points</div>
+            <div>You have {formatNumber(this.props.prestigePoints)} prestige points</div>
             <div id="prestigeGrid">
                 {prestigeUpgrades._list.map(up => <PrestigeUpgrade key={up} id={up} />)}
                 <svg>

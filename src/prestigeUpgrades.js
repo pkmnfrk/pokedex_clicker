@@ -13,6 +13,9 @@ let prestigeUpgrades = {
         y: 2,
         name: "Boost catch rate of rare Pokémon",
         req: ["multPrestigePoints"],
+        cost: 1,
+        costScale: 5,
+        repeatable: true,
     },
     boostClickRate: {
         x: 6,

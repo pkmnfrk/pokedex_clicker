@@ -37,7 +37,9 @@ export default class PrestigeUpgrade extends React.PureComponent {
         let boost = null;
 
         if(up.boostScale && this.props.level) {
-            boost = Math.pow(up.boostScale, this.props.level);
+            boost = "Current Bonus: x" + Math.pow(up.boostScale, this.props.level);
+        } else if(up.repeatable && !up.boostScale && this.props.level) {
+            boost = "Level: " + this.props.level;
         }
 
         return (
@@ -46,9 +48,7 @@ export default class PrestigeUpgrade extends React.PureComponent {
                 {showCost ? (
                 <>Cost: {this.props.cost}<br/></>
                 ) : null}
-                {boost ? <>
-                Current Bonus: x{boost}
-                </> : null }
+                {boost}
             </div>
         );
     }

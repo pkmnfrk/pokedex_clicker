@@ -16,6 +16,16 @@ data.calculateChances = function(gen, state) {
     for(let i of data.gen[gen]) {
         let r = i.Rarity;
 
+        if(state.prestigeUpgrade.boostCatchRate) {
+            if(i.Category === "legendary") {
+                r += Math.pow(4, state.prestigeUpgrade.boostCatchRate);
+            } else if(i.Category === "mythical") {
+                r += Math.pow(2, state.prestigeUpgrade.boostCatchRate);
+            } else if(i.Category === "ultrabeast") {
+                r += Math.pow(5.5, state.prestigeUpgrade.boostCatchRate);
+            }
+        }
+
         if(upgrades[i.Id] && state.upgrade[upgrades[i.Id]]) {
             r *= 100;
         }
@@ -26,6 +36,16 @@ data.calculateChances = function(gen, state) {
     let sum = 0;
     for(let i of data.gen[gen]) {
         let r = i.Rarity;
+
+        if(state.prestigeUpgrade.boostCatchRate) {
+            if(i.Category === "legendary") {
+                r += Math.pow(4, state.prestigeUpgrade.boostCatchRate);
+            } else if(i.Category === "mythical") {
+                r += Math.pow(2, state.prestigeUpgrade.boostCatchRate);
+            } else if(i.Category === "ultrabeast") {
+                r += Math.pow(5.5, state.prestigeUpgrade.boostCatchRate);
+            }
+        }
 
         if(upgrades[i.Id] && state.upgrade[upgrades[i.Id]]) {
             r *= 100;

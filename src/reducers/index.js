@@ -14,13 +14,12 @@ function calcClicksPerTick(state) {
     let canCompleteDex = true;
     let nPokemon = 0;
 
-    let multiplier = Math.pow(2, state.prestigeUpgrade.boostMoneyRate || 0);
+    let multiplier = Math.pow(2, state.prestigeUpgrade.boostMoneyRate || 0) * Math.pow(3, state.generation - 1);
 
     for(let i of dex.gen[state.generation]) {
         if(state.owned[i.Id]) {
             nPokemon += 1;
             let m = dex.calcMoney(i.Id, state.owned[i.Id], state.traded[i.Id], multiplier);
-            m = m.mul(Math.pow(3, state.generation - 1));
             totalMoney = totalMoney.add(m);
 
             if(!canTradeAll) {
@@ -201,7 +200,7 @@ export default function reduce(state, action) {
         case "cheat_pp": {
             let ret = {...state};
 
-            ret.prestigePoints = new Decimal('1e200');
+            ret.prestigePoints = 1000000;
             
             return ret;
         }
@@ -392,8 +391,8 @@ function loadData(state, data) {
     migrateVersion(newState);
 
     dex.calculateChances(newState.generation, newState);
-
     calculatePurchasableUpgrades(newState);
+    calcClicksPerTick(newState);
 
     return newState;
 }
@@ -544,6 +543,9 @@ function purchasePrestigeUpgrade(state, id) {
 
     state.prestigeUpgrade[id] = (state.prestigeUpgrade[id] || 0) + 1;
     state.prestigePoints -= cost;
+
+    dex.calculateChances(state.generation, state);
+    calcClicksPerTick(state);
 
     return state;
 }
