@@ -12,7 +12,7 @@ export default class Clicker extends React.PureComponent {
     render() {
         let className = "";
 
-        if(!this.props.pinPokeball) {
+        if(!this.props.pinPokeball && this.props.tab !== "prestige") {
             className = "pinned";
         }
 

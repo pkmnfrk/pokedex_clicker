@@ -1,0 +1,16 @@
+#PrestigePage {
+    display: none;
+    min-height: 400px;
+}
+
+#App.tab_prestige #PrestigePage {
+    display: block;
+}
+
+#prestigeGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}

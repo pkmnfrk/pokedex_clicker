@@ -7,6 +7,7 @@ import DynamicListOfTrainers from './DynamicListOfTrainers';
 import DynamicOptionsPage from './DynamicOptionsPage';
 import DynamicHelp from './DynamicHelp';
 import Footer from './Footer';
+import DynamicPrestigePage from './DynamicPrestigePage';
 
 export default class App extends React.PureComponent {
     componentDidMount() {
@@ -48,6 +49,7 @@ export default class App extends React.PureComponent {
                 <DynamicListOfPokemon />
                 <DynamicListOfTrainers />
                 <DynamicOptionsPage />
+                <DynamicPrestigePage />
                 <DynamicHelp />
                 <Footer />
             </div>

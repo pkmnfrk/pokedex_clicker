@@ -4,6 +4,7 @@ import trainers from '../trainers';
 import Decimal from 'break_infinity.js';
 import upgrades from '../upgrades';
 import { multiplierForPrestiges } from '../util';
+import prestigeUpgrades from '../prestigeUpgrades';
 
 function calcClicksPerTick(state) {
     let totalClicks = 0;
@@ -159,6 +160,9 @@ export default function reduce(state, action) {
         }
         case 'purchase_upgrade': {
             return purchaseUpgrade(state, action.id);
+        }
+        case 'purchase_prestige': {
+            return purchasePrestigeUpgrade(state, action.id);
         }
         case 'save': {
             return saveData(state);
@@ -344,6 +348,7 @@ function completePokedex(state, isCheat) {
         if(ret.generation === 7) {
             ret.generation = 1;
             ret.prestiges += 1;
+            ret.prestigePoints += 1;
         } else {
             ret.generation += 1;
         }
@@ -517,4 +522,18 @@ function migrateVersion(state) {
         state.prestigeUpgrade = {};
         state.version = 1;
     }
+}
+
+function purchasePrestigeUpgrade(state, id) {
+    if(!prestigeUpgrades.purchasable(id, state))
+        return state;
+
+    state = {...state, prestigeUpgrade: {...state.prestigeUpgrade}};
+
+    let cost = prestigeUpgrades.cost(id, state.prestigeUpgrade[id] || 0);
+
+    state.prestigeUpgrade[id] = (state.prestigeUpgrade[id] || 0) + 1;
+    state.prestigePoints -= cost;
+
+    return state;
 }
