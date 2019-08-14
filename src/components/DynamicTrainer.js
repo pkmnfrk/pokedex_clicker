@@ -2,7 +2,6 @@ import {connect} from 'react-redux';
 
 import trainers from '../trainers.js';
 import Trainer from './Trainer.js';
-import { multiplierForPrestiges } from '../util.js';
 
 function mapStateToProps(state) {
     return {
@@ -10,6 +9,7 @@ function mapStateToProps(state) {
         upgrade: state.upgrade,
         money: state.money,
         prestiges: state.prestiges,
+        prestigeUpgrade: state.prestigeUpgrade,
     };
 }
 
@@ -38,7 +38,7 @@ function mergeProps(stateProps, dispatchProps, ownProps) {
         maxTrainer: () => { dispatchProps.hireTrainer(ownProps.id, true)},
         level: level,
         power: trainers.power(ownProps.id, stateProps, true),
-        trainerMultTemp: multiplierForPrestiges(stateProps),
+        prestiges: stateProps.prestiges,
     };
 
     ret.canLevel = stateProps.money.compare(ret.cost) >= 0;

@@ -5,7 +5,7 @@ import './PrestigePage.css';
 import PrestigeUpgrade from './DynamicPrestigeUpgrade';
 
 
-function updateLines() {
+export function updateLines() {
     for(let line of document.getElementsByTagName("line")) {
         let from = document.getElementById(line.dataset.from);
         let to = document.getElementById(line.dataset.to);
@@ -22,6 +22,9 @@ function updateLines() {
 export default class PrestigePage extends React.PureComponent {
     componentDidMount() {
         window.addEventListener('resize', updateLines)
+        updateLines();
+    }
+    componentDidUpdate() {
         updateLines();
     }
 

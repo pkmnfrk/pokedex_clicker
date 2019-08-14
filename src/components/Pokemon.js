@@ -8,7 +8,7 @@ export default class Pokemon extends React.PureComponent {
     render() {
         let mon = dex[this.props.id];
         let nextTrade = dex.tradeCost(this.props.traded);
-        let value = dex.calcMoney(this.props.id, 1, this.props.traded).mul(Math.pow(3, this.props.generation - 1)).toNumber()
+        let value = dex.calcMoney(this.props.id, 1, this.props.traded, this.props.multiplier).toNumber()
 
         let className = "caught";
         if(!this.props.caught && !this.props.traded) {

@@ -10,7 +10,8 @@
 }
 
 .prestigeUpgrade.purchased {
-    background-color: #dfd;
+    /*background-color: #dfd;*/
+    border-color: #0f0;
 }
 
 .prestigeUpgrade.purchased:hover {
@@ -28,6 +29,6 @@
 }
 
 .prestigeUpgrade.purchased.unavailable {
-    background-color: #dfd;
+    /*background-color: #dfd;*/
     cursor: default;
 }

@@ -26,12 +26,28 @@ export default class PrestigeUpgrade extends React.PureComponent {
             klass += " purchased";
         }
 
+        let showCost = true;
+
+        if(this.props.level && !up.repeatable) {
+            showCost = false;
+        } else if(up.repeatable && this.props.level >= up.maxLevel) {
+            showCost = false;
+        }
+
+        let boost = null;
+
+        if(up.boostScale && this.props.level) {
+            boost = Math.pow(up.boostScale, this.props.level);
+        }
+
         return (
             <div className={klass} style={gridPos(up.x, up.y)} onClick={onClick} id={"upgrade_" + this.props.id}>
                 {up.name}<br/>
-                Cost: {this.props.cost}<br/>
-                {this.props.id === "multPrestigePoints" ? <>
-                Current Bonus: x{Math.pow(2, this.props.level)}
+                {showCost ? (
+                <>Cost: {this.props.cost}<br/></>
+                ) : null}
+                {boost ? <>
+                Current Bonus: x{boost}
                 </> : null }
             </div>
         );

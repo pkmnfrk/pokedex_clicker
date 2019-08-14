@@ -74,8 +74,8 @@ data.getRandomMon = function(generation) {
     return 1;
 };
 
-data.calcMoney = function(id, caught, traded) {
-  return Decimal.pow(2, traded).mul(data[id].Value).mul(caught);
+data.calcMoney = function(id, caught, traded, multiplier = 1) {
+  return Decimal.pow(2, traded).mul(data[id].Value).mul(caught).mul(multiplier);
 }
 
 data.tradeCost = function(nTraded) {

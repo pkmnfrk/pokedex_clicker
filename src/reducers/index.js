@@ -3,8 +3,9 @@ import trainers from '../trainers';
 
 import Decimal from 'break_infinity.js';
 import upgrades from '../upgrades';
-import { multiplierForPrestiges } from '../util';
+//import { multiplierForPrestiges } from '../util';
 import prestigeUpgrades from '../prestigeUpgrades';
+import { updateLines } from '../components/PrestigePage';
 
 function calcClicksPerTick(state) {
     let totalClicks = 0;
@@ -13,10 +14,12 @@ function calcClicksPerTick(state) {
     let canCompleteDex = true;
     let nPokemon = 0;
 
+    let multiplier = Math.pow(2, state.prestigeUpgrade.boostMoneyRate || 0);
+
     for(let i of dex.gen[state.generation]) {
         if(state.owned[i.Id]) {
             nPokemon += 1;
-            let m = dex.calcMoney(i.Id, state.owned[i.Id], state.traded[i.Id]);
+            let m = dex.calcMoney(i.Id, state.owned[i.Id], state.traded[i.Id], multiplier);
             m = m.mul(Math.pow(3, state.generation - 1));
             totalMoney = totalMoney.add(m);
 
@@ -99,7 +102,7 @@ export default function reduce(state, action) {
                 if(state.upgrade[b]) mult *= 10;
             }
 
-            mult *= multiplierForPrestiges(state);
+            //mult *= multiplierForPrestiges(state);
 
             if(state.leftoverManualClicks) {
                 mult += state.leftoverManualClicks;
@@ -192,6 +195,13 @@ export default function reduce(state, action) {
             let ret = {...state};
 
             ret.money = new Decimal('1e200');
+            
+            return ret;
+        }
+        case "cheat_pp": {
+            let ret = {...state};
+
+            ret.prestigePoints = new Decimal('1e200');
             
             return ret;
         }
@@ -348,7 +358,7 @@ function completePokedex(state, isCheat) {
         if(ret.generation === 7) {
             ret.generation = 1;
             ret.prestiges += 1;
-            ret.prestigePoints += 1;
+            ret.prestigePoints += Math.pow(2, ret.prestigeUpgrade.multPrestigePoints || 0);
         } else {
             ret.generation += 1;
         }

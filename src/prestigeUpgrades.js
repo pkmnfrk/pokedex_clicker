@@ -6,31 +6,46 @@ let prestigeUpgrades = {
         cost: 1,
         costScale: 5,
         repeatable: true,
-        maxLevel: 5
+        boostScale: 2
     },
+    boostCatchRate: {
+        x: 2,
+        y: 2,
+        name: "Boost catch rate of rare Pokémon",
+        req: ["multPrestigePoints"],
+    },
+    boostClickRate: {
+        x: 6,
+        y: 2,
+        name: "Boost click rate of all trainers by x1.1",
+        req: ["multPrestigePoints"],
+        cost: 2,
+        costScale: 4,
+        repeatable: true,
+        boostScale: 1.1,
+    },
+    boostMoneyRate: {
+        x: 4,
+        y: 3,
+        name: "Boost earning rate of all Pokémon by x1.5",
+        req: ["multPrestigePoints"],
+        cost: 2,
+        costScale: 3,
+        repeatable: true,
+        boostScale: 1.5,
+    },
+    /*
     test1: {
-        x: 3,
-        y: 2,
-        name: "Test 1",
-        req: ["multPrestigePoints"],
-    },
-    test2: {
-        x: 5,
-        y: 2,
-        name: "Test 2",
-        req: ["multPrestigePoints"],
-    },
-    
-    test3: {
         x: 1,
-        y: 2,
-        name: "Test 3",
-        req: ["multPrestigePoints"],
+        y: 1,
+        name: "Test",
+        req: ["boostCatchRate", "boostClickRate"],
+        cost: 1000000
     },
-    _list: [
-        "multPrestigePoints", "test1", "test2", "test3"
-    ]
+    */
 };
+
+prestigeUpgrades._list = Object.keys(prestigeUpgrades);
 
 prestigeUpgrades.cost = function(id, level) {
     let ret = prestigeUpgrades[id].cost;

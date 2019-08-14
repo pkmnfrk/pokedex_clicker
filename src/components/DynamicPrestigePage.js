@@ -5,7 +5,8 @@ import PrestigePage from './PrestigePage';
 function mapStateToProps(state) {
     return {
         prestiges: state.prestiges,
-        prestigePoints: state.prestigePoints
+        prestigePoints: state.prestigePoints,
+        tab: state.tab
     };
 }
 

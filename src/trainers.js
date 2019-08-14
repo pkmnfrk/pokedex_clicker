@@ -149,7 +149,7 @@ let trainers = {
         return [ret, level];
     },
     power: function(id, state, assumeAtLeastOne) {
-        let trainerMult = multiplierForPrestiges(state);
+        let trainerMult = Math.pow(1.1, state.prestigeUpgrade.boostClickRate);
         let trainer = trainers[id];
         let n = state.trainer[id];
         if(assumeAtLeastOne && !n) {
