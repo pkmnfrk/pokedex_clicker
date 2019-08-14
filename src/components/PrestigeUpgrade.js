@@ -2,6 +2,7 @@ import React from 'react';
 import prestigeUpgrades from '../prestigeUpgrades';
 
 import './PrestigeUpgrade.css';
+import { formatNumber } from '../util';
 
 function gridPos(col, row) {
     return { gridArea: row + "/" + col + "/" + row + "/" + (col + 2) };
@@ -12,20 +13,6 @@ export default class PrestigeUpgrade extends React.PureComponent {
         let up = prestigeUpgrades[this.props.id];
         let onClick = this.props.purchaseUpgrade;
         let klass = "prestigeUpgrade";
-
-        if(!this.props.eligible || !this.props.purchasable) {
-            klass += " unavailable";
-            onClick = null;
-        }
-
-        if(this.props.level) {
-            klass += " purchased";
-        }
-
-        if(this.props.level) {
-            klass += " purchased";
-        }
-
         let showCost = true;
 
         if(this.props.level && !up.repeatable) {
@@ -34,10 +21,25 @@ export default class PrestigeUpgrade extends React.PureComponent {
             showCost = false;
         }
 
+        if(this.props.level) {
+            klass += " purchased";
+        }
+
+        if(!showCost) {
+            if(!showCost) {
+                klass += " maxed";
+            }
+        } else {
+            if(!this.props.eligible || !this.props.purchasable) {
+                klass += " unavailable";
+                onClick = null;
+            }
+        }
+
         let boost = null;
 
         if(up.boostScale && this.props.level) {
-            boost = "Current Bonus: x" + Math.pow(up.boostScale, this.props.level);
+            boost = "Current Bonus: x" + formatNumber(Math.pow(up.boostScale, this.props.level), 2);
         } else if(up.repeatable && !up.boostScale && this.props.level) {
             boost = "Level: " + this.props.level;
         }
@@ -46,7 +48,7 @@ export default class PrestigeUpgrade extends React.PureComponent {
             <div className={klass} style={gridPos(up.x, up.y)} onClick={onClick} id={"upgrade_" + this.props.id}>
                 {up.name}<br/>
                 {showCost ? (
-                <>Cost: {this.props.cost}<br/></>
+                <>Cost: {formatNumber(this.props.cost)}<br/></>
                 ) : null}
                 {boost}
             </div>

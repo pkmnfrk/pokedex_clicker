@@ -37,6 +37,63 @@ let prestigeUpgrades = {
         repeatable: true,
         boostScale: 1.5,
     },
+    startWithGreatBall: {
+        x: 1,
+        y: 4,
+        name: "Start with the Great Ball unlocked.",
+        req: ["boostCatchRate"],
+        cost: 10
+    },
+    startWithUltraBall: {
+        x: 1,
+        y: 5,
+        name: "Start with the Ultra Ball unlocked.",
+        req: ["startWithGreatBall"],
+        cost: 100
+    },
+    startWithMasterBall: {
+        x: 1,
+        y: 6,
+        name: "Start with the Master Ball unlocked.",
+        req: ["startWithUltraBall"],
+        cost: 1000
+    },
+    startWithJoey: {
+        x: 7,
+        y: 4,
+        name: "Start with Joey hired",
+        req: ["boostClickRate"],
+        cost: 10,
+        costScale: 2,
+        repeatable: true,
+    },
+    startWithIrene: {
+        x: 7,
+        y: 5,
+        name: "Start with Irene hired",
+        req: ["startWithJoey"],
+        cost: 100,
+        costScale: 2,
+        repeatable: true,
+    },
+    startWithBernie: {
+        x: 7,
+        y: 6,
+        name: "Start with Bernie hired",
+        req: ["startWithIrene"],
+        cost: 1000,
+        costScale: 2,
+        repeatable: true,
+    },
+    startWithEdwin: {
+        x: 7,
+        y: 7,
+        name: "Start with Edwin hired",
+        req: ["startWithBernie"],
+        cost: 10000,
+        costScale: 2,
+        repeatable: true,
+    }
     /*
     test1: {
         x: 1,

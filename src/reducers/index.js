@@ -348,6 +348,10 @@ function completePokedex(state, isCheat) {
         }
         for(let t of trainers._list) {
             ret.trainer[t] = 0;
+
+            if(ret.prestigeUpgrade[trainers[t].prestigeUpgrade]) {
+                ret.trainer[t] = ret.prestigeUpgrade[trainers[t].prestigeUpgrade];
+            }
         }
         ret.partialTick = 0;
         ret.manualClicks = 0;
@@ -361,6 +365,18 @@ function completePokedex(state, isCheat) {
         } else {
             ret.generation += 1;
         }
+
+        if(ret.prestigeUpgrade.startWithGreatBall) {
+            ret.upgrade.great_ball = true;
+        }
+
+        if(ret.prestigeUpgrade.startWithUltraBall) {
+            ret.upgrade.ultra_ball = true;
+        }
+        if(ret.prestigeUpgrade.startWithMasterBall) {
+            ret.upgrade.master_ball = true;
+        }
+
 
         calcClicksPerTick(ret);
         calculatePurchasableUpgrades(ret);

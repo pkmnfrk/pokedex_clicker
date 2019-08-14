@@ -1,12 +1,12 @@
 .prestigeUpgrade {
-    background-color: #fff;
+    background-color: #dfd;
     border: 1px solid black;
     cursor: pointer;
     padding: 3px;
 }
 
 .prestigeUpgrade:hover {
-    background-color: #eee;
+    background-color: #cfc;
 }
 
 .prestigeUpgrade.purchased {
@@ -31,4 +31,12 @@
 .prestigeUpgrade.purchased.unavailable {
     /*background-color: #dfd;*/
     cursor: default;
+}
+
+.prestigeUpgrade.maxed {
+    background-color: white;
+    cursor: default;
+}
+.prestigeUpgrade.maxed:hover {
+    background-color: white;
 }

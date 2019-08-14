@@ -8,7 +8,6 @@ import ruin_maniac from './images/ruin_maniac.png';
 import ranger from './images/ranger_f.png';
 import kindler from './images/kindler.png';
 import expert from './images/expert_f.png';
-import { multiplierForPrestiges } from './util';
 
 let trainers = {
     joey: {
@@ -24,7 +23,8 @@ let trainers = {
             shorts: 5,
             bad_early_mon: 5,
             soda_pop: 5,
-        }
+        },
+        prestigeUpgrade: "startWithJoey"
     },
     irene: {
         name: "Picnicker Irene",
@@ -38,7 +38,8 @@ let trainers = {
         upgrades: {
             scarf: 3,
             fresh_water: 3,
-        }
+        },
+        prestigeUpgrade: "startWithIrene"
     },
     bernie: {
         name: "Kindler Bernie",
@@ -51,7 +52,8 @@ let trainers = {
         basePower: 16,
         upgrades: {
             charcoal: 3
-        }
+        },
+        prestigeUpgrade: "startWithBernie"
     },
     edwin: {
         name: "Collector Edwin",
@@ -64,7 +66,8 @@ let trainers = {
         basePower: 64,
         upgrades: {
             scope_lens: 3
-        }
+        },
+        prestigeUpgrade: "startWithEdwin"
     },
     dusty: {
         name: "Ruin Maniac Dusty",
@@ -77,7 +80,8 @@ let trainers = {
         basePower: 256,
         upgrades: {
             safety_goggles: 3
-        }
+        },
+        prestigeUpgrade: "startWithDusty"
     },
     brianna: {
         name: "Lady Brianna",
@@ -90,7 +94,8 @@ let trainers = {
         basePower: 1024,
         upgrades: {
             rose_incense: 3
-        }
+        },
+        prestigeUpgrade: "startWithBrianna"
     },
     catherine: {
         name: "Ranger Catherine",
@@ -103,7 +108,8 @@ let trainers = {
         basePower: 4096,
         upgrades: {
             lum_berry: 3
-        }
+        },
+        prestigeUpgrade: "startWithCatherine"
     },
     makayla: {
         name: "Expert Makayla",
@@ -116,7 +122,8 @@ let trainers = {
         basePower: 16384,
         upgrades: {
             expert_belt: 3
-        }
+        },
+        prestigeUpgrade: "startWithMakayla"
     },
     _list: [
         "joey",
