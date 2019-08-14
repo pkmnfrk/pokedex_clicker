@@ -13,15 +13,14 @@ https://pkmnfrk.github.io/pokedex_clicker
  * Purchase upgrades to make your trainers more effective!
  * Fill up your Pokédex to unlock a new set of Pokémon!
  * Start in Generation 1 (Red/Blue), and work your way up to Generation 7 (Sun/Moon)!
+ * An involved prestige system!
  * Tablet browser friendly (no zooming on rapid taps)!
 
 ## Planned features
 
  * More upgrades for each trainer
- * An additional prestige layer (clear Gen 7 to earn a badge)
-   * Badges would boost earn rate for their type
- * Yet another prestige layer (earn 8 badges + Elite Four to become a Champion)
-   * Become champion in all 7 regions
+ * Badges to unlock unique challenges
+ * More prestige layers?
  * Shiny Pokémon! (a random change for a caught Pokémon to be a shiny, which permanently boosts its bonus)
  * Upgrades to make specific Pokémon easier to catch (mythical/legendaries)
 

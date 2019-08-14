@@ -195,28 +195,15 @@ let upgrades = {
         reqPokemon: 450,
         reqGen: 4
     },
-    _list: [
-        "shorts",
-        "bad_early_mon",
-        "soda_pop",
-        "scarf",
-        "fresh_water",
-        "charcoal",
-        "scope_lens",
-        "safety_goggles",
-        "rose_incense",
-        "lum_berry",
-        "expert_belt",
-        "great_ball",
-        "ultra_ball",
-        "master_ball",
-        "old_sea_map",
-        "gs_ball",
-        "aurora_ticket",
-        "member_card",
-        "oaks_letter",
-        "azure_flute",
-    ],
 };
+
+upgrades._list = Object.keys(upgrades).sort((a, b) => {
+    let upa = upgrades[a];
+    let upb = upgrades[b];
+
+    if(upa.cost < upb.cost) return -1;
+    if(upa.cost > upb.cost) return 1;
+    return 0;
+});
 
 export default upgrades;
