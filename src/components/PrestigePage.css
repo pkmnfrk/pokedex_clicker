@@ -8,9 +8,29 @@
 }
 
 #prestigeGrid {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
+    margin: 20px;
     
+}
+
+#prestigeGrid > div {
+    z-index: 2;
+}
+
+#prestigeGrid > svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#prestigeGrid > svg > line {
+    stroke-width: 2px;
+    stroke: black;
 }

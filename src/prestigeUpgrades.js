@@ -4,7 +4,7 @@ let prestigeUpgrades = {
         y: 1,
         name: "Multiply Prestige Points earned by x2",
         cost: 1,
-        costScale: 2,
+        costScale: 5,
         repeatable: true,
         maxLevel: 5
     },
@@ -20,8 +20,15 @@ let prestigeUpgrades = {
         name: "Test 2",
         req: ["multPrestigePoints"],
     },
+    
+    test3: {
+        x: 1,
+        y: 2,
+        name: "Test 3",
+        req: ["multPrestigePoints"],
+    },
     _list: [
-        "multPrestigePoints", "test1", "test2"
+        "multPrestigePoints", "test1", "test2", "test3"
     ]
 };
 

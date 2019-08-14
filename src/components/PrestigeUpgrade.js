@@ -27,7 +27,7 @@ export default class PrestigeUpgrade extends React.PureComponent {
         }
 
         return (
-            <div className={klass} style={gridPos(up.x, up.y)} onClick={onClick}>
+            <div className={klass} style={gridPos(up.x, up.y)} onClick={onClick} id={"upgrade_" + this.props.id}>
                 {up.name}<br/>
                 Cost: {this.props.cost}<br/>
                 {this.props.id === "multPrestigePoints" ? <>
