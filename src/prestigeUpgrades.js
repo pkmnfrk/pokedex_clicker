@@ -114,6 +114,13 @@ let prestigeUpgrades = {
         name: "Automatically complete Pokédex",
         req: ["autoTrade", "startWithUltraBall", "startWithIrene"],
         cost: 1000,
+    },
+    autoUpgrade: {
+        x: 9,
+        y: 6,
+        name: "Automatically purchase upgrades",
+        req: ["startWithBernie"],
+        cost: 1500,
     }
     /*
     test1: {

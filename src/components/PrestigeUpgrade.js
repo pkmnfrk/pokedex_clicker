@@ -5,7 +5,7 @@ import './PrestigeUpgrade.css';
 import { formatNumber } from '../util';
 
 function gridPos(col, row) {
-    col += 2;
+    col += 1;
     return { gridArea: row + "/" + col + "/" + row + "/" + (col + 2) };
 }
 
