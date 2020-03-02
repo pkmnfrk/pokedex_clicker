@@ -6,6 +6,12 @@ import upgrades from '../upgrades';
 //import { multiplierForPrestiges } from '../util';
 import prestigeUpgrades from '../prestigeUpgrades';
 
+export let saveKey = "pokeClicker";
+
+if(window.location.pathname.indexOf("beta") !== -1) {
+    saveKey = "pokeClickerBeta";
+}
+
 function calcClicksPerTick(state) {
     let totalClicks = 0;
     let totalMoney = new Decimal(0);
@@ -416,7 +422,7 @@ function saveData(state) {
 
     data = JSON.stringify(data);
 
-    localStorage.pokeClicker = data;
+    localStorage[saveKey] = data;
 
     return state;
 }
