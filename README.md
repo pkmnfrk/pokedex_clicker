@@ -2,6 +2,8 @@
 
 This is an idle/incremental game about catching them all.
 
+https://pkmnfrk.github.io/pokedex_clicker
+
 ## Features
 
  * Click the big Poké Ball to catch a Pokémon!
@@ -22,6 +24,22 @@ This is an idle/incremental game about catching them all.
    * Become champion in all 7 regions
  * Shiny Pokémon! (a random change for a caught Pokémon to be a shiny, which permanently boosts its bonus)
  * Upgrades to make specific Pokémon easier to catch (mythical/legendaries)
+
+## Development
+
+Run `npm i` before doing anything else
+
+### Testing
+
+Run `npm run start` to launch the development server
+
+### Building
+
+Run `npm run build` to build the dist version
+
+### Deploying
+
+Run `npm run deploy` to launch the code to the github.io site
 
 ## Credits
 
