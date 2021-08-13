@@ -1,6 +1,6 @@
 import React from 'react';
 
-import * as ADNotations from "@antimatter-dimensions/notations";
+import * as ADNotations from "./lib/ad-notations.esm";
 
 import yen from './images/pokebuck.gif';
 
