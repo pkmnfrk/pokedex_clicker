@@ -17,9 +17,9 @@ This is an idle/incremental game about catching them all.
 
  * More upgrades for each trainer
  * An additional prestige layer (clear Gen 7 to earn a badge)
- * * Badges would boost earn rate for their type
+   * Badges would boost earn rate for their type
  * Yet another prestige layer (earn 8 badges + Elite Four to become a Champion)
- * * Become champion in all 7 regions
+   * Become champion in all 7 regions
  * Shiny Pokémon! (a random change for a caught Pokémon to be a shiny, which permanently boosts its bonus)
  * Upgrades to make specific Pokémon easier to catch (mythical/legendaries)
 
