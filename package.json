@@ -3,13 +3,13 @@
   "version": "1.0.2",
   "private": true,
   "dependencies": {
-    "@antimatter-dimensions/notations": "^1.2.3",
-    "break_infinity.js": "^1.1.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-redux": "^7.2.0",
+    "@antimatter-dimensions/notations": "^1.6.0",
+    "break_infinity.js": "^1.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.4",
     "react-scripts": "3.4.0",
-    "redux": "^4.0.5"
+    "redux": "^4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
