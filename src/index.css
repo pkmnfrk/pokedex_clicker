@@ -2,8 +2,8 @@ html {
   overflow-y: overlay;
 }
 
-body, p, div {
-  touch-action: none;
+body {
+  touch-action: pan-y;
 }
 
 body {

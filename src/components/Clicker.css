@@ -44,6 +44,12 @@
     animation-iteration-count: 1;
 }
 
+@media (any-hover: none) {
+    #Clicker:hover, #Clicker:active {
+        animation-name: none;
+    }
+}
+
 #Clicker .button {
     position: absolute;
     width: 80px;
