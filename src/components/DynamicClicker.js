@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import Clicker from './Clicker';
 import dex from '../pokedex';
-import { multiplierForPrestiges } from '../util';
+//import { multiplierForPrestiges } from '../util';
 
 function mapStateToProps(state) {
     let ballKind = "";
@@ -13,6 +13,8 @@ function mapStateToProps(state) {
         }
     }
 
+    let badgesUnlocked = false;
+
     return {
         clicksPerTick: state.clicksPerTick,
         manualClicksPerTick: state.manualClicksPerTick,
@@ -23,11 +25,14 @@ function mapStateToProps(state) {
         ballKind: ballKind,
         pokemonCount: state.pokemonCount,
         totalCount: dex.gen[state.generation].length,
-        trainerMultTemp: multiplierForPrestiges(state),
+        prestiges: state.prestiges,
+        prestigePoints: state.prestigePoints,
+        //trainerMultTemp: multiplierForPrestiges(state),
         latestNewCatch: state.latestNewCatch,
         canCompleteDex: state.canCompleteDex,
         pinPokeball: state.options.pinPokeball,
         canPurchaseUpgrade: state.canPurchaseUpgrade,
+        badgesUnlocked: badgesUnlocked,
     };
 }
 

@@ -36,9 +36,9 @@ export default class Help extends React.PureComponent {
 
             {this.props.showPrestige ? <>
                 <h2>Prestiging</h2>
-                <p>Once you have truly caught them all, it's time to prestige. Completing the Pokédex on generation 7 will have the usual effect of clearing your progress. However, it will also return you back to generation 1, including resetting your Pokémon earning multipliers. However, as a bonus, you get a <strong>permanent</strong> 1.2x bonus to catch rate. That means that every time you click the Pokéball 5 times, you automatically catch an extra Pokémon. Even better, this applies to trainers as well.</p>
-                <p>Also, it should go without saying that prestiging again will give you another 1.2x bonus, stacking on top, giving you a final 1.44x bonus, then 1.728x, etc.</p>
-                <p>NOTE: This mechanic is WIP, and likely to be expanded on.</p>
+                <p>Once you have truly caught them all, it's time to prestige. Completing the Pokédex on generation 7 will have the usual effect of clearing your progress. However, it will also return you back to generation 1, including resetting your Pokémon earning multipliers. In return, you get a new type of currency, the Prestige Point.</p>
+                <p>The Prestige Point, or PP, is used to purchase powerful permanent upgrades in the Prestige menu. These upgrades are laid out in a tree format, which indicates an important part of their nature: In order to purchase a prestige upgrade, you must buy all the ones above it on the tree. The specific requirements are indicated by the connecting lines.</p>
+                <p>Many prestige upgrades can be purchased multiple times to boost their strength. However, note that the cost in PP will also increase each time.</p>
                 </> : null}
             </div>
         )

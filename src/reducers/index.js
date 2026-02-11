@@ -3,7 +3,14 @@ import trainers from '../trainers';
 
 import Decimal from 'break_infinity.js';
 import upgrades from '../upgrades';
-import { multiplierForPrestiges } from '../util';
+//import { multiplierForPrestiges } from '../util';
+import prestigeUpgrades from '../prestigeUpgrades';
+
+export let saveKey = "pokeClicker";
+
+if(window.location.pathname.indexOf("beta") !== -1) {
+    saveKey = "pokeClickerBeta";
+}
 
 function calcClicksPerTick(state) {
     let totalClicks = 0;
@@ -12,11 +19,12 @@ function calcClicksPerTick(state) {
     let canCompleteDex = true;
     let nPokemon = 0;
 
+    let multiplier = Math.pow(2, state.prestigeUpgrade.boostMoneyRate || 0) * Math.pow(3, state.generation - 1);
+
     for(let i of dex.gen[state.generation]) {
         if(state.owned[i.Id]) {
             nPokemon += 1;
-            let m = dex.calcMoney(i.Id, state.owned[i.Id], state.traded[i.Id]);
-            m = m.mul(Math.pow(3, state.generation - 1));
+            let m = dex.calcMoney(i.Id, state.owned[i.Id], state.traded[i.Id], multiplier);
             totalMoney = totalMoney.add(m);
 
             if(!canTradeAll) {
@@ -44,6 +52,8 @@ function calcClicksPerTick(state) {
     state.moneyPerTick = totalMoney;
     state.canTradeAll = canTradeAll;
     state.canCompleteDex = canCompleteDex;
+
+    return state;
 }
 
 function trade_pokemon(state, id) {
@@ -98,7 +108,7 @@ export default function reduce(state, action) {
                 if(state.upgrade[b]) mult *= 10;
             }
 
-            mult *= multiplierForPrestiges(state);
+            //mult *= multiplierForPrestiges(state);
 
             if(state.leftoverManualClicks) {
                 mult += state.leftoverManualClicks;
@@ -108,7 +118,7 @@ export default function reduce(state, action) {
 
             ret.leftoverManualClicks = catchNPokemon(ret, mult);
 
-            calcClicksPerTick(ret);
+            ret = calcClicksPerTick(ret);
 
             return ret;
         }
@@ -116,7 +126,7 @@ export default function reduce(state, action) {
             let ret = { ...state, owned: {...state.owned}, traded: {...state.traded} };
 
             if(trade_pokemon(ret, action.id)) {
-                calcClicksPerTick(ret);
+                ret = calcClicksPerTick(ret);
                 return ret;
             }
 
@@ -124,20 +134,7 @@ export default function reduce(state, action) {
 
         }
         case 'trade_all': {
-            let ret = {...state, owned: {...state.owned}, traded: {...state.traded} };
-            let changed = false;
-
-            for(let i of dex._list) {
-                while(trade_pokemon(ret, dex[i].Id)) {
-                    changed = true;
-                }
-            }
-
-            if(changed) {
-                calcClicksPerTick(ret);
-                return ret;
-            }
-            return state;
+            return trade_all(state);
         }
         case 'tick': {
             return tick(state)
@@ -160,6 +157,9 @@ export default function reduce(state, action) {
         case 'purchase_upgrade': {
             return purchaseUpgrade(state, action.id);
         }
+        case 'purchase_prestige': {
+            return purchasePrestigeUpgrade(state, action.id);
+        }
         case 'save': {
             return saveData(state);
         }
@@ -179,7 +179,7 @@ export default function reduce(state, action) {
                 ret.owned[p.Id] += 1;
             }
 
-            calcClicksPerTick(ret);
+            ret = calcClicksPerTick(ret);
             console.log("Cheated dex");
             
             return ret;
@@ -188,6 +188,13 @@ export default function reduce(state, action) {
             let ret = {...state};
 
             ret.money = new Decimal('1e200');
+            
+            return ret;
+        }
+        case "cheat_pp": {
+            let ret = {...state};
+
+            ret.prestigePoints = 1000000;
             
             return ret;
         }
@@ -253,10 +260,14 @@ function calculatePurchasableUpgrades(state) {
             continue;
         }
     
-        upList.push(u);
+        if(state.prestigeUpgrade.autoUpgrade && state.money.compare(upgrade.cost) >= 0) {
+            return purchaseUpgrade(state, u);
+        } else {
+            upList.push(u);
 
-        if(state.money.compare(upgrade.cost) >= 0) {
-            state.canPurchaseUpgrade = true;
+            if(state.money.compare(upgrade.cost) >= 0) {
+                state.canPurchaseUpgrade = true;
+            }
         }
     }
 
@@ -277,6 +288,7 @@ function calculatePurchasableUpgrades(state) {
 
 function resetAllData() {
     let state = {
+        version: 1,
         clicksPerTick: 0,
         partialTick: 0,
         manualClicks: 0,
@@ -292,6 +304,8 @@ function resetAllData() {
         latestNewCatch: 0,
         options: {},
         upgrade: {},
+        prestigePoints: 0,
+        prestigeUpgrade: {},
     };
     let owned = {};
     let traded = {};
@@ -307,7 +321,7 @@ function resetAllData() {
         trainer[i] = 0;
     }
     dex.calculateChances(state.generation, state);
-    calculatePurchasableUpgrades(state);
+    state = calculatePurchasableUpgrades(state);
     return state;
 }
 
@@ -332,6 +346,10 @@ function completePokedex(state, isCheat) {
         }
         for(let t of trainers._list) {
             ret.trainer[t] = 0;
+
+            if(ret.prestigeUpgrade[trainers[t].prestigeUpgrade]) {
+                ret.trainer[t] = ret.prestigeUpgrade[trainers[t].prestigeUpgrade];
+            }
         }
         ret.partialTick = 0;
         ret.manualClicks = 0;
@@ -341,12 +359,25 @@ function completePokedex(state, isCheat) {
         if(ret.generation === 7) {
             ret.generation = 1;
             ret.prestiges += 1;
+            ret.prestigePoints += Math.pow(2, ret.prestigeUpgrade.multPrestigePoints || 0);
         } else {
             ret.generation += 1;
         }
 
-        calcClicksPerTick(ret);
-        calculatePurchasableUpgrades(ret);
+        if(ret.prestigeUpgrade.startWithGreatBall) {
+            ret.upgrade.great_ball = true;
+        }
+
+        if(ret.prestigeUpgrade.startWithUltraBall) {
+            ret.upgrade.ultra_ball = true;
+        }
+        if(ret.prestigeUpgrade.startWithMasterBall) {
+            ret.upgrade.master_ball = true;
+        }
+
+
+        ret = calcClicksPerTick(ret);
+        ret = calculatePurchasableUpgrades(ret);
 
         dex.calculateChances(ret.generation, ret);
     }
@@ -368,23 +399,14 @@ function loadData(state, data) {
 
     if(newState.saved) {
         //let saved = new Date(newState.saved);
-        delete newState.saved;
-        
+        delete newState.saved;        
     }
 
-    if(!newState.generation) newState.generation = 1;
+    migrateVersion(newState);
 
     dex.calculateChances(newState.generation, newState);
-
-    if(!newState.upgrade) {
-        newState.upgrade = {};
-    }
-
-    if(!newState.options) {
-        newState.options = {};
-    }
-
-    calculatePurchasableUpgrades(newState);
+    newState = calculatePurchasableUpgrades(newState);
+    newState = calcClicksPerTick(newState);
 
     return newState;
 }
@@ -396,17 +418,16 @@ function saveData(state) {
     delete data.purchaseableUpgrades;
     delete data.purchasedUpgrades;
     delete data.availableUpgrades;
+    delete data.visibleTrainers;
 
     data = JSON.stringify(data);
 
-    localStorage.pokeClicker = data;
+    localStorage[saveKey] = data;
 
     return state;
 }
 
 function purchaseUpgrade(state, id) {
-    let ret = state;
-
     let okay = true;
     let upgrade = upgrades[id];
 
@@ -427,7 +448,7 @@ function purchaseUpgrade(state, id) {
     }
 
     if(okay) {
-        ret = {
+        state = {
             ...state,
             money: state.money.minus(upgrade.cost),
             upgrade: {
@@ -436,12 +457,13 @@ function purchaseUpgrade(state, id) {
             }
         }
 
-        dex.calculateChances(ret.generation, ret);
-        calcClicksPerTick(ret);
-        calculatePurchasableUpgrades(ret);
+        dex.calculateChances(state.generation, state);
+        state = calcClicksPerTick(state);
     }
 
-    return ret;
+    state = calculatePurchasableUpgrades(state);
+
+    return state;
 }
 
 function levelTrainer(state, id, max) {
@@ -468,8 +490,8 @@ function levelTrainer(state, id, max) {
             }
         };
 
-        calcClicksPerTick(ret);
-        calculatePurchasableUpgrades(ret);
+        ret = calcClicksPerTick(ret);
+        ret = calculatePurchasableUpgrades(ret);
     }
 
     return ret;
@@ -477,42 +499,107 @@ function levelTrainer(state, id, max) {
 
 function tick(state) {
     //let ret = {...state, owned: {...state.owned}};
-    let ret = { ...state};
+    state = { ...state};
 
-    if(!ret.lastTick) {
-        ret.lastTick = Date.now() - 1000;
+    if(!state.lastTick) {
+        state.lastTick = Date.now() - 1000;
     }
 
     let nDate = Date.now();
-    let nTicks = (nDate - ret.lastTick) / 1000;
-    ret.lastTick = nDate;
+    let nTicks = (nDate - state.lastTick) / 1000;
+    state.lastTick = nDate;
+
+    if(state.prestigeUpgrade.autoTrade) {
+        if(!state.tradeTimer) {
+            state.tradeTimer = 300 * Math.pow(0.8, state.prestigeUpgrade.autoTrade);
+        }
+
+        state.tradeTimer -= nTicks;
+
+        if(state.tradeTimer <= 0) {
+            state = trade_all(state);
+            state.tradeTimer += 300 * Math.pow(0.8, state.prestigeUpgrade.autoTrade);
+            if(state.tradeTimer < 0)
+                state.tradeTimer = 0;
+        }
+    }
 
     let tick = (nTicks * state.clicksPerTick) + state.partialTick;
 
-    if(ret.moneyPerTick.compare(0) > 0) {
-        ret.money = ret.money.add(ret.moneyPerTick * nTicks);
+    if(state.moneyPerTick.compare(0) > 0) {
+        state.money = state.money.add(state.moneyPerTick * nTicks);
     }
 
     if(tick > 1) {
-        ret.owned = {...state.owned};
+        state.owned = {...state.owned};
     }
-    ret.partialTick = catchNPokemon(ret, tick);
+    state.partialTick = catchNPokemon(state, tick);
     
-    calcClicksPerTick(ret);
-    calculatePurchasableUpgrades(ret);
+    state = calcClicksPerTick(state);
+    state = calculatePurchasableUpgrades(state);
 
-    if(ret.manualClicks || ret.manualClicksPerTick) {
-        ret.manualClicksPerTick = ret.manualClicks / nTicks;
-        ret.manualClicks = 0;
+    if(state.manualClicks || state.manualClicksPerTick) {
+        state.manualClicksPerTick = state.manualClicks / nTicks;
+        state.manualClicks = 0;
     }
 
-    return ret;
+    if(state.prestigeUpgrade.autoComplete && state.canCompleteDex) {
+        state = completePokedex(state, false);
+    }
+
+    return state;
 }
 
 function setOption(state, option, value) {
     if(state.options[option] !== value) {
         state = {...state, options: {...state.options}};
         state.options[option] = value;
+    }
+    return state;
+}
+
+function migrateVersion(state) {
+    if(!state.version) {
+        state.prestigePoints = Math.floor(state.prestiges * 1.5);
+        state.prestigeUpgrade = {};
+        state.version = 1;
+    }
+}
+
+function purchasePrestigeUpgrade(state, id) {
+    if(!prestigeUpgrades.purchasable(id, state))
+        return state;
+
+    state = {...state, prestigeUpgrade: {...state.prestigeUpgrade}};
+
+    let cost = prestigeUpgrades.cost(id, state.prestigeUpgrade[id] || 0);
+
+    state.prestigeUpgrade[id] = (state.prestigeUpgrade[id] || 0) + 1;
+    state.prestigePoints -= cost;
+
+    if(id === "autoTrade") {
+        state.tradeTimer = 0;
+    }
+
+    dex.calculateChances(state.generation, state);
+    state = calcClicksPerTick(state);
+
+    return state;
+}
+
+function trade_all(state) {
+    let ret = {...state, owned: {...state.owned}, traded: {...state.traded} };
+    let changed = false;
+
+    for(let i of dex._list) {
+        while(trade_pokemon(ret, dex[i].Id)) {
+            changed = true;
+        }
+    }
+
+    if(changed) {
+        ret = calcClicksPerTick(ret);
+        return ret;
     }
     return state;
 }

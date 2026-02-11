@@ -1,0 +1,19 @@
+.prestigeUpgrade {
+    background-color: #888;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.prestigeUpgrade.purchased {
+    border-color: #0f0;
+    border-width: 2px;
+}
+
+.prestigeUpgrade.purchasable {
+    background-color: #bfb;
+    cursor: pointer;
+}
+
+.prestigeUpgrade.purchased.nonrepeatable {
+    background-color: white;
+}

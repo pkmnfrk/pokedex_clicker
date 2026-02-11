@@ -7134,7 +7134,7 @@
     "Rarity": 9.0,
     "Type1": "rock",
     "Type2": "poison",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "794": {
     "Id": 794,
@@ -7143,7 +7143,7 @@
     "Rarity": 9.0,
     "Type1": "bug",
     "Type2": "fighting",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "795": {
     "Id": 795,
@@ -7152,7 +7152,7 @@
     "Rarity": 9.0,
     "Type1": "bug",
     "Type2": "fighting",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "796": {
     "Id": 796,
@@ -7161,7 +7161,7 @@
     "Rarity": 9.0,
     "Type1": "electric",
     "Type2": "electric",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "797": {
     "Id": 797,
@@ -7170,7 +7170,7 @@
     "Rarity": 9.0,
     "Type1": "steel",
     "Type2": "flying",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "798": {
     "Id": 798,
@@ -7179,7 +7179,7 @@
     "Rarity": 9.0,
     "Type1": "grass",
     "Type2": "steel",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "799": {
     "Id": 799,
@@ -7188,7 +7188,7 @@
     "Rarity": 9.0,
     "Type1": "dark",
     "Type2": "dragon",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "800": {
     "Id": 800,
@@ -7224,7 +7224,7 @@
     "Rarity": 9.0,
     "Type1": "poison",
     "Type2": "poison",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "804": {
     "Id": 804,
@@ -7233,7 +7233,7 @@
     "Rarity": 9.0,
     "Type1": "poison",
     "Type2": "dragon",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "805": {
     "Id": 805,
@@ -7242,7 +7242,7 @@
     "Rarity": 9.0,
     "Type1": "rock",
     "Type2": "steel",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "806": {
     "Id": 806,
@@ -7251,7 +7251,7 @@
     "Rarity": 9.0,
     "Type1": "fire",
     "Type2": "ghost",
-    "Category": "normal"
+    "Category": "ultrabeast"
   },
   "807": {
     "Id": 807,

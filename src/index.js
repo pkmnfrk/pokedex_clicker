@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import * as serviceWorker from './serviceWorker';
 import reducer from './reducers';
+import {saveKey} from './reducers';
 import DynamicApp from './components/DynamicApp';
 
 
@@ -15,7 +16,7 @@ const store = createStore(reducer);
 if(localStorage.pokeClicker) {
     store.dispatch({
         type: "load",
-        data: localStorage.pokeClicker
+        data: localStorage[saveKey]
     });
 } else {
     store.dispatch({

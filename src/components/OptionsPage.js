@@ -61,6 +61,7 @@ export default class OptionsPage extends React.PureComponent {
                         <Button bgcolor="blue" color="white" onClick={this.props.onCheatMoney}>Cheat Money</Button>
                         <Button bgcolor="blue" color="white" onClick={this.props.onCheatDex}>Cheat 'Dex</Button>
                         <Button bgcolor="blue" color="white" onClick={this.props.onCheatGen}>Cheat Generation</Button>
+                        <Button bgcolor="blue" color="white" onClick={this.props.onCheatPP}>Cheat PP</Button>
                     </p> 
                 : null}
                 <p>Version: {pkg.version}</p>

@@ -1,6 +1,6 @@
 {
   "name": "poke-clicker",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@antimatter-dimensions/notations": "^3.2.0",
@@ -62,7 +62,11 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeployprod": "SET PUBLIC_URL=https://pkmnfrk.github.io/pokedex_clicker&& npm run build",
+    "predeploybeta": "SET PUBLIC_URL=https://pkmnfrk.github.io/pokedex_clicker/beta&& npm run build",
+    "deployprod": "gh-pages -d build",
+    "deploybeta": "gh-pages -d build -e beta",
+    "deployhelp": "gh-pages --help"
   },
   "eslintConfig": {
     "extends": "react-app"

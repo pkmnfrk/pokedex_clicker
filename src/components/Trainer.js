@@ -15,7 +15,7 @@ export default class Trainer extends React.PureComponent {
         };
     }
     render() {
-        let decimals = this.props.trainerMultTemp > 1 ? 2 : 0;
+        let decimals = this.props.prestiges > 1 ? 2 : 0;
         return (
             <li className="trainer">
                 <img className="image" src={trainers[this.props.id].image} alt="" />

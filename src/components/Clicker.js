@@ -12,7 +12,7 @@ export default class Clicker extends React.PureComponent {
     render() {
         let className = "";
 
-        if(!this.props.pinPokeball) {
+        if(!this.props.pinPokeball && this.props.tab !== "prestige") {
             className = "pinned";
         }
 
@@ -39,6 +39,8 @@ export default class Clicker extends React.PureComponent {
                     <Menu onChange={this.props.onTabChange} selected={this.props.tab}>
                         <MenuItem id="pokedex" highlight={this.props.canCompleteDex}>Pokédex</MenuItem>
                         <MenuItem id="trainers" highlight={this.props.canPurchaseUpgrade}>Trainers/Upgrades</MenuItem>
+                        <MenuItem id="prestige" visible={this.props.prestiges > 0}>Prestige ({formatNumber(this.props.prestigePoints)})</MenuItem>
+                        <MenuItem id="badges" visible={this.props.badgesUnlocked}>Badges</MenuItem>
                         <MenuItem id="help">Help</MenuItem>
                         <MenuItem id="options">Options</MenuItem>
                     </Menu>

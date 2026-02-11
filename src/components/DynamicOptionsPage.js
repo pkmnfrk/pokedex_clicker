@@ -33,6 +33,11 @@ function mapDispatchToProps(dispatch) {
                 type: "cheat_dex"
             })
         },
+        onCheatPP: () => {
+            dispatch({
+                type: "cheat_pp"
+            })
+        },
         onCheatGen: () => {
             dispatch({
                 type: "complete_pokedex",
