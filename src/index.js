@@ -1,5 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
+import { createRoot } from "react-dom/client";
+
 import './index.css';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
@@ -25,9 +27,12 @@ store.dispatch({
     type: "save"
 });
 
-ReactDOM.render(<Provider store={store}>
+const container = document.getElementById("root");
+const root = createRoot(container);
+
+root.render(<Provider store={store}>
     <DynamicApp />
-</Provider>, document.getElementById('root'));
+</Provider>);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
